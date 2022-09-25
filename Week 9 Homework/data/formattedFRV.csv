@@ -1,4 +1,4 @@
-District,Service Area,Total Incidents,Emergency Incidents,Number of Standards Met,Percent Standards Met,Average Time of 90% of Responses,
+District,Service_Area,Total_Incidents,Emergency_Incidents,Number_Standards_Met,Percent_Standards_Met,Avg_90_response,
 CENTRAL,1,Eastern Hill,389,365,356,97.50%,5.62
 CENTRAL,2,West Melbourne,356,326,310,95.10%,6.65
 CENTRAL,3,Carlton,376,348,338,97.10%,6.52
