@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Number of Stations per FRC District",
+    "width": 800,
+    "height": 400,
+    "projection": {"type": "equalEarth"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/js/FRV_District_2.json",
+      "format": {"type": "topojson", "feature": "FRV_DISTRICT"}
+    },
+    "transform": [
+      {
+        "lookup": "properties.DISTRICT",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/data/formattedFRV.csv"
+          },
+          "key": "District",
+          "fields": ["Percent_Standards_Met"]
+        }
+      },
+        {"calculate": "datum.Percent_Standards_Met + 0.1", "as": "Perc"}
+    ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "color": {
+        "field": "Perc",
+        "type": "quantitative",
+        "scale": {"type": "linear"}
+      },
+      "tooltip": [
+        {"field": "properties.DISTRICT", "type": "nominal", "title": "FRV District"},
+        {"field": "Percent_Standards_Met", "type": "quantitative"}
+      ]
+    }
+  }
