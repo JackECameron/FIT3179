@@ -3,9 +3,10 @@
     "title": "Number of Stations per FRC District",
     "width": 800,
     "height": 400,
-    "projection": {"type": "equalEarth"},
-    "data": {
-      "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/js/FRV_District_2.json",
+    "projection": {"type": "equirectangular"},
+    "layer": [
+      { "data": {
+      "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/js/finalSimplified.json",
       "format": {"type": "topojson", "feature": "FRV_DISTRICT"}
     },
     "transform": [
@@ -19,9 +20,11 @@
           "fields": ["Percent_Standards_Met"]
         }
       },
-        {"calculate": "datum.Percent_Standards_Met + 0.1", "as": "Perc"}
+        //{"calculate": "datum.Percent_Standards_Met", "as": "Perc1"}
+        {"aggregate": [{"op": "mean", "as": "Perc"}]}
+
     ],
-    "mark": {"type": "geoshape"},
+    "mark": {"type": "geoshape", "stroke": "black", "strokeWidth":0.75},
     "encoding": {
       "color": {
         "field": "Perc",
@@ -30,7 +33,18 @@
       },
       "tooltip": [
         {"field": "properties.DISTRICT", "type": "nominal", "title": "FRV District"},
-        {"field": "Percent_Standards_Met", "type": "quantitative"}
+        {"field": "Perc", "type": "quantitative"}
       ]
     }
-  }
+    }, 
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/js/LOCALITY_POLYGON.json",
+        "format": {"type": "topojson", "feature": "LOCALITY_POLYGON"}
+      },
+      "mark": {"type": "geoshape","fill": null, "stroke": "black", "strokeWidth": 0.1, "opacity":0.6}
+    }
+
+
+  ]
+}
