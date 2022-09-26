@@ -1,5 +1,13 @@
 {
   "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {
+   "style": {
+     "cell": {
+       "stroke": "transparent"
+     }
+   }
+ },
+
   "title":{
      "text":"Average Percentage of Responses above Standard 7.7 Minutes for Metropolitan Melbourne FRV Districts, Q2 2022",
      "color":"#696969"
