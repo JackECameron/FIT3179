@@ -12,7 +12,7 @@
   "layer":[
      {
         "data":{
-           "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/js/LOCALITY_POLYGON.json",
+           "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week9Homework/js/LOCALITY_POLYGON.json",
            "format":{
               "type":"topojson",
               "feature":"LOCALITY_POLYGON"
@@ -28,7 +28,7 @@
      },
      {
         "data":{
-           "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/js/finalSimplified.json",
+           "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week9Homework/js/finalSimplified.json",
            "format":{
               "type":"topojson",
               "feature":"FRV_DISTRICT"
@@ -39,7 +39,7 @@
               "lookup":"properties.DISTRICT",
               "from":{
                  "data":{
-                    "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week%209%20Homework/data/avgFRV.csv"
+                    "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week9Homework/data/avgFRV.csv"
                  },
                  "key":"District",
                  "fields":[
