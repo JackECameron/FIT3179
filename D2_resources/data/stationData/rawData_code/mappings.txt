@@ -1,0 +1,30 @@
+code, equip, type
+AP, Aerial Pumper, A
+BS, Breathing Apparatus Support, A
+CU, Control Unit (Command Bus), A
+DC, District Car (Support), A
+HZ, Hazardous Materials (HAZMAT), A
+LP, Ladder Platform, A
+P, Pumper, A
+PT, Pumper Tanker, A
+RHB, Rehabilitation, A
+RES, Rescue, A
+T, Transporter, A
+TB, Teleboom, A
+TR, Technical Rescue, A
+UP, Ultra Large Pumper, A
+C, Commander, A
+FB, Fire Boat, A
+BA, Breathing Apparatus, P
+BD, Bulk Decontamination, P
+ERM, Equipment and Resource Management, P
+FDS, Fire Duty Support, P
+FXH, Flexible Habitat, P
+GP, General Purpose, P
+HART, High Angle Rescue, P
+HL, Hose Layer, P
+HRS, Heavy Rescue Support, P
+ML, Mechanical Loader, P
+TRS, Tripper Rescue Support, P
+USAR, Urban Search and Rescue, P
+WRM, Water Recycling Module, P
