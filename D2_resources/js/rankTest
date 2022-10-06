@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "World Cup 2018: Group F Rankings",
+    "frame": "bounds"
+  },
+   "width": 400,
+    "height": 500,
+    "layer": [  {"data": {
+    "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_combined.csv"
+  },
+  "transform": [{
+    "sort": [
+      {"field": "perMet_a", "order": "descending"}
+
+    ],
+    "window": [{
+      "op": "rank",
+      "as": "rank1"
+    }],
+    "groupby": ["q"]
+  }],
+  "mark": {"type": "line", "orient": "vertical","opacity": 0.75, "strokeWidth": 5},
+  "encoding": {
+    "x": {"field": "q", "type": "ordinal", "axis": {"grid": true}},
+    "y": {"field": "rank1", "type": "ordinal", "axis": {"grid": true}},
+
+    "color": {
+      "field": "dis", "type": "nominal",
+      "scale": {
+        "domain": ["CENTRAL",
+"EASTERN", "NORTH & WEST REGIONAL", "SOUTH & EAST REGIONAL",
+"SOUTHERN D1",
+"NORTHERN",
+"WESTERN D3",
+"SOUTHERN D2",
+"WESTERN D1",
+"WESTERN D2"
+],
+        "range": ["#2191fb", "#BA274A", "#841C26", "#B2ECE1", "#8CDEDC", "#FDE74C", "#9BC53D", "#F3C98B", "#F56960", "#FFB5C2"]
+      }
+    }
+  }},
+  {  "data": {
+    "url": "https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_combined.csv"
+  },
+  "transform": [{
+    "sort": [
+      {"field": "perMet_a", "order": "descending"}
+
+    ],
+    "window": [{
+      "op": "rank",
+      "as": "rank1"
+    }],
+    "groupby": ["q"]
+  }],
+  "mark": {"type": "point", "strokeWidth": 10, "opacity": 1},
+  "encoding": {
+    "x": {"field": "q", "type": "ordinal", "axis": {"grid": true}},
+    "y": {"field": "rank1", "type": "ordinal", "axis": {"grid": true}},
+
+    "color": {
+      "field": "dis", "type": "nominal",
+      "scale": {
+        "domain": ["CENTRAL",
+"EASTERN", "NORTH & WEST REGIONAL", "SOUTH & EAST REGIONAL",
+"SOUTHERN D1",
+"NORTHERN",
+"WESTERN D3",
+"SOUTHERN D2",
+"WESTERN D1",
+"WESTERN D2"
+],
+        "range": ["#2191fb", "#BA274A", "#841C26", "#B2ECE1", "#8CDEDC", "#FDE74C", "#9BC53D", "#F3C98B", "#F56960", "#FFB5C2"]
+      }
+    }
+  }}]
+}
