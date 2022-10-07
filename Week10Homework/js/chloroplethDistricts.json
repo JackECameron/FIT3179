@@ -17,6 +17,7 @@
   "projection":{
      "type":"equirectangular"
   },
+  "params": [{"name": "testValue", "value": "This works!"}],
   "layer":[
      {
         "data":{
