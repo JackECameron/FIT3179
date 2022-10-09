@@ -1,8 +1,23 @@
-#symbol_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px;*/
+
+
+#main_title {
+	justify-content: center;
+	text-align: center;
+}
+
+.pure-u-1 {
+	width: 100%;
+}
+
+#chloro {
+	text-align: center;
+}
+
+.pure-u-1-6 {
+	text-align: left;
+}
+
+#para {
+	padding-left: 20%;
+	padding-right: 10%;
 }
