@@ -1,125 +1,209 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "config": {
-    "style": {
-      "cell": {
-        "stroke": "transparent"
-      }
-    }
-  },
- 
-   "title":{
-      "text":"Average Percentage of Responses above Standard 7.7 Minutes for Metropolitan Melbourne FRV Districts, Q2 2022",
-      "color":"#696969"
+   "title":"FRV Response Times Above Standard",
+   "data":{
+      "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined.csv"
    },
-   "width":800,
-   "height":400,
-   "projection":{
-      "type":"equirectangular"
-   },
-         "params": [    {
-       "name": "qSelect",
-       "value": 1,
-       "bind": {
-         "input": "select",
-         "options": [1,2,3,4],
-         "labels":[
-           "Q1",
-           "Q2",
-           "Q3",
-           "Q4"
-         ],
-         "name": "Quarter Selection: "
-       }
-         }],
- 
-   "layer":[
+   "params":[
       {
-         "data":{
-            "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week10Homework/js/LOCALITY_POLYGON.json",
-            "format":{
-               "type":"topojson",
-               "feature":"LOCALITY_POLYGON"
-            }
-         },
-         "mark":{
-            "type":"geoshape",
-            "fill":"#faf6f6",
-            "stroke":"black",
-            "strokeWidth":0.25,
-            "opacity":0.5
+         "name":"qSelect",
+         "value":1,
+         "bind":{
+            "input":"select",
+            "options":[
+               1,
+               2,
+               3,
+               4
+            ],
+            "labels":[
+               "Q1",
+               "Q2",
+               "Q3",
+               "Q4"
+            ],
+            "name":"Quarter Selection: "
          }
+      }
+   ],
+   "hconcat":[
+      {
+         "width":500,
+         "height":400,
+         "projection":{
+            "type":"equirectangular"
+         },
+         "layer":[
+            {
+               "data":{
+                  "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week10Homework/js/LOCALITY_POLYGON.json",
+                  "format":{
+                     "type":"topojson",
+                     "feature":"LOCALITY_POLYGON"
+                  }
+               },
+               "mark":{
+                  "type":"geoshape",
+                  "fill":"#faf6f6",
+                  "stroke":"black",
+                  "strokeWidth":0.25,
+                  "opacity":0.5
+               }
+            },
+            {
+               "params":[
+                  {
+                     "name":"loc_select",
+                     "select":{
+                        "type":"point",
+                        "encodings":[
+                           "description"
+                        ]
+                     }
+                  }
+               ],
+               "transform":[
+                  {
+                     "lookup":"dis",
+                     "from":{
+                        "data":{
+                           "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week10Homework/js/finalSimplified.json",
+                           "format":{
+                              "type":"topojson",
+                              "feature":"FRV_DISTRICT"
+                           }
+                        },
+                        "key":"properties.DISTRICT"
+                     },
+                     "as":"geo"
+                  },
+                  {
+                     "filter":"datum.q == qSelect"
+                  },
+                  {
+                     "filter":"datum.sTag == 'agr'"
+                  }
+               ],
+               "mark":{
+                  "type":"geoshape",
+                  "opacity":0.65,
+                  "stroke":"black",
+                  "strokeWidth":1.25
+               },
+               "encoding":{
+                  "shape":{
+                     "field":"geo",
+                     "type":"geojson"
+                  },
+                  "description":{
+                     "field":"dis"
+                  },
+                  "color":{
+                     "field":"perMet",
+                     "scale":{
+                        "type":"linear",
+                        "scheme":"goldred",
+                        "domain":[
+                           77,
+                           93
+                        ]
+                     },
+                     "legend":{
+                        "title":"% Above Standard",
+                        "titleColor":"#696969",
+                        "orient":"none",
+                        "legendX":151,
+                        "legendY":360,
+                        "direction":"horizontal",
+                        "labelColor":"#696969"
+                     }
+                  },
+                  "tooltip":[
+                     {
+                        "field":"dis",
+                        "type":"nominal",
+                        "title":"FRV District"
+                     },
+                     {
+                        "field":"perMet",
+                        "type":"quantitative",
+                        "title":"% Responses Above 7.7 Min"
+                     },
+                     {
+                        "field":"sNumber",
+                        "type":"quantitative",
+                        "title":"Number of Stations"
+                     },
+                     {
+                        "field":"totInc",
+                        "type":"quantitative",
+                        "title":"Number of Incidences"
+                     }
+                  ]
+               }
+            }
+         ]
       },
       {
-         "data":{
-            "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_combined.csv",
-            "format":{
-               "type":"csv"
-            }
-         },
-         "transform":[
+         "width":500,
+         "height":400,
+         "layer":[
             {
-               "lookup":"dis",
-               "from":{
-                  "data":{
-                     "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week10Homework/js/finalSimplified.json",
-                     "format": {"type":"topojson", "feature": "FRV_DISTRICT"}
+               "transform":[
+                  {
+                     "filter":"datum.sTag != 'agr'"
                   },
-                  
-                  "key":"properties.DISTRICT" 
+                  {
+                     "filter":{
+                        "param":"loc_select"
+                     }
+                  },
+                  {
+                     "sort":[
+                        {
+                           "field":"perMet",
+                           "order":"descending"
+                        }
+                     ],
+                     "window":[
+                        {
+                           "op":"rank",
+                           "as":"rank1"
+                        }
+                     ],
+                     "groupby":[
+                        "q"
+                     ]
+                  }
+               ],
+               "mark":{
+                  "type":"line",
+                  "orient":"vertical",
+                  "opacity":0.75,
+                  "strokeWidth":5
                },
-               "as": "geo"
-            },
-            {"filter": "datum.q == qSelect"}
-         ],
-         "mark":{
-            "type":"geoshape",
-            "opacity":0.65,
-            "stroke":"black",
-            "strokeWidth":1.25
-         },
-         "encoding":{
-            "shape": {"field": "geo", "type": "geojson"},
-            "color":{
-               "field":"perMet_a",
-               "scale":{
-                  "type":"linear",
-                  "scheme":"goldred",
-                  "domain": [77, 93]
-               },
-               "legend":{
-                  "title":"% Above Standard",
-                  "titleColor":"#696969",
-                  "orient":"none",
-                  "legendX":151,
-                  "legendY":360,
-                  "direction":"horizontal",
-                  "labelColor":"#696969"
+               "encoding":{
+                  "x":{
+                     "field":"q",
+                     "type":"ordinal",
+                     "axis":{
+                        "grid":true
+                     }
+                  },
+                  "y":{
+                     "field":"rank1",
+                     "type":"ordinal",
+                     "axis":{
+                        "grid":true
+                     }
+                  },
+                  "color":{
+                     "field":"servArea",
+                     "type":"nominal"
+                  }
                }
-            },
-            "tooltip":[
-               {
-                  "field":"dis",
-                  "type":"nominal",
-                  "title":"FRV District"
-               },
-               {
-                  "field":"perMet_a",
-                  "type":"quantitative",
-                  "title":"% Responses Above 7.7 Min"
-               },
-               {
-                  "field":"sNumber",
-                  "type":"quantitative",
-                  "title":"Number of Stations"
-               },
-               {
-                  "field":"totInc_a",
-                  "type":"quantitative",
-                  "title":"Number of Incidences"
-               }
-            ]
-         }
+            }
+         ]
       }
    ]
- }
+}
