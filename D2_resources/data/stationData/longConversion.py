@@ -1,7 +1,7 @@
 
 newFile = open("stationData_long.csv", "w")
 with open("stationData_complete.csv", "r") as data:
-    newFile.write("stationNum,class,type,quant,decrip\n")
+    newFile.write("stationNum,class,type,quant,perc,decrip\n")
     data.readline()
     for line in data:
 
@@ -14,14 +14,20 @@ with open("stationData_complete.csv", "r") as data:
         pod = str(round(100*int(line[5])/total, 2))
         appl = str(round(100*int(line[6])/total, 2))
 
- 
- 
-        newFile.write(sNum + "," + "equipment" + "," +"pumper" + "," +pump+ "," + "Pumper" + "\n")
-        newFile.write(sNum + "," + "equipment"+ "," +"aerial"+ "," +aerial+ "," + "Aerial Support" + "\n")
-        newFile.write(sNum + "," + "equipment"+"," + "spec"+"," + spec+ "," + "Special Equipment" + "\n")
+        tpump = line[1]
+        taerial = line[2]
+        tspec = line[3]
+        tpod = line[5]
+        tappl = line[6]
 
-        newFile.write(sNum + "," + "unit"+ "," +"pod"+"," + pod + "," +"Pods" + "\n")
-        newFile.write(sNum + "," + "unit"+"," + "appl"+"," + appl+ "," +"Appliances" + "\n")
+ 
+ 
+        newFile.write(sNum + "," + "equipment" + "," +"pumper" + "," +tpump+ "," +pump+"," + "Pumper Truck" + "\n")
+        newFile.write(sNum + "," + "equipment"+ "," +"aerial"+ "," +taerial+ "," +aerial+"," + "Aerial Support" + "\n")
+        newFile.write(sNum + "," + "equipment"+"," + "spec"+"," + tspec+ "," +spec+"," + "Specialist Equipment" + "\n")
+
+        newFile.write(sNum + "," + "unit"+ "," +"pod"+"," + tpod + "," +pod+"," +"Pod" + "\n")
+        newFile.write(sNum + "," + "unit"+"," + "appl"+"," + tappl+ "," +appl+"," +"Appliance" + "\n")
 
         
 

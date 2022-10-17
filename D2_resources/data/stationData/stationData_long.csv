@@ -1,426 +1,426 @@
-stationNum,class,type,quant,decrip
-1,equipment,pumper,37.5,Pumper
-1,equipment,aerial,12.5,Aerial Support
-1,equipment,spec,50.0,Special Equipment
-1,unit,pod,0.0,Pods
-1,unit,appl,100.0,Appliances
-2,equipment,pumper,100.0,Pumper
-2,equipment,aerial,0.0,Aerial Support
-2,equipment,spec,0.0,Special Equipment
-2,unit,pod,0.0,Pods
-2,unit,appl,100.0,Appliances
-3,equipment,pumper,50.0,Pumper
-3,equipment,aerial,0.0,Aerial Support
-3,equipment,spec,50.0,Special Equipment
-3,unit,pod,0.0,Pods
-3,unit,appl,100.0,Appliances
-4,equipment,pumper,100.0,Pumper
-4,equipment,aerial,0.0,Aerial Support
-4,equipment,spec,0.0,Special Equipment
-4,unit,pod,0.0,Pods
-4,unit,appl,100.0,Appliances
-5,equipment,pumper,100.0,Pumper
-5,equipment,aerial,0.0,Aerial Support
-5,equipment,spec,0.0,Special Equipment
-5,unit,pod,0.0,Pods
-5,unit,appl,100.0,Appliances
-6,equipment,pumper,100.0,Pumper
-6,equipment,aerial,0.0,Aerial Support
-6,equipment,spec,0.0,Special Equipment
-6,unit,pod,0.0,Pods
-6,unit,appl,100.0,Appliances
-7,equipment,pumper,25.0,Pumper
-7,equipment,aerial,25.0,Aerial Support
-7,equipment,spec,50.0,Special Equipment
-7,unit,pod,0.0,Pods
-7,unit,appl,100.0,Appliances
-9,equipment,pumper,100.0,Pumper
-9,equipment,aerial,0.0,Aerial Support
-9,equipment,spec,0.0,Special Equipment
-9,unit,pod,0.0,Pods
-9,unit,appl,100.0,Appliances
-10,equipment,pumper,14.29,Pumper
-10,equipment,aerial,7.14,Aerial Support
-10,equipment,spec,78.57,Special Equipment
-10,unit,pod,64.29,Pods
-10,unit,appl,35.71,Appliances
-11,equipment,pumper,100.0,Pumper
-11,equipment,aerial,0.0,Aerial Support
-11,equipment,spec,0.0,Special Equipment
-11,unit,pod,0.0,Pods
-11,unit,appl,100.0,Appliances
-12,equipment,pumper,100.0,Pumper
-12,equipment,aerial,0.0,Aerial Support
-12,equipment,spec,0.0,Special Equipment
-12,unit,pod,0.0,Pods
-12,unit,appl,100.0,Appliances
-13,equipment,pumper,100.0,Pumper
-13,equipment,aerial,0.0,Aerial Support
-13,equipment,spec,0.0,Special Equipment
-13,unit,pod,0.0,Pods
-13,unit,appl,100.0,Appliances
-14,equipment,pumper,100.0,Pumper
-14,equipment,aerial,0.0,Aerial Support
-14,equipment,spec,0.0,Special Equipment
-14,unit,pod,0.0,Pods
-14,unit,appl,100.0,Appliances
-15,equipment,pumper,100.0,Pumper
-15,equipment,aerial,0.0,Aerial Support
-15,equipment,spec,0.0,Special Equipment
-15,unit,pod,0.0,Pods
-15,unit,appl,100.0,Appliances
-16,equipment,pumper,100.0,Pumper
-16,equipment,aerial,0.0,Aerial Support
-16,equipment,spec,0.0,Special Equipment
-16,unit,pod,0.0,Pods
-16,unit,appl,100.0,Appliances
-18,equipment,pumper,100.0,Pumper
-18,equipment,aerial,0.0,Aerial Support
-18,equipment,spec,0.0,Special Equipment
-18,unit,pod,0.0,Pods
-18,unit,appl,100.0,Appliances
-19,equipment,pumper,100.0,Pumper
-19,equipment,aerial,0.0,Aerial Support
-19,equipment,spec,0.0,Special Equipment
-19,unit,pod,0.0,Pods
-19,unit,appl,100.0,Appliances
-20,equipment,pumper,100.0,Pumper
-20,equipment,aerial,0.0,Aerial Support
-20,equipment,spec,0.0,Special Equipment
-20,unit,pod,0.0,Pods
-20,unit,appl,100.0,Appliances
-22,equipment,pumper,50.0,Pumper
-22,equipment,aerial,50.0,Aerial Support
-22,equipment,spec,0.0,Special Equipment
-22,unit,pod,0.0,Pods
-22,unit,appl,100.0,Appliances
-23,equipment,pumper,50.0,Pumper
-23,equipment,aerial,0.0,Aerial Support
-23,equipment,spec,50.0,Special Equipment
-23,unit,pod,50.0,Pods
-23,unit,appl,50.0,Appliances
-24,equipment,pumper,100.0,Pumper
-24,equipment,aerial,0.0,Aerial Support
-24,equipment,spec,0.0,Special Equipment
-24,unit,pod,0.0,Pods
-24,unit,appl,100.0,Appliances
-25,equipment,pumper,20.0,Pumper
-25,equipment,aerial,40.0,Aerial Support
-25,equipment,spec,40.0,Special Equipment
-25,unit,pod,0.0,Pods
-25,unit,appl,100.0,Appliances
-26,equipment,pumper,100.0,Pumper
-26,equipment,aerial,0.0,Aerial Support
-26,equipment,spec,0.0,Special Equipment
-26,unit,pod,0.0,Pods
-26,unit,appl,100.0,Appliances
-27,equipment,pumper,33.33,Pumper
-27,equipment,aerial,0.0,Aerial Support
-27,equipment,spec,66.67,Special Equipment
-27,unit,pod,0.0,Pods
-27,unit,appl,100.0,Appliances
-28,equipment,pumper,100.0,Pumper
-28,equipment,aerial,0.0,Aerial Support
-28,equipment,spec,0.0,Special Equipment
-28,unit,pod,0.0,Pods
-28,unit,appl,100.0,Appliances
-29,equipment,pumper,100.0,Pumper
-29,equipment,aerial,0.0,Aerial Support
-29,equipment,spec,0.0,Special Equipment
-29,unit,pod,0.0,Pods
-29,unit,appl,100.0,Appliances
-30,equipment,pumper,100.0,Pumper
-30,equipment,aerial,0.0,Aerial Support
-30,equipment,spec,0.0,Special Equipment
-30,unit,pod,0.0,Pods
-30,unit,appl,100.0,Appliances
-31,equipment,pumper,100.0,Pumper
-31,equipment,aerial,0.0,Aerial Support
-31,equipment,spec,0.0,Special Equipment
-31,unit,pod,0.0,Pods
-31,unit,appl,100.0,Appliances
-32,equipment,pumper,100.0,Pumper
-32,equipment,aerial,0.0,Aerial Support
-32,equipment,spec,0.0,Special Equipment
-32,unit,pod,0.0,Pods
-32,unit,appl,100.0,Appliances
-33,equipment,pumper,100.0,Pumper
-33,equipment,aerial,0.0,Aerial Support
-33,equipment,spec,0.0,Special Equipment
-33,unit,pod,0.0,Pods
-33,unit,appl,100.0,Appliances
-34,equipment,pumper,100.0,Pumper
-34,equipment,aerial,0.0,Aerial Support
-34,equipment,spec,0.0,Special Equipment
-34,unit,pod,0.0,Pods
-34,unit,appl,100.0,Appliances
-35,equipment,pumper,66.67,Pumper
-35,equipment,aerial,33.33,Aerial Support
-35,equipment,spec,0.0,Special Equipment
-35,unit,pod,0.0,Pods
-35,unit,appl,100.0,Appliances
-38,equipment,pumper,33.33,Pumper
-38,equipment,aerial,0.0,Aerial Support
-38,equipment,spec,66.67,Special Equipment
-38,unit,pod,16.67,Pods
-38,unit,appl,83.33,Appliances
-39,equipment,pumper,28.57,Pumper
-39,equipment,aerial,0.0,Aerial Support
-39,equipment,spec,71.43,Special Equipment
-39,unit,pod,14.29,Pods
-39,unit,appl,85.71,Appliances
-40,equipment,pumper,100.0,Pumper
-40,equipment,aerial,0.0,Aerial Support
-40,equipment,spec,0.0,Special Equipment
-40,unit,pod,0.0,Pods
-40,unit,appl,100.0,Appliances
-41,equipment,pumper,100.0,Pumper
-41,equipment,aerial,0.0,Aerial Support
-41,equipment,spec,0.0,Special Equipment
-41,unit,pod,0.0,Pods
-41,unit,appl,100.0,Appliances
-42,equipment,pumper,100.0,Pumper
-42,equipment,aerial,0.0,Aerial Support
-42,equipment,spec,0.0,Special Equipment
-42,unit,pod,0.0,Pods
-42,unit,appl,100.0,Appliances
-43,equipment,pumper,100.0,Pumper
-43,equipment,aerial,0.0,Aerial Support
-43,equipment,spec,0.0,Special Equipment
-43,unit,pod,0.0,Pods
-43,unit,appl,100.0,Appliances
-44,equipment,pumper,14.29,Pumper
-44,equipment,aerial,14.29,Aerial Support
-44,equipment,spec,71.43,Special Equipment
-44,unit,pod,28.57,Pods
-44,unit,appl,71.43,Appliances
-45,equipment,pumper,100.0,Pumper
-45,equipment,aerial,0.0,Aerial Support
-45,equipment,spec,0.0,Special Equipment
-45,unit,pod,0.0,Pods
-45,unit,appl,100.0,Appliances
-46,equipment,pumper,100.0,Pumper
-46,equipment,aerial,0.0,Aerial Support
-46,equipment,spec,0.0,Special Equipment
-46,unit,pod,0.0,Pods
-46,unit,appl,100.0,Appliances
-47,equipment,pumper,16.67,Pumper
-47,equipment,aerial,16.67,Aerial Support
-47,equipment,spec,66.67,Special Equipment
-47,unit,pod,50.0,Pods
-47,unit,appl,50.0,Appliances
-48,equipment,pumper,100.0,Pumper
-48,equipment,aerial,0.0,Aerial Support
-48,equipment,spec,0.0,Special Equipment
-48,unit,pod,0.0,Pods
-48,unit,appl,100.0,Appliances
-50,equipment,pumper,100.0,Pumper
-50,equipment,aerial,0.0,Aerial Support
-50,equipment,spec,0.0,Special Equipment
-50,unit,pod,0.0,Pods
-50,unit,appl,100.0,Appliances
-51,equipment,pumper,100.0,Pumper
-51,equipment,aerial,0.0,Aerial Support
-51,equipment,spec,0.0,Special Equipment
-51,unit,pod,0.0,Pods
-51,unit,appl,100.0,Appliances
-52,equipment,pumper,100.0,Pumper
-52,equipment,aerial,0.0,Aerial Support
-52,equipment,spec,0.0,Special Equipment
-52,unit,pod,0.0,Pods
-52,unit,appl,100.0,Appliances
-53,equipment,pumper,100.0,Pumper
-53,equipment,aerial,0.0,Aerial Support
-53,equipment,spec,0.0,Special Equipment
-53,unit,pod,0.0,Pods
-53,unit,appl,100.0,Appliances
-54,equipment,pumper,100.0,Pumper
-54,equipment,aerial,0.0,Aerial Support
-54,equipment,spec,0.0,Special Equipment
-54,unit,pod,0.0,Pods
-54,unit,appl,100.0,Appliances
-55,equipment,pumper,100.0,Pumper
-55,equipment,aerial,0.0,Aerial Support
-55,equipment,spec,0.0,Special Equipment
-55,unit,pod,0.0,Pods
-55,unit,appl,100.0,Appliances
-56,equipment,pumper,50.0,Pumper
-56,equipment,aerial,0.0,Aerial Support
-56,equipment,spec,50.0,Special Equipment
-56,unit,pod,0.0,Pods
-56,unit,appl,100.0,Appliances
-57,equipment,pumper,100.0,Pumper
-57,equipment,aerial,0.0,Aerial Support
-57,equipment,spec,0.0,Special Equipment
-57,unit,pod,0.0,Pods
-57,unit,appl,100.0,Appliances
-58,equipment,pumper,100.0,Pumper
-58,equipment,aerial,0.0,Aerial Support
-58,equipment,spec,0.0,Special Equipment
-58,unit,pod,0.0,Pods
-58,unit,appl,100.0,Appliances
-59,equipment,pumper,100.0,Pumper
-59,equipment,aerial,0.0,Aerial Support
-59,equipment,spec,0.0,Special Equipment
-59,unit,pod,0.0,Pods
-59,unit,appl,100.0,Appliances
-61,equipment,pumper,50.0,Pumper
-61,equipment,aerial,0.0,Aerial Support
-61,equipment,spec,50.0,Special Equipment
-61,unit,pod,0.0,Pods
-61,unit,appl,100.0,Appliances
-62,equipment,pumper,66.67,Pumper
-62,equipment,aerial,0.0,Aerial Support
-62,equipment,spec,33.33,Special Equipment
-62,unit,pod,33.33,Pods
-62,unit,appl,66.67,Appliances
-63,equipment,pumper,40.0,Pumper
-63,equipment,aerial,20.0,Aerial Support
-63,equipment,spec,40.0,Special Equipment
-63,unit,pod,0.0,Pods
-63,unit,appl,100.0,Appliances
-64,equipment,pumper,100.0,Pumper
-64,equipment,aerial,0.0,Aerial Support
-64,equipment,spec,0.0,Special Equipment
-64,unit,pod,0.0,Pods
-64,unit,appl,100.0,Appliances
-66,equipment,pumper,100.0,Pumper
-66,equipment,aerial,0.0,Aerial Support
-66,equipment,spec,0.0,Special Equipment
-66,unit,pod,0.0,Pods
-66,unit,appl,100.0,Appliances
-67,equipment,pumper,40.0,Pumper
-67,equipment,aerial,20.0,Aerial Support
-67,equipment,spec,40.0,Special Equipment
-67,unit,pod,20.0,Pods
-67,unit,appl,80.0,Appliances
-68,equipment,pumper,50.0,Pumper
-68,equipment,aerial,0.0,Aerial Support
-68,equipment,spec,50.0,Special Equipment
-68,unit,pod,0.0,Pods
-68,unit,appl,100.0,Appliances
-70,equipment,pumper,25.0,Pumper
-70,equipment,aerial,25.0,Aerial Support
-70,equipment,spec,50.0,Special Equipment
-70,unit,pod,0.0,Pods
-70,unit,appl,100.0,Appliances
-71,equipment,pumper,100.0,Pumper
-71,equipment,aerial,0.0,Aerial Support
-71,equipment,spec,0.0,Special Equipment
-71,unit,pod,0.0,Pods
-71,unit,appl,100.0,Appliances
-72,equipment,pumper,33.33,Pumper
-72,equipment,aerial,33.33,Aerial Support
-72,equipment,spec,33.33,Special Equipment
-72,unit,pod,0.0,Pods
-72,unit,appl,100.0,Appliances
-73,equipment,pumper,50.0,Pumper
-73,equipment,aerial,25.0,Aerial Support
-73,equipment,spec,25.0,Special Equipment
-73,unit,pod,25.0,Pods
-73,unit,appl,75.0,Appliances
-74,equipment,pumper,50.0,Pumper
-74,equipment,aerial,0.0,Aerial Support
-74,equipment,spec,50.0,Special Equipment
-74,unit,pod,0.0,Pods
-74,unit,appl,100.0,Appliances
-75,equipment,pumper,33.33,Pumper
-75,equipment,aerial,33.33,Aerial Support
-75,equipment,spec,33.33,Special Equipment
-75,unit,pod,0.0,Pods
-75,unit,appl,100.0,Appliances
-76,equipment,pumper,100.0,Pumper
-76,equipment,aerial,0.0,Aerial Support
-76,equipment,spec,0.0,Special Equipment
-76,unit,pod,0.0,Pods
-76,unit,appl,100.0,Appliances
-77,equipment,pumper,50.0,Pumper
-77,equipment,aerial,50.0,Aerial Support
-77,equipment,spec,0.0,Special Equipment
-77,unit,pod,0.0,Pods
-77,unit,appl,100.0,Appliances
-78,equipment,pumper,50.0,Pumper
-78,equipment,aerial,50.0,Aerial Support
-78,equipment,spec,0.0,Special Equipment
-78,unit,pod,0.0,Pods
-78,unit,appl,100.0,Appliances
-79,equipment,pumper,100.0,Pumper
-79,equipment,aerial,0.0,Aerial Support
-79,equipment,spec,0.0,Special Equipment
-79,unit,pod,0.0,Pods
-79,unit,appl,100.0,Appliances
-80,equipment,pumper,100.0,Pumper
-80,equipment,aerial,0.0,Aerial Support
-80,equipment,spec,0.0,Special Equipment
-80,unit,pod,0.0,Pods
-80,unit,appl,100.0,Appliances
-81,equipment,pumper,100.0,Pumper
-81,equipment,aerial,0.0,Aerial Support
-81,equipment,spec,0.0,Special Equipment
-81,unit,pod,0.0,Pods
-81,unit,appl,100.0,Appliances
-82,equipment,pumper,100.0,Pumper
-82,equipment,aerial,0.0,Aerial Support
-82,equipment,spec,0.0,Special Equipment
-82,unit,pod,0.0,Pods
-82,unit,appl,100.0,Appliances
-84,equipment,pumper,100.0,Pumper
-84,equipment,aerial,0.0,Aerial Support
-84,equipment,spec,0.0,Special Equipment
-84,unit,pod,0.0,Pods
-84,unit,appl,100.0,Appliances
-85,equipment,pumper,100.0,Pumper
-85,equipment,aerial,0.0,Aerial Support
-85,equipment,spec,0.0,Special Equipment
-85,unit,pod,0.0,Pods
-85,unit,appl,100.0,Appliances
-86,equipment,pumper,100.0,Pumper
-86,equipment,aerial,0.0,Aerial Support
-86,equipment,spec,0.0,Special Equipment
-86,unit,pod,0.0,Pods
-86,unit,appl,100.0,Appliances
-87,equipment,pumper,40.0,Pumper
-87,equipment,aerial,20.0,Aerial Support
-87,equipment,spec,40.0,Special Equipment
-87,unit,pod,0.0,Pods
-87,unit,appl,100.0,Appliances
-88,equipment,pumper,50.0,Pumper
-88,equipment,aerial,0.0,Aerial Support
-88,equipment,spec,50.0,Special Equipment
-88,unit,pod,0.0,Pods
-88,unit,appl,100.0,Appliances
-89,equipment,pumper,100.0,Pumper
-89,equipment,aerial,0.0,Aerial Support
-89,equipment,spec,0.0,Special Equipment
-89,unit,pod,0.0,Pods
-89,unit,appl,100.0,Appliances
-90,equipment,pumper,100.0,Pumper
-90,equipment,aerial,0.0,Aerial Support
-90,equipment,spec,0.0,Special Equipment
-90,unit,pod,0.0,Pods
-90,unit,appl,100.0,Appliances
-91,equipment,pumper,100.0,Pumper
-91,equipment,aerial,0.0,Aerial Support
-91,equipment,spec,0.0,Special Equipment
-91,unit,pod,0.0,Pods
-91,unit,appl,100.0,Appliances
-92,equipment,pumper,100.0,Pumper
-92,equipment,aerial,0.0,Aerial Support
-92,equipment,spec,0.0,Special Equipment
-92,unit,pod,0.0,Pods
-92,unit,appl,100.0,Appliances
-93,equipment,pumper,100.0,Pumper
-93,equipment,aerial,0.0,Aerial Support
-93,equipment,spec,0.0,Special Equipment
-93,unit,pod,0.0,Pods
-93,unit,appl,100.0,Appliances
-94,equipment,pumper,100.0,Pumper
-94,equipment,aerial,0.0,Aerial Support
-94,equipment,spec,0.0,Special Equipment
-94,unit,pod,0.0,Pods
-94,unit,appl,100.0,Appliances
-95,equipment,pumper,100.0,Pumper
-95,equipment,aerial,0.0,Aerial Support
-95,equipment,spec,0.0,Special Equipment
-95,unit,pod,0.0,Pods
-95,unit,appl,100.0,Appliances
+stationNum,class,type,quant,perc,decrip
+1,equipment,pumper,3,37.5,Pumper Truck
+1,equipment,aerial,1,12.5,Aerial Support
+1,equipment,spec,4,50.0,Specialist Equipment
+1,unit,pod,0,0.0,Pod
+1,unit,appl,8,100.0,Appliance
+2,equipment,pumper,2,100.0,Pumper Truck
+2,equipment,aerial,0,0.0,Aerial Support
+2,equipment,spec,0,0.0,Specialist Equipment
+2,unit,pod,0,0.0,Pod
+2,unit,appl,2,100.0,Appliance
+3,equipment,pumper,1,50.0,Pumper Truck
+3,equipment,aerial,0,0.0,Aerial Support
+3,equipment,spec,1,50.0,Specialist Equipment
+3,unit,pod,0,0.0,Pod
+3,unit,appl,2,100.0,Appliance
+4,equipment,pumper,1,100.0,Pumper Truck
+4,equipment,aerial,0,0.0,Aerial Support
+4,equipment,spec,0,0.0,Specialist Equipment
+4,unit,pod,0,0.0,Pod
+4,unit,appl,1,100.0,Appliance
+5,equipment,pumper,1,100.0,Pumper Truck
+5,equipment,aerial,0,0.0,Aerial Support
+5,equipment,spec,0,0.0,Specialist Equipment
+5,unit,pod,0,0.0,Pod
+5,unit,appl,1,100.0,Appliance
+6,equipment,pumper,1,100.0,Pumper Truck
+6,equipment,aerial,0,0.0,Aerial Support
+6,equipment,spec,0,0.0,Specialist Equipment
+6,unit,pod,0,0.0,Pod
+6,unit,appl,1,100.0,Appliance
+7,equipment,pumper,1,25.0,Pumper Truck
+7,equipment,aerial,1,25.0,Aerial Support
+7,equipment,spec,2,50.0,Specialist Equipment
+7,unit,pod,0,0.0,Pod
+7,unit,appl,4,100.0,Appliance
+9,equipment,pumper,2,100.0,Pumper Truck
+9,equipment,aerial,0,0.0,Aerial Support
+9,equipment,spec,0,0.0,Specialist Equipment
+9,unit,pod,0,0.0,Pod
+9,unit,appl,2,100.0,Appliance
+10,equipment,pumper,2,14.29,Pumper Truck
+10,equipment,aerial,1,7.14,Aerial Support
+10,equipment,spec,11,78.57,Specialist Equipment
+10,unit,pod,9,64.29,Pod
+10,unit,appl,5,35.71,Appliance
+11,equipment,pumper,1,100.0,Pumper Truck
+11,equipment,aerial,0,0.0,Aerial Support
+11,equipment,spec,0,0.0,Specialist Equipment
+11,unit,pod,0,0.0,Pod
+11,unit,appl,1,100.0,Appliance
+12,equipment,pumper,1,100.0,Pumper Truck
+12,equipment,aerial,0,0.0,Aerial Support
+12,equipment,spec,0,0.0,Specialist Equipment
+12,unit,pod,0,0.0,Pod
+12,unit,appl,1,100.0,Appliance
+13,equipment,pumper,1,100.0,Pumper Truck
+13,equipment,aerial,0,0.0,Aerial Support
+13,equipment,spec,0,0.0,Specialist Equipment
+13,unit,pod,0,0.0,Pod
+13,unit,appl,1,100.0,Appliance
+14,equipment,pumper,2,100.0,Pumper Truck
+14,equipment,aerial,0,0.0,Aerial Support
+14,equipment,spec,0,0.0,Specialist Equipment
+14,unit,pod,0,0.0,Pod
+14,unit,appl,2,100.0,Appliance
+15,equipment,pumper,1,100.0,Pumper Truck
+15,equipment,aerial,0,0.0,Aerial Support
+15,equipment,spec,0,0.0,Specialist Equipment
+15,unit,pod,0,0.0,Pod
+15,unit,appl,1,100.0,Appliance
+16,equipment,pumper,1,100.0,Pumper Truck
+16,equipment,aerial,0,0.0,Aerial Support
+16,equipment,spec,0,0.0,Specialist Equipment
+16,unit,pod,0,0.0,Pod
+16,unit,appl,1,100.0,Appliance
+18,equipment,pumper,1,100.0,Pumper Truck
+18,equipment,aerial,0,0.0,Aerial Support
+18,equipment,spec,0,0.0,Specialist Equipment
+18,unit,pod,0,0.0,Pod
+18,unit,appl,1,100.0,Appliance
+19,equipment,pumper,1,100.0,Pumper Truck
+19,equipment,aerial,0,0.0,Aerial Support
+19,equipment,spec,0,0.0,Specialist Equipment
+19,unit,pod,0,0.0,Pod
+19,unit,appl,1,100.0,Appliance
+20,equipment,pumper,1,100.0,Pumper Truck
+20,equipment,aerial,0,0.0,Aerial Support
+20,equipment,spec,0,0.0,Specialist Equipment
+20,unit,pod,0,0.0,Pod
+20,unit,appl,1,100.0,Appliance
+22,equipment,pumper,1,50.0,Pumper Truck
+22,equipment,aerial,1,50.0,Aerial Support
+22,equipment,spec,0,0.0,Specialist Equipment
+22,unit,pod,0,0.0,Pod
+22,unit,appl,2,100.0,Appliance
+23,equipment,pumper,1,50.0,Pumper Truck
+23,equipment,aerial,0,0.0,Aerial Support
+23,equipment,spec,1,50.0,Specialist Equipment
+23,unit,pod,1,50.0,Pod
+23,unit,appl,1,50.0,Appliance
+24,equipment,pumper,1,100.0,Pumper Truck
+24,equipment,aerial,0,0.0,Aerial Support
+24,equipment,spec,0,0.0,Specialist Equipment
+24,unit,pod,0,0.0,Pod
+24,unit,appl,1,100.0,Appliance
+25,equipment,pumper,1,20.0,Pumper Truck
+25,equipment,aerial,2,40.0,Aerial Support
+25,equipment,spec,2,40.0,Specialist Equipment
+25,unit,pod,0,0.0,Pod
+25,unit,appl,5,100.0,Appliance
+26,equipment,pumper,2,100.0,Pumper Truck
+26,equipment,aerial,0,0.0,Aerial Support
+26,equipment,spec,0,0.0,Specialist Equipment
+26,unit,pod,0,0.0,Pod
+26,unit,appl,2,100.0,Appliance
+27,equipment,pumper,1,33.33,Pumper Truck
+27,equipment,aerial,0,0.0,Aerial Support
+27,equipment,spec,2,66.67,Specialist Equipment
+27,unit,pod,0,0.0,Pod
+27,unit,appl,3,100.0,Appliance
+28,equipment,pumper,1,100.0,Pumper Truck
+28,equipment,aerial,0,0.0,Aerial Support
+28,equipment,spec,0,0.0,Specialist Equipment
+28,unit,pod,0,0.0,Pod
+28,unit,appl,1,100.0,Appliance
+29,equipment,pumper,1,100.0,Pumper Truck
+29,equipment,aerial,0,0.0,Aerial Support
+29,equipment,spec,0,0.0,Specialist Equipment
+29,unit,pod,0,0.0,Pod
+29,unit,appl,1,100.0,Appliance
+30,equipment,pumper,2,100.0,Pumper Truck
+30,equipment,aerial,0,0.0,Aerial Support
+30,equipment,spec,0,0.0,Specialist Equipment
+30,unit,pod,0,0.0,Pod
+30,unit,appl,2,100.0,Appliance
+31,equipment,pumper,2,100.0,Pumper Truck
+31,equipment,aerial,0,0.0,Aerial Support
+31,equipment,spec,0,0.0,Specialist Equipment
+31,unit,pod,0,0.0,Pod
+31,unit,appl,2,100.0,Appliance
+32,equipment,pumper,1,100.0,Pumper Truck
+32,equipment,aerial,0,0.0,Aerial Support
+32,equipment,spec,0,0.0,Specialist Equipment
+32,unit,pod,0,0.0,Pod
+32,unit,appl,1,100.0,Appliance
+33,equipment,pumper,1,100.0,Pumper Truck
+33,equipment,aerial,0,0.0,Aerial Support
+33,equipment,spec,0,0.0,Specialist Equipment
+33,unit,pod,0,0.0,Pod
+33,unit,appl,1,100.0,Appliance
+34,equipment,pumper,2,100.0,Pumper Truck
+34,equipment,aerial,0,0.0,Aerial Support
+34,equipment,spec,0,0.0,Specialist Equipment
+34,unit,pod,0,0.0,Pod
+34,unit,appl,2,100.0,Appliance
+35,equipment,pumper,2,66.67,Pumper Truck
+35,equipment,aerial,1,33.33,Aerial Support
+35,equipment,spec,0,0.0,Specialist Equipment
+35,unit,pod,0,0.0,Pod
+35,unit,appl,3,100.0,Appliance
+38,equipment,pumper,2,33.33,Pumper Truck
+38,equipment,aerial,0,0.0,Aerial Support
+38,equipment,spec,4,66.67,Specialist Equipment
+38,unit,pod,1,16.67,Pod
+38,unit,appl,5,83.33,Appliance
+39,equipment,pumper,2,28.57,Pumper Truck
+39,equipment,aerial,0,0.0,Aerial Support
+39,equipment,spec,5,71.43,Specialist Equipment
+39,unit,pod,1,14.29,Pod
+39,unit,appl,6,85.71,Appliance
+40,equipment,pumper,1,100.0,Pumper Truck
+40,equipment,aerial,0,0.0,Aerial Support
+40,equipment,spec,0,0.0,Specialist Equipment
+40,unit,pod,0,0.0,Pod
+40,unit,appl,1,100.0,Appliance
+41,equipment,pumper,1,100.0,Pumper Truck
+41,equipment,aerial,0,0.0,Aerial Support
+41,equipment,spec,0,0.0,Specialist Equipment
+41,unit,pod,0,0.0,Pod
+41,unit,appl,1,100.0,Appliance
+42,equipment,pumper,2,100.0,Pumper Truck
+42,equipment,aerial,0,0.0,Aerial Support
+42,equipment,spec,0,0.0,Specialist Equipment
+42,unit,pod,0,0.0,Pod
+42,unit,appl,2,100.0,Appliance
+43,equipment,pumper,1,100.0,Pumper Truck
+43,equipment,aerial,0,0.0,Aerial Support
+43,equipment,spec,0,0.0,Specialist Equipment
+43,unit,pod,0,0.0,Pod
+43,unit,appl,1,100.0,Appliance
+44,equipment,pumper,1,14.29,Pumper Truck
+44,equipment,aerial,1,14.29,Aerial Support
+44,equipment,spec,5,71.43,Specialist Equipment
+44,unit,pod,2,28.57,Pod
+44,unit,appl,5,71.43,Appliance
+45,equipment,pumper,1,100.0,Pumper Truck
+45,equipment,aerial,0,0.0,Aerial Support
+45,equipment,spec,0,0.0,Specialist Equipment
+45,unit,pod,0,0.0,Pod
+45,unit,appl,1,100.0,Appliance
+46,equipment,pumper,1,100.0,Pumper Truck
+46,equipment,aerial,0,0.0,Aerial Support
+46,equipment,spec,0,0.0,Specialist Equipment
+46,unit,pod,0,0.0,Pod
+46,unit,appl,1,100.0,Appliance
+47,equipment,pumper,1,16.67,Pumper Truck
+47,equipment,aerial,1,16.67,Aerial Support
+47,equipment,spec,4,66.67,Specialist Equipment
+47,unit,pod,3,50.0,Pod
+47,unit,appl,3,50.0,Appliance
+48,equipment,pumper,1,100.0,Pumper Truck
+48,equipment,aerial,0,0.0,Aerial Support
+48,equipment,spec,0,0.0,Specialist Equipment
+48,unit,pod,0,0.0,Pod
+48,unit,appl,1,100.0,Appliance
+50,equipment,pumper,1,100.0,Pumper Truck
+50,equipment,aerial,0,0.0,Aerial Support
+50,equipment,spec,0,0.0,Specialist Equipment
+50,unit,pod,0,0.0,Pod
+50,unit,appl,1,100.0,Appliance
+51,equipment,pumper,2,100.0,Pumper Truck
+51,equipment,aerial,0,0.0,Aerial Support
+51,equipment,spec,0,0.0,Specialist Equipment
+51,unit,pod,0,0.0,Pod
+51,unit,appl,2,100.0,Appliance
+52,equipment,pumper,1,100.0,Pumper Truck
+52,equipment,aerial,0,0.0,Aerial Support
+52,equipment,spec,0,0.0,Specialist Equipment
+52,unit,pod,0,0.0,Pod
+52,unit,appl,1,100.0,Appliance
+53,equipment,pumper,1,100.0,Pumper Truck
+53,equipment,aerial,0,0.0,Aerial Support
+53,equipment,spec,0,0.0,Specialist Equipment
+53,unit,pod,0,0.0,Pod
+53,unit,appl,1,100.0,Appliance
+54,equipment,pumper,1,100.0,Pumper Truck
+54,equipment,aerial,0,0.0,Aerial Support
+54,equipment,spec,0,0.0,Specialist Equipment
+54,unit,pod,0,0.0,Pod
+54,unit,appl,1,100.0,Appliance
+55,equipment,pumper,1,100.0,Pumper Truck
+55,equipment,aerial,0,0.0,Aerial Support
+55,equipment,spec,0,0.0,Specialist Equipment
+55,unit,pod,0,0.0,Pod
+55,unit,appl,1,100.0,Appliance
+56,equipment,pumper,1,50.0,Pumper Truck
+56,equipment,aerial,0,0.0,Aerial Support
+56,equipment,spec,1,50.0,Specialist Equipment
+56,unit,pod,0,0.0,Pod
+56,unit,appl,2,100.0,Appliance
+57,equipment,pumper,1,100.0,Pumper Truck
+57,equipment,aerial,0,0.0,Aerial Support
+57,equipment,spec,0,0.0,Specialist Equipment
+57,unit,pod,0,0.0,Pod
+57,unit,appl,1,100.0,Appliance
+58,equipment,pumper,1,100.0,Pumper Truck
+58,equipment,aerial,0,0.0,Aerial Support
+58,equipment,spec,0,0.0,Specialist Equipment
+58,unit,pod,0,0.0,Pod
+58,unit,appl,1,100.0,Appliance
+59,equipment,pumper,2,100.0,Pumper Truck
+59,equipment,aerial,0,0.0,Aerial Support
+59,equipment,spec,0,0.0,Specialist Equipment
+59,unit,pod,0,0.0,Pod
+59,unit,appl,2,100.0,Appliance
+61,equipment,pumper,1,50.0,Pumper Truck
+61,equipment,aerial,0,0.0,Aerial Support
+61,equipment,spec,1,50.0,Specialist Equipment
+61,unit,pod,0,0.0,Pod
+61,unit,appl,2,100.0,Appliance
+62,equipment,pumper,2,66.67,Pumper Truck
+62,equipment,aerial,0,0.0,Aerial Support
+62,equipment,spec,1,33.33,Specialist Equipment
+62,unit,pod,1,33.33,Pod
+62,unit,appl,2,66.67,Appliance
+63,equipment,pumper,2,40.0,Pumper Truck
+63,equipment,aerial,1,20.0,Aerial Support
+63,equipment,spec,2,40.0,Specialist Equipment
+63,unit,pod,0,0.0,Pod
+63,unit,appl,5,100.0,Appliance
+64,equipment,pumper,1,100.0,Pumper Truck
+64,equipment,aerial,0,0.0,Aerial Support
+64,equipment,spec,0,0.0,Specialist Equipment
+64,unit,pod,0,0.0,Pod
+64,unit,appl,1,100.0,Appliance
+66,equipment,pumper,1,100.0,Pumper Truck
+66,equipment,aerial,0,0.0,Aerial Support
+66,equipment,spec,0,0.0,Specialist Equipment
+66,unit,pod,0,0.0,Pod
+66,unit,appl,1,100.0,Appliance
+67,equipment,pumper,2,40.0,Pumper Truck
+67,equipment,aerial,1,20.0,Aerial Support
+67,equipment,spec,2,40.0,Specialist Equipment
+67,unit,pod,1,20.0,Pod
+67,unit,appl,4,80.0,Appliance
+68,equipment,pumper,1,50.0,Pumper Truck
+68,equipment,aerial,0,0.0,Aerial Support
+68,equipment,spec,1,50.0,Specialist Equipment
+68,unit,pod,0,0.0,Pod
+68,unit,appl,2,100.0,Appliance
+70,equipment,pumper,1,25.0,Pumper Truck
+70,equipment,aerial,1,25.0,Aerial Support
+70,equipment,spec,2,50.0,Specialist Equipment
+70,unit,pod,0,0.0,Pod
+70,unit,appl,4,100.0,Appliance
+71,equipment,pumper,1,100.0,Pumper Truck
+71,equipment,aerial,0,0.0,Aerial Support
+71,equipment,spec,0,0.0,Specialist Equipment
+71,unit,pod,0,0.0,Pod
+71,unit,appl,1,100.0,Appliance
+72,equipment,pumper,1,33.33,Pumper Truck
+72,equipment,aerial,1,33.33,Aerial Support
+72,equipment,spec,1,33.33,Specialist Equipment
+72,unit,pod,0,0.0,Pod
+72,unit,appl,3,100.0,Appliance
+73,equipment,pumper,2,50.0,Pumper Truck
+73,equipment,aerial,1,25.0,Aerial Support
+73,equipment,spec,1,25.0,Specialist Equipment
+73,unit,pod,1,25.0,Pod
+73,unit,appl,3,75.0,Appliance
+74,equipment,pumper,1,50.0,Pumper Truck
+74,equipment,aerial,0,0.0,Aerial Support
+74,equipment,spec,1,50.0,Specialist Equipment
+74,unit,pod,0,0.0,Pod
+74,unit,appl,2,100.0,Appliance
+75,equipment,pumper,1,33.33,Pumper Truck
+75,equipment,aerial,1,33.33,Aerial Support
+75,equipment,spec,1,33.33,Specialist Equipment
+75,unit,pod,0,0.0,Pod
+75,unit,appl,3,100.0,Appliance
+76,equipment,pumper,2,100.0,Pumper Truck
+76,equipment,aerial,0,0.0,Aerial Support
+76,equipment,spec,0,0.0,Specialist Equipment
+76,unit,pod,0,0.0,Pod
+76,unit,appl,2,100.0,Appliance
+77,equipment,pumper,1,50.0,Pumper Truck
+77,equipment,aerial,1,50.0,Aerial Support
+77,equipment,spec,0,0.0,Specialist Equipment
+77,unit,pod,0,0.0,Pod
+77,unit,appl,2,100.0,Appliance
+78,equipment,pumper,1,50.0,Pumper Truck
+78,equipment,aerial,1,50.0,Aerial Support
+78,equipment,spec,0,0.0,Specialist Equipment
+78,unit,pod,0,0.0,Pod
+78,unit,appl,2,100.0,Appliance
+79,equipment,pumper,1,100.0,Pumper Truck
+79,equipment,aerial,0,0.0,Aerial Support
+79,equipment,spec,0,0.0,Specialist Equipment
+79,unit,pod,0,0.0,Pod
+79,unit,appl,1,100.0,Appliance
+80,equipment,pumper,1,100.0,Pumper Truck
+80,equipment,aerial,0,0.0,Aerial Support
+80,equipment,spec,0,0.0,Specialist Equipment
+80,unit,pod,0,0.0,Pod
+80,unit,appl,1,100.0,Appliance
+81,equipment,pumper,1,100.0,Pumper Truck
+81,equipment,aerial,0,0.0,Aerial Support
+81,equipment,spec,0,0.0,Specialist Equipment
+81,unit,pod,0,0.0,Pod
+81,unit,appl,1,100.0,Appliance
+82,equipment,pumper,1,100.0,Pumper Truck
+82,equipment,aerial,0,0.0,Aerial Support
+82,equipment,spec,0,0.0,Specialist Equipment
+82,unit,pod,0,0.0,Pod
+82,unit,appl,1,100.0,Appliance
+84,equipment,pumper,1,100.0,Pumper Truck
+84,equipment,aerial,0,0.0,Aerial Support
+84,equipment,spec,0,0.0,Specialist Equipment
+84,unit,pod,0,0.0,Pod
+84,unit,appl,1,100.0,Appliance
+85,equipment,pumper,1,100.0,Pumper Truck
+85,equipment,aerial,0,0.0,Aerial Support
+85,equipment,spec,0,0.0,Specialist Equipment
+85,unit,pod,0,0.0,Pod
+85,unit,appl,1,100.0,Appliance
+86,equipment,pumper,1,100.0,Pumper Truck
+86,equipment,aerial,0,0.0,Aerial Support
+86,equipment,spec,0,0.0,Specialist Equipment
+86,unit,pod,0,0.0,Pod
+86,unit,appl,1,100.0,Appliance
+87,equipment,pumper,2,40.0,Pumper Truck
+87,equipment,aerial,1,20.0,Aerial Support
+87,equipment,spec,2,40.0,Specialist Equipment
+87,unit,pod,0,0.0,Pod
+87,unit,appl,5,100.0,Appliance
+88,equipment,pumper,1,50.0,Pumper Truck
+88,equipment,aerial,0,0.0,Aerial Support
+88,equipment,spec,1,50.0,Specialist Equipment
+88,unit,pod,0,0.0,Pod
+88,unit,appl,2,100.0,Appliance
+89,equipment,pumper,1,100.0,Pumper Truck
+89,equipment,aerial,0,0.0,Aerial Support
+89,equipment,spec,0,0.0,Specialist Equipment
+89,unit,pod,0,0.0,Pod
+89,unit,appl,1,100.0,Appliance
+90,equipment,pumper,1,100.0,Pumper Truck
+90,equipment,aerial,0,0.0,Aerial Support
+90,equipment,spec,0,0.0,Specialist Equipment
+90,unit,pod,0,0.0,Pod
+90,unit,appl,1,100.0,Appliance
+91,equipment,pumper,2,100.0,Pumper Truck
+91,equipment,aerial,0,0.0,Aerial Support
+91,equipment,spec,0,0.0,Specialist Equipment
+91,unit,pod,0,0.0,Pod
+91,unit,appl,2,100.0,Appliance
+92,equipment,pumper,1,100.0,Pumper Truck
+92,equipment,aerial,0,0.0,Aerial Support
+92,equipment,spec,0,0.0,Specialist Equipment
+92,unit,pod,0,0.0,Pod
+92,unit,appl,1,100.0,Appliance
+93,equipment,pumper,1,100.0,Pumper Truck
+93,equipment,aerial,0,0.0,Aerial Support
+93,equipment,spec,0,0.0,Specialist Equipment
+93,unit,pod,0,0.0,Pod
+93,unit,appl,1,100.0,Appliance
+94,equipment,pumper,1,100.0,Pumper Truck
+94,equipment,aerial,0,0.0,Aerial Support
+94,equipment,spec,0,0.0,Specialist Equipment
+94,unit,pod,0,0.0,Pod
+94,unit,appl,1,100.0,Appliance
+95,equipment,pumper,1,100.0,Pumper Truck
+95,equipment,aerial,0,0.0,Aerial Support
+95,equipment,spec,0,0.0,Specialist Equipment
+95,unit,pod,0,0.0,Pod
+95,unit,appl,1,100.0,Appliance
