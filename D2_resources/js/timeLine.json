@@ -1,0 +1,75 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 330,
+    "height": 327,
+    "padding":0,
+    "title": {"text": "Average Station Response Time", "color": "white"},
+    "background":"#161a1d",
+    "config": {"legend": {"disable": true}},   
+    "data":{
+        "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_2.csv"
+     },
+     "layer": [
+       { "mark": {"type": "line", "fillOpacity":0.7},
+       "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.dis == 'CENTRAL'"}],
+       "encoding": {
+         "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
+         "y": {"field": "90Avg","type": "quantitative", "axis": {"labelColor":"white", "titleColor": "white", "title": "Average Response Time (min)"}},
+         "color": {"field": "servArea", "scale": {"range": ["grey"]}},
+         "tooltip":[
+          {
+             "field":"incType",
+             "type":"nominal",
+             "title":"Incident Type"
+          },
+          {
+             "field":"numInc",
+             "type":"quantitative",
+             "title":"Number of Incidents"
+          }
+       ]
+       }
+    },
+    { "mark": {"type": "line", "fillOpacity":0.9},
+       "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == '10'"}],
+       "encoding": {
+         "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
+         "y": {"field": "90Avg", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
+         "color": {"field": "servArea", "scale": {"range": ["red"]}},
+         "tooltip":[
+          {
+             "field":"incType",
+             "type":"nominal",
+             "title":"Incident Type"
+          },
+          {
+             "field":"numInc",
+             "type":"quantitative",
+             "title":"Number of Incidents"
+          }
+       ]
+       }
+    },
+    { "mark": {"type": "line", "fillOpacity":0.8},
+       "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.dis == 'CENTRAL'"}],
+       "encoding": {
+         "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
+         "y": {"field": "90Avg", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
+         "color": {"field": "servArea", "scale": {"range": ["yellow"]}},
+         "tooltip":[
+          {
+             "field":"90Avg",
+             "type":"nominal",
+             "title":"Incident Type"
+          },
+          {
+             "field":"numInc",
+             "type":"quantitative",
+             "title":"Number of Incidents"
+          }
+       ]
+       }
+    }],
+     "resolve": {"scale": {"color": "independent"}}
+   
+  }

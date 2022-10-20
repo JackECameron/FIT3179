@@ -1,171 +1,71 @@
 {
-   "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "config":{
-      "legend":{
-         "disable":true
-      }
-   },
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "title": {"text": "Number of Incidents per Quarter", "color": "white"},
+   "width": 300,
+   "height": 327,
+   "padding":0,
+   "background":"#161a1d",
+   "config": {"legend": {"disable": true}},   
    "data":{
-      "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/stationData/stationData_long.csv",
-      "format":{
-         "type":"csv"
+       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/combinedLong_barchart.csv"
+    },
+    "layer": [
+      { "mark": {"type": "bar", "cornerRadiusTopLeft": 10, "cornerRadiusTopRight": 10, "fillOpacity":0.75, "strokeOpacity": 0.5, "stroke": "white", "strokeWidth":2},
+      "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == 10"},
+      {
+        "calculate": "if(datum.incType === 'nonInc', 0, if(datum.incType === 'emInc', 1, 2))",
+        "as": "sortBy"
+      }],
+      "encoding": {
+        "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
+        "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white"}},
+        "color": {"field": "incType", "scale": {"range": ["#ffc300", "#e63946"]}},
+        "order": {"field": "sortBy"},
+        "tooltip":[
+         {
+            "field":"incType",
+            "type":"nominal",
+            "title":"Incident Type"
+         },
+         {
+            "field":"numInc",
+            "type":"quantitative",
+            "title":"Number of Incidents"
+         }
+      ]
       }
    },
-   "transform":[
+   { "mark": {"type": "line", "interpolate": "linear", "strokeOpacity":0.75, "strokeCap": "round", "strokeWidth": 7.5},
+   "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == 'CENTRAL'"}],
+   "encoding": {
+     "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
+     "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white", "title": "Number of Incidents"}},
+     "color":{"field": "incType", "scale":{"range": ["yellow", "red"]}},
+     "tooltip":[
       {
-         "filter":"datum.stationNum == 10"
+         "field":"incType",
+         "type":"nominal",
+         "title":"Incident Type"
       }
-   ],
-   "encoding": { "theta":{
-               "field":"perc",
-               "type":"quantitative",
-               "stack":true
-            }},
-   "layer":[
-      {
-         "mark":{
-            "type":"arc",
-            "radius2":90,
-            "radius":140,
-            "stroke": "white",
-            "strokeWidth": 4,
-            "cornerRadius": 10
-         },
-         "transform":[
-            {
-               "filter":"datum.class == 'unit'"
-            },
-              {
-               "filter":"datum.perc != 0"
-            },
-            {"calculate": "datum.perc + '%'", "as": "perLabel1"}
-         ],
-         "encoding":{
-            
-            "color":{
-               "field":"type",
-               "type":"nominal",
-               "scale":{"scheme":"oranges", "type": "ordinal"}
-            },
-            "tooltip":[
-              {
-                 "field":"decrip",
-                 "type":"nominal",
-                 "title":"Equipment Class"
-              },
-              {
-                 "field":"quant",
-                 "type":"quantitative",
-                 "title":"Total Number"
-              },
-              {
-                 "field":"perLabel1",
-                 "title":"Percent of Equipment"
-              }
-             
-           ]
-         }
-      },
-      {
-         "mark":{
-            "type":"text",
-            "radius":115,
-            "color":"white",
-            "opacity":1
-         },
-         "transform":[
-            {
-               "filter":"datum.class == 'unit'"
-            },
-              {
-               "filter":"datum.perc != 0"
-            },
-            {"calculate": "datum.perc + '%'", "as": "perLabel2"}
-         ],
-         "encoding":{
-           
-            "text":{
-               "field":"perc",
-               "aggregate": "sum"
-            },
-        "detail": {"field": "type", "type": "nominal"}
-         }
-      },
-      {
-         "mark":{
-            "type":"arc",
-            "radius2":140,
-            "radius":190,
-            "stroke": "white",
-            "strokeWidth": 4,
-            "cornerRadius": 10
-         },
-         "transform":[
-            {
-               "filter":"datum.class == 'equipment'"
-            },
-              {
-               "filter":"datum.perc != 0"
-            },
-            {"calculate": "datum.perc + '%'", "as": "perLabel2"}
-         ],
-         "encoding":{
-           
-            "color":{
-               "field":"type",
-               "type":"nominal",
-               "scale":{"scheme":"reds", "type": "ordinal"}
-            },
-            "tooltip":[
-              {
-                 "field":"decrip",
-                 "type":"nominal",
-                 "title":"Equipment Type"
-              },
-              {
-                 "field":"quant",
-                 "type":"quantitative",
-                 "title":"Total Number"
-              },
-              {
-                 "field":"perLabel2",
-                 "title":"Percent of Equipment"
-              }
-             
-           ]
-         }
-      },
-      {
-         "mark":{
-            "type":"text",
-            "radius":165,
-            "color":"white",
-            "opacity": 1
-         },
-         "transform":[
-            {
-               "filter":"datum.class == 'equipment'"
-            },
-              {
-               "filter":"datum.perc != 0"
-            },
-            {"calculate": "datum.perc + '%'", "as": "perLabel2"}
-         ],
-         "encoding":{
-            "text":{
-               "field":"perc",
-               "aggregate": "sum"
-            },
-        "detail": {"field": "type", "type": "nominal"}
-         }
-      }
-   ],
-   "view":{
-      "stroke":null
-   },
-   "resolve":{
-     "scale":{
-        "color":"independent"
-     }
-  }
+   ]
+   }
+},
+{ "mark": {"type": "circle", "strokeOpacity":0.75, "strokeCap": "round", "size": 100},
+"transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == 'CENTRAL'"}],
+"encoding": {
+  "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
+  "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white", "title": "Number of Incidents"}},
+  "color":{"field": "incType", "scale":{"range": ["yellow", "red"]}},
+  "tooltip":[
+   {
+      "field":"incType",
+      "type":"nominal",
+      "title":"Incident Type"
+   }
+]
 }
+}
+    ],
+    "resolve": {"scale": {"color": "independent"}}
+  
+ }

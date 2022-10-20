@@ -17,6 +17,7 @@
       "background": "#161a1d",
       "axis": {"gridColor": "#ffffff", "gridOpacity":0.4, "gridWidth": 3}
    },
+   "padding":0,
    "params":[
       {
          "name":"qSelect",
@@ -41,8 +42,8 @@
    ],
    "hconcat":[
       {
-         "width":"container",
-         "height":495,
+         "width":700,
+         "height":595,
          "projection":{
             "type":"equirectangular"
          },
@@ -138,7 +139,7 @@
                         "titleColor":"#ffffff",
                         "orient":"none",
                         "legendX":0,
-                        "legendY":430,
+                        "legendY":530,
                         "direction":"horizontal",
                         "labelColor":"#ffffff"
                      }
@@ -170,8 +171,8 @@
          ]
       },
       {
-         "width":"container",
-         "height":495,
+         "width":350,
+         "height":595,
          "title":{
             "text":"Station Rankings",
             "font":"Calibri Light",

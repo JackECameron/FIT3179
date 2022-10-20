@@ -52,16 +52,16 @@ body {
 }
 
 #introC1{
-	width: 30%;
+	width: 26.5%;
 	padding-right: 5%;
 }
 
 #introC2 {
-	width: 30%;
+	width: 27%;
 }
 
 #introC3 {
-	width: 30%;
+	width: 36%;
 	padding-left: 5%
 }
 
@@ -70,6 +70,8 @@ body {
 	text-align: center;
 	justify-content: center;
 	float: left;
+	padding-top:50px;
+	padding-bottom:50px;
 
 }
 
@@ -79,6 +81,7 @@ body {
 	justify-content: right;
 	float: left; 
 	margin: 0;
+	padding-top:50px;
 
 }
 
@@ -88,6 +91,7 @@ body {
 	justify-content: left;
 	float: left;
 	margin: 0;
+	padding-top:50px;
 
 }
 
@@ -99,5 +103,20 @@ body {
 	margin: 0;
 	margin-right: 0.5%;
 	margin-left: 0.5%;
+	padding-top:50px;
 
+}
+
+#info1{
+	width: 30%;
+	padding-right: 5%;
+}
+
+#info2 {
+	width: 30%;
+}
+
+#info3 {
+	width: 30%;
+	padding-left: 5%
 }

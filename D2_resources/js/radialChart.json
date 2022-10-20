@@ -1,5 +1,6 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+   "title": {"text": "Station Equipment Breakdown", "color": "white"},
    "config":{
       "legend":{
          "disable":true
