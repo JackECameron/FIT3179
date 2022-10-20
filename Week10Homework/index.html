@@ -21,6 +21,7 @@
   <div class="pure-u-1">
     <h1 id="main_title">FRV Response and Performance in Metropolitan Melbourne, 2021</h1>
   </div>
+  <button onclick="change()"></button>
 
   <div class="pure-u-1">
     <div class="pure-u-1-6"></div>
@@ -33,11 +34,38 @@
 
 
 <script type="text/javascript">
+   var cols = ["red", "blue", "green", "black"];
+   var i = 0;
 
+  function change(){
+
+    vegaEmbed('#chloro', mapC).then(function(result) {
+
+      // Edit result
+      if (i >=cols.length){
+        i = 0;
+      }
+      console.log(cols[i]);
+      result.spec.hconcat[0].layer[0].mark.fill = cols[i];
+      i += 1;
+      var newSpec = result.spec
+
+      vegaEmbed('#chloro', newSpec).then(function(result) {
+
+
+
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+
+// Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);
+  }
 
   var mapC = "js/chloroplethDistricts.json";
   vegaEmbed('#chloro', mapC).then(function(result) {
-    console.log(result)
+
+
+
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   //https://jackecameron.github.io/FIT3179/Week9Homework

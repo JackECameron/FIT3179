@@ -45,7 +45,7 @@
             "color":{
                "field":"type",
                "type":"nominal",
-               "scale":{"scheme":"greys", "type": "ordinal"}
+               "scale":{"scheme":"oranges", "type": "ordinal"}
             },
             "tooltip":[
               {
@@ -71,7 +71,7 @@
             "type":"text",
             "radius":115,
             "color":"white",
-            "opacity":0
+            "opacity":1
          },
          "transform":[
             {
@@ -85,8 +85,10 @@
          "encoding":{
            
             "text":{
-               "field":"perLabel2"
-            }
+               "field":"perc",
+               "aggregate": "sum"
+            },
+        "detail": {"field": "type", "type": "nominal"}
          }
       },
       {
@@ -111,7 +113,8 @@
            
             "color":{
                "field":"type",
-               "type":"nominal"
+               "type":"nominal",
+               "scale":{"scheme":"reds", "type": "ordinal"}
             },
             "tooltip":[
               {
@@ -137,7 +140,7 @@
             "type":"text",
             "radius":165,
             "color":"white",
-            "opacity": 0
+            "opacity": 1
          },
          "transform":[
             {
@@ -150,12 +153,19 @@
          ],
          "encoding":{
             "text":{
-               "field":"perLabel2"
-            }
+               "field":"perc",
+               "aggregate": "sum"
+            },
+        "detail": {"field": "type", "type": "nominal"}
          }
       }
    ],
    "view":{
       "stroke":null
-   }
+   },
+   "resolve":{
+     "scale":{
+        "color":"independent"
+     }
+  }
 }

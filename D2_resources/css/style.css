@@ -1,0 +1,103 @@
+
+body {
+	align-content: center;
+	margin: auto;
+	max-width: 1200px;
+	background: #161a1d;
+}
+.wholeBody{
+	width:1200px;
+	align-content: center;
+}
+
+.title {
+	width:100%;
+	text-align: center;
+	justify-content: center;
+	color: #ffffff;
+	padding: 0;
+}
+
+
+#mainTitle {
+	font-size: 120px;
+	margin-bottom: 0;
+	letter-spacing: 7.65px;
+}
+
+#subMainTitle {
+	font-size: 40px;
+	margin-top: 0;
+	letter-spacing: 3px;
+}
+
+.introduction {
+	width: 100%;
+}
+
+.stationInfo {
+	width: 100%;
+}
+
+.paragraph {
+	float: left;
+	color: #ffffff;
+	text-align: justify;
+}
+
+.stationChartContainer {
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+
+#introC1{
+	width: 30%;
+	padding-right: 5%;
+}
+
+#introC2 {
+	width: 30%;
+}
+
+#introC3 {
+	width: 30%;
+	padding-left: 5%
+}
+
+#chloro {
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	float: left;
+
+}
+
+#donutChart {
+	width: 33%;
+	text-align: right;
+	justify-content: right;
+	float: left; 
+	margin: 0;
+
+}
+
+#barPlot {
+	width: 33%;
+	text-align: left;
+	justify-content: left;
+	float: left;
+	margin: 0;
+
+}
+
+#linePlot {
+	width: 33%;
+	text-align: center;
+	justify-content: center;
+	float: left;
+	margin: 0;
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+
+}
