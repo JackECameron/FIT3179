@@ -24,16 +24,16 @@
                "Q3",
                "Q4"
             ],
-            "name":"Quarter Selection: "
+            "name":"Quarter: "
          }
       }, 
       {
         "name": "disSelect",
-        "value": {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000, "loc": "All Districts", "agrType": "agr"},
+        "value": {"centerTo": [144.8912, -38.0024], "zoomLevel": 31000, "loc": "All Districts", "agrType": "agr"},
         "bind": {
             "input": "select",
             "options": [
-                {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000, "loc": "All Districts", "agrType": "null"},
+                {"centerTo": [144.8912, -38.0024], "zoomLevel": 35000, "loc": "All Districts", "agrType": "null"},
                 {"centerTo": [144.9702, -37.8015], "zoomLevel": 110000, "loc": "Central", "agrType": "null"},
                 {"centerTo": [145.1557, -37.8109], "zoomLevel": 110000, "loc": "Eastern", "agrType": "null"},
                 {"centerTo": [145.0017, -37.6829], "zoomLevel": 100000, "loc": "Northern", "agrType": "null"},
@@ -41,10 +41,10 @@
                 {"centerTo": [145.1781, -38.1757], "zoomLevel": 58000, "loc": "Southern D2", "agrType": "null"},
                 {"centerTo": [144.7627, -37.8421], "zoomLevel": 100000, "loc": "Western D1", "agrType": "null"},
                 {"centerTo": [144.7195, -37.6516], "zoomLevel": 100000, "loc": "Western D2", "agrType": "null"},
-                {"centerTo": [144.4648, -38.1237], "zoomLevel": 85000, "loc": "Western D3", "agrType": "null"}
+                {"centerTo": [144.4648, -38.1237], "zoomLevel": 90000, "loc": "Western D3", "agrType": "null"}
             ],
             "labels": ["All Districts", "Central","Eastern", "Northern",  "Southern D1", "Southern D2", "Western D1", "Western D2", "Western D3"],
-            "name": "District Selection: "
+            "name": "District: "
         }
     }
       
@@ -67,18 +67,12 @@
             "type":"equirectangular",
             "center": {"expr":"disSelect.centerTo"},
             "scale": {"expr":"disSelect.zoomLevel"},
-            "translate":[355, 300]
+            "translate":[355, 293]
          },
          "layer":[
             {
-               "title":{
-                  "text":[
-                     "Percentage Responses Above 7.7 Minute Standard"
-                  ],
-                  "font":"Calibri Light",
-                  "color":"#ffffff",
-                  "fontSize":24
-               },
+
+            
                "data":{
                   "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week10Homework/js/LOCALITY_POLYGON.json",
                   "format":{
@@ -218,7 +212,7 @@
           "type": "quantitative",
           "scale": {
             "type": "sqrt",
-            "domain": [0, 20],
+            "domain": [1, 10],
             "range": [0, 300]
           }
         },"description": {"field": "properties.AUTHORGID"},
@@ -231,12 +225,7 @@
       {
          "width":350,
          "height":595,
-         "title":{
-            "text":"Station Rankings",
-            "font":"Calibri Light",
-            "color":"#ffffff",
-            "fontSize":24
-         },
+        
          "layer":[
             {
                "transform":[

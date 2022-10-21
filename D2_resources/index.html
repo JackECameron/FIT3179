@@ -12,8 +12,59 @@
   <script type="text/javascript">
   //https://jackecameron.github.io/FIT3179/Week9Homework
 
-    var refs = ["js/chloroplethDistricts.json", "js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
-    var eIDs = ["#chloro", "#barPlot", "#linePlot", "#donutChart"];
+  var stationValues = {'CENTRAL': [1, 3, 4, 10, 38, 2, 35, 18, 50, 39, 13], 'SOUTH & EAST REGIONAL': [78, 77, 74, 79, 75, 76], 'EASTERN': [85, 28, 20, 22, 26, 23, 19, 84, 27, 82, 30], 'NORTHERN': [12, 14, 7, 15, 16, 5, 11, 9, 81, 80, 6], 'NORTH & WEST REGIONAL': [67, 73, 68, 71, 72, 70], 'SOUTHERN D1': [86, 25, 33, 32, 29, 31, 24, 34, 89], 'WESTERN D3': [66, 64, 63, 62, 61], 'SOUTHERN D2': [94, 91, 95, 87, 92, 90, 88, 93], 'WESTERN D2': [44, 43, 41, 51, 53, 48, 56, 52, 54, 55], 'WESTERN D1': [42, 47, 45, 40, 46, 59, 49, 57, 58]};
+  var stationNames = {'CENTRAL': ['Eastern Hill', 'Carlton', 'Brunswick', 'Richmond', 'South Melbourne', 'West Melbourne', 'Windsor', 'Hawthorn', 'Ascot Vale', 'Port Melbourne', 'Northcote'], 'SOUTH & EAST REGIONAL': ['Morwell', 'Traralgon', 'Wangaratta', 'Latrobe West', 'Shepparton', 'Wodonga'], 'EASTERN': ['Boronia', 'Vermont South', 'Box Hill', 'Ringwood', 'Croydon', 'Burwood', 'North Balwyn', 'South Warrandyte', 'Nunawading', 'Eltham City', 'Templestowe'], 'NORTHERN': ['Preston', 'Bundoora', 'Thomastown', 'Heidelberg', 'Greensborough', 'Broadmeadows', 'Epping', 'Somerton', 'South Morang', 'Craigieburn', 'Pascoe Vale'], 'NORTH & WEST REGIONAL': ['Ballarat City', 'Bendigo', 'Lucas', 'Portland', 'Mildura', 'Warrnambool'], 'SOUTHERN D1': ['Rowville', 'Oakleigh', 'Mentone', 'Ormond', 'Clayton', 'Glen Waverley', 'Malvern', 'Highett', 'Springvale'], 'WESTERN D3': ['Ocean Grove', 'Belmont', 'Geelong City', 'Corio', 'Lara'], 'SOUTHERN D2': ['Mornington', 'Frankston', 'Rosebud', 'Dandenong', 'Cranbourne', 'Patterson River', 'Hallam', 'Pakenham'], 'WESTERN D2': ['Sunshine', 'Deer Park', 'St Albans', 'Keilor', 'Sunbury', 'Taylors Lakes', 'Melton', 'Tullamarine', 'Greenvale', 'Caroline Springs'], 'WESTERN D1': ['Newport', 'Footscray', 'Spotswood', 'Laverton', 'Altona', 'Derrimut', 'North Laverton', 'Tarneit', 'Point Cook']};
+  var refs = ["js/chloroplethDistricts.json", "js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
+  var eIDs = ["#chloro", "#barPlot", "#linePlot", "#donutChart"];
+
+  // Update Station Selector
+  function updateStationList(dis) {
+    var sSelect = document.getElementById("station");
+    sSelect.innerHTML = "";
+
+    for (let x=0; x < stationValues[dis].length; x++){
+      var newElement  = document.createElement("option");
+      newElement.textContent = stationNames[dis][x];
+      newElement.value = stationValues[dis][x];
+      sSelect.appendChild(newElement);
+   }
+  }
+
+  function updateCharts(stationNum){
+
+    var chartRefs = ["js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
+    var cIDs = ["#barPlot", "#linePlot", "#donutChart"]
+
+    for (let i=0; i < chartRefs.length; i++){
+
+      vegaEmbed("#hiddenUpdate", chartRefs[i], {"actions": false}).then(function(result) {
+
+      // Edit result
+      result.spec.params[0].value = stationNum;
+
+      
+      if (result.spec.params[1] != null) {
+        console.log(document.getElementById("district").value)
+        result.spec.params[1].value = document.getElementById("district").value;
+      }
+
+
+      var newSpec = result.spec
+
+      vegaEmbed(cIDs[i], newSpec, {"actions": false}).then(function(result) {
+
+
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+
+        }
+    
+}
+
+
 
     function embedInVega(eID, ref,){
       vegaEmbed(eID, ref,  {"actions": false}).then(function(result) {
@@ -36,7 +87,7 @@
 
 <body>
   <div class="wholeBody">
-
+    <div id="hiddenUpdate"></div>
     <div class="title">
       <h1 id="mainTitle">Fire Rescue Victoria</h1>
    
@@ -57,6 +108,40 @@
       <p class="paragraph" id="info2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       <p class="paragraph" id="info3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     </div>
+    <div>
+
+      <label id="districtSelector">Choose a District</label>
+
+      <select id="district" onchange="updateStationList(this.options[this.selectedIndex].value)">
+        <option value="CENTRAL">Central</option>
+        <option value="EASTERN">Eastern</option>
+        <option value="NORTHERN">Nothern</option>
+        <option value="SOUTHERN D1">Southern D1</option>
+        <option value="SOUTHERN D2">Southern D2</option>
+        <option value="WESTERN D1">Western D1</option>
+        <option value="WESTERN D2">Western D2</option>
+        <option value="WESTERN D3">Western D3</option>
+
+      </select> 
+
+      <label id="stationSelector">Choose a Station</label>
+
+      <select id="station" onchange="updateCharts(this.options[this.selectedIndex].value)">
+        <option value=1 >Eastern Hill</option>
+        <option value=3>Carlton</option>
+        <option value=4>Brunswick</option>
+        <option value=10>Richmond</option>
+        <option value=38>South Melbourne</option>
+        <option value=2>West Melbourne</option>
+        <option value=35>Windsor</option>
+        <option value=18>Hawthorn</option>
+        <option value=50>Ascot Vale</option>
+        <option value=39>Port Melbourne</option>
+        <option value=13>Northcote</option>
+      </select> 
+
+    </div>
+   
 
     <div class="stationChartContainer">
       <div style="color: red;" id="barPlot"></div>

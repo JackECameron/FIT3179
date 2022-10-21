@@ -5,6 +5,25 @@ body {
 	max-width: 1200px;
 	background: #161a1d;
 }
+
+.vega-bindings{
+	position: absolute;
+	color: white;
+	text-align: left;
+	width: 100%;
+	top:89%;
+	left:36%;
+	
+}
+
+.vega-bind {
+	float:left;
+	padding-right:1%;
+}
+#hiddenUpdate {
+	visibility: hidden;
+	position: absolute;
+}
 .wholeBody{
 	width:1200px;
 	align-content: center;

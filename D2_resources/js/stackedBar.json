@@ -6,12 +6,14 @@
    "padding":0,
    "background":"#161a1d",
    "config": {"legend": {"disable": true}},   
+   "params": [{"name": "var1", "value": 1},{"name": "var2", "value": "CENTRAL"}
+   ],
    "data":{
        "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/combinedLong_barchart.csv"
     },
     "layer": [
       { "mark": {"type": "bar", "cornerRadiusTopLeft": 10, "cornerRadiusTopRight": 10, "fillOpacity":0.75, "strokeOpacity": 0.5, "stroke": "white", "strokeWidth":2},
-      "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == 10"},
+      "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == var1"},
       {
         "calculate": "if(datum.incType === 'nonInc', 0, if(datum.incType === 'emInc', 1, 2))",
         "as": "sortBy"
@@ -36,7 +38,7 @@
       }
    },
    { "mark": {"type": "line", "interpolate": "linear", "strokeOpacity":0.75, "strokeCap": "round", "strokeWidth": 7.5},
-   "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == 'CENTRAL'"}],
+   "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == var2"}],
    "encoding": {
      "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
      "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white", "title": "Number of Incidents"}},
@@ -51,7 +53,7 @@
    }
 },
 { "mark": {"type": "circle", "strokeOpacity":0.75, "strokeCap": "round", "size": 100},
-"transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == 'CENTRAL'"}],
+"transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == var2"}],
 "encoding": {
   "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
   "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white", "title": "Number of Incidents"}},
