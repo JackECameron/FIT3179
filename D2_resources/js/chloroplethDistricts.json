@@ -38,14 +38,37 @@
             ],
             "name":"Quarter Selection: "
          }
-      }
+      }, {
+        "name": "disSelect",
+        "value": {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000},
+        "bind": {
+            "input": "select",
+            "options": [
+                {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000},
+                {"centerTo": [144.9702, -37.8015], "zoomLevel": 110000},
+                {"centerTo": [145.1557, -37.8109], "zoomLevel": 110000},
+                {"centerTo": [145.0017, -37.6829], "zoomLevel": 100000},
+                {"centerTo": [145.1024, -37.9262], "zoomLevel": 100000},
+                {"centerTo": [145.1781, -38.1757], "zoomLevel": 58000},
+                {"centerTo": [144.7627, -37.8421], "zoomLevel": 100000},
+                {"centerTo": [144.7195, -37.6516], "zoomLevel": 100000},
+                {"centerTo": [144.4648, -38.1237], "zoomLevel": 85000}
+            ],
+            "labels": ["All", "Center","Eastern", "Northern",  "Southern D1", "Southern D2", "Western D1", "Western D2", "Western D3"],
+            "name": "Map Centre: "
+        }
+    }
+      
    ],
    "hconcat":[
       {
          "width":700,
          "height":595,
          "projection":{
-            "type":"equirectangular"
+            "type":"equirectangular",
+            "center": {"expr":"disSelect.centerTo"},
+            "scale": {"expr":"disSelect.zoomLevel"},
+            "translate":[355, 300]
          },
          "layer":[
             {
@@ -167,6 +190,48 @@
                      }
                   ]
                }
+            },
+             {
+               "data":{
+                  "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/js/stations.json",
+                  "format":{
+                     "type":"topojson",
+                     "feature":"FOI_POINT"
+                  }
+               },
+                  "transform":[
+                     {"calculate": "datum.geometry.coordinates[0]", "as": "longitude"},
+                     {"calculate": "datum.geometry.coordinates[1]", "as": "latitude"},
+                      {
+                     "lookup":"properties.AUTHORGID",
+                     "from":{
+                        "data":{
+                           "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/stationData/stationData_complete_2.csv",
+                           "format":{
+                              "type":"csv"
+                           }
+                        },
+                        "key":"sTag",
+                     "fields":["grandTotal"]
+                     }
+                  }
+                  ],
+      "mark": {"type": "circle", "color": "lightgrey", "opacity": 0.70},
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "size": {
+          "legend": null,
+          "field": "grandTotal",
+          "type": "quantitative",
+          "scale": {
+            "type": "sqrt",
+            "domain": [0, 100],
+            "range": [0, 1000]
+          }
+        },
+        "tooltip": [{"field": "grandTotal"}]
+      }
             }
          ]
       },
