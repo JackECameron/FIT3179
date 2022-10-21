@@ -5,20 +5,8 @@
       "align":"center"
    },
    "data":{
-      "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined.csv"
-   },
-   "config":{
-      "legend":{
-         "disable":true
-      },
-      "view":{
-         "stroke":"transparent"
-      },
-      "background": "#161a1d",
-      "axis": {"gridColor": "#ffffff", "gridOpacity":0.4, "gridWidth": 3}
-   },
-   "padding":0,
-   "params":[
+      "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_filter.csv"
+   }, "params":[
       {
          "name":"qSelect",
          "value":1,
@@ -38,28 +26,39 @@
             ],
             "name":"Quarter Selection: "
          }
-      }, {
+      }, 
+      {
         "name": "disSelect",
-        "value": {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000},
+        "value": {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000, "loc": "All Districts", "agrType": "agr"},
         "bind": {
             "input": "select",
             "options": [
-                {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000},
-                {"centerTo": [144.9702, -37.8015], "zoomLevel": 110000},
-                {"centerTo": [145.1557, -37.8109], "zoomLevel": 110000},
-                {"centerTo": [145.0017, -37.6829], "zoomLevel": 100000},
-                {"centerTo": [145.1024, -37.9262], "zoomLevel": 100000},
-                {"centerTo": [145.1781, -38.1757], "zoomLevel": 58000},
-                {"centerTo": [144.7627, -37.8421], "zoomLevel": 100000},
-                {"centerTo": [144.7195, -37.6516], "zoomLevel": 100000},
-                {"centerTo": [144.4648, -38.1237], "zoomLevel": 85000}
+                {"centerTo": [144.8912, -38.0024], "zoomLevel": 30000, "loc": "All Districts", "agrType": "null"},
+                {"centerTo": [144.9702, -37.8015], "zoomLevel": 110000, "loc": "Central", "agrType": "null"},
+                {"centerTo": [145.1557, -37.8109], "zoomLevel": 110000, "loc": "Eastern", "agrType": "null"},
+                {"centerTo": [145.0017, -37.6829], "zoomLevel": 100000, "loc": "Northern", "agrType": "null"},
+                {"centerTo": [145.1024, -37.9262], "zoomLevel": 100000, "loc": "Southern D1", "agrType": "null"},
+                {"centerTo": [145.1781, -38.1757], "zoomLevel": 58000, "loc": "Southern D2", "agrType": "null"},
+                {"centerTo": [144.7627, -37.8421], "zoomLevel": 100000, "loc": "Western D1", "agrType": "null"},
+                {"centerTo": [144.7195, -37.6516], "zoomLevel": 100000, "loc": "Western D2", "agrType": "null"},
+                {"centerTo": [144.4648, -38.1237], "zoomLevel": 85000, "loc": "Western D3", "agrType": "null"}
             ],
-            "labels": ["All", "Center","Eastern", "Northern",  "Southern D1", "Southern D2", "Western D1", "Western D2", "Western D3"],
-            "name": "Map Centre: "
+            "labels": ["All Districts", "Central","Eastern", "Northern",  "Southern D1", "Southern D2", "Western D1", "Western D2", "Western D3"],
+            "name": "District Selection: "
         }
     }
       
    ],
+   "config":{
+     
+      "view":{
+         "stroke":"transparent"
+      },
+      "background": "#161a1d",
+      "axis": {"gridColor": "#ffffff", "gridOpacity":0.4, "gridWidth": 3}
+   },
+   "padding":0,
+  
    "hconcat":[
       {
          "width":700,
@@ -96,21 +95,6 @@
                }
             },
             {
-               "params":[
-                  {
-                     "name":"loc_select",
-                     "value":"CENTRAL",
-                     "select":{
-                        "type":"point",
-                        "encodings":[
-                           "description"
-                        ],
-                        "on":"click",
-                        "clear":false,
-                        "toggle":false
-                     }
-                  }
-               ],
                "transform":[
                   {
                      "lookup":"dis",
@@ -162,7 +146,7 @@
                         "titleColor":"#ffffff",
                         "orient":"none",
                         "legendX":0,
-                        "legendY":530,
+                        "legendY":600,
                         "direction":"horizontal",
                         "labelColor":"#ffffff"
                      }
@@ -221,16 +205,25 @@
         "longitude": {"field": "longitude", "type": "quantitative"},
         "latitude": {"field": "latitude", "type": "quantitative"},
         "size": {
-          "legend": null,
+         "legend":{
+            "title":"Equipment Quantity:",
+            "titleColor":"#ffffff",
+            "orient":"none",
+            "legendX":125,
+            "legendY":600,
+            "direction":"horizontal",
+            "labelColor":"#ffffff"
+         },
           "field": "grandTotal",
           "type": "quantitative",
           "scale": {
             "type": "sqrt",
-            "domain": [0, 100],
-            "range": [0, 1000]
+            "domain": [0, 20],
+            "range": [0, 300]
           }
-        },
-        "tooltip": [{"field": "grandTotal"}]
+        },"description": {"field": "properties.AUTHORGID"},
+        "tooltip": [{"field": "properties.AUTHORGID", "title": "Station Number"},{"field": "properties.NAME", "title": "Name"},
+        {"field": "grandTotal", "type": "quantitative", "title": "Vehicle and Equipment Store"}]
       }
             }
          ]
@@ -246,26 +239,9 @@
          },
          "layer":[
             {
-               "params":[
-                  {
-                     "name":"s_select",
-                     "select":{
-                        "type":"point",
-                        "fields":[
-                           "servArea"
-                        ]
-                     },
-                     "bind":"legend"
-                  }
-               ],
                "transform":[
                   {
-                     "filter":"datum.sTag != 'agr'"
-                  },
-                  {
-                     "filter":{
-                        "param":"loc_select"
-                     }
+                     "filter":"datum.filter == disSelect.loc"
                   },
                   {
                      "sort":[
@@ -319,28 +295,15 @@
                      }
                   },
                   "color":{
-                     "condition":{
-                        "param":"s_select",
-                        "value":"green",
-                        "empty":false
-                     },
-                     "field":"servArea",
-                     "type":"nominal",
-                     "scale":{
-                        "range": ["#e5e5e5"]
-                     }
+                     "field":"servArea", "scale":{"range": ["#ffffff"]}
                   }
                }
             },
             {
                "transform":[
-                  {
-                     "filter":"datum.sTag != 'agr'"
-                  },
-                  {
-                     "filter":{
-                        "param":"loc_select"
-                     }
+                 
+                   {
+                     "filter":"datum.filter == disSelect.loc"
                   },
                   {
                      "sort":[
@@ -384,13 +347,8 @@
                         
                      }
                   },
-                  "color":{
-                     "condition":{
-                        "param":"s_select",
-                        "empty":false,
-                        "value":"green"
-                     },
-                     "field":"servArea"
+                  "color":{"legend":null,
+                     "field":"servArea", "scale":{"range": ["#ffffff"]}
                   },
                   "tooltip":[
                      {
@@ -418,13 +376,8 @@
             },
             {
                "transform":[
-                  {
-                     "filter":"datum.sTag != 'agr'"
-                  },
-                  {
-                     "filter":{
-                        "param":"loc_select"
-                     }
+                   {
+                     "filter":"datum.filter == disSelect.loc"
                   },
                   {
                      "filter":"datum.q==4"
@@ -510,7 +463,7 @@
                "encoding":{
                   "text":{
                      "value":{
-                        "expr":"loc_select.dis"
+                        "expr":"disSelect.loc"
                      }
                   }
                }
@@ -518,12 +471,7 @@
             {
                "transform":[
                   {
-                     "filter":"datum.sTag != 'agr'"
-                  },
-                  {
-                     "filter":{
-                        "param":"loc_select"
-                     }
+                     "filter":"datum.filter == disSelect.loc"
                   },
                   {
                      "filter":"datum.q==1"
@@ -582,13 +530,8 @@
             },
             {
                "transform":[
-                  {
-                     "filter":"datum.sTag != 'agr'"
-                  },
-                  {
-                     "filter":{
-                        "param":"loc_select"
-                     }
+                   {
+                     "filter":"datum.filter == disSelect.loc"
                   },
                   {
                      "filter":"datum.q==4"
