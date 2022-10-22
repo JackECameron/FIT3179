@@ -9,14 +9,14 @@
    "params": [{"name": "var1", "value": 1},{"name": "var2", "value": "CENTRAL"}
   ],
    "data":{
-       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_2.csv"
+       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_dif.csv"
     },
     "layer": [
       { "mark": {"type": "line", "fillOpacity":0.7},
       "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.dis == var2"}],
       "encoding": {
         "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
-        "y": {"field": "90Avg","type": "quantitative", "axis": {"labelColor":"white", "titleColor": "white", "title": "Average Response Time (min)"}},
+        "y": {"field": "dif","type": "quantitative", "axis": {"labelColor":"white", "titleColor": "white", "title": "Average Response Time (min)"}},
         "color": {"field": "servArea", "scale": {"range": ["grey"]}, "legend": null},
         "tooltip":[
          {
@@ -36,7 +36,7 @@
       "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == var1"}],
       "encoding": {
         "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
-        "y": {"field": "90Avg", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
+        "y": {"field": "dif", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
         "color": {"field": "servArea", "scale": {"range": ["red"]}, "legend": {"title": "Current Station","titleColor": "white", "labelColor": "white", "orient": "none", "legendY": 295, "legendX":125}},
         "tooltip":[
          {
@@ -56,11 +56,11 @@
       "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.dis == var2"}],
       "encoding": {
         "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
-        "y": {"field": "90Avg", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
+        "y": {"field": "dif", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
         "color": {"field": "servArea", "scale": {"range": ["yellow"]},"legend": {"titleColor": "white","title":"District Average", "labelColor": "white", "orient": "none", "legendY": 295, "legendX":10}},
         "tooltip":[
          {
-            "field":"90Avg",
+            "field":"dif",
             "type":"nominal",
             "title":"Incident Type"
          },

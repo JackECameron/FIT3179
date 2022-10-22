@@ -62,6 +62,7 @@ body {
 	float: left;
 	color: #ffffff;
 	text-align: justify;
+	font-size: 18px;
 }
 
 .stationChartContainer {
@@ -138,4 +139,21 @@ body {
 #info3 {
 	width: 30%;
 	padding-left: 5%
+}
+
+#pBold{
+	font-weight: bolder;
+}
+
+#bigStat{
+	font-weight: bolder;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	align-content: center;
+	display: block;
+}
+
+#customDropdowns {
+	width: 100%;
 }
