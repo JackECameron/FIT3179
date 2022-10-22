@@ -1,77 +1,378 @@
 {
-   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-   "width": 330,
-   "height": 327,
+   "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+   "width":330,
+   "height":327,
    "padding":0,
-   "title": {"text": "Average Station Response Time", "color": "white"},
+   "title":{
+      "text":"Average Station Response Time",
+      "color":"white"
+   },
    "background":"#161a1d",
-   "config": {},
-   "params": [{"name": "var1", "value": 1},{"name": "var2", "value": "CENTRAL"}
-  ],
+   "config":{
+      "legend": {"disable": true},
+      "view": {"stroke": null}
+      
+   },
+   "params":[
+      {
+         "name":"var1",
+         "value":1
+      },
+      {
+         "name":"var2",
+         "value":"CENTRAL"
+      }
+   ],
    "data":{
-       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_dif.csv"
-    },
-    "layer": [
-      { "mark": {"type": "line", "fillOpacity":0.7},
-      "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.dis == var2"}],
-      "encoding": {
-        "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
-        "y": {"field": "dif","type": "quantitative", "axis": {"labelColor":"white", "titleColor": "white", "title": "Average Response Time (min)"}},
-        "color": {"field": "servArea", "scale": {"range": ["grey"]}, "legend": null},
-        "tooltip":[
-         {
-            "field":"incType",
-            "type":"nominal",
-            "title":"Incident Type"
-         },
-         {
-            "field":"numInc",
-            "type":"quantitative",
-            "title":"Number of Incidents"
-         }
-      ]
-      }
+      "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_dif.csv"
    },
-   { "mark": {"type": "line", "fillOpacity":0.9},
-      "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == var1"}],
-      "encoding": {
-        "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
-        "y": {"field": "dif", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
-        "color": {"field": "servArea", "scale": {"range": ["red"]}, "legend": {"title": "Current Station","titleColor": "white", "labelColor": "white", "orient": "none", "legendY": 295, "legendX":125}},
-        "tooltip":[
-         {
-            "field":"incType",
-            "type":"nominal",
-            "title":"Incident Type"
+   "layer":[
+      {
+         "mark":{
+            "type":"line",
+            "fillOpacity":0.7,
+            "strokeWidth":5,
+            "strokeCap":"round"
          },
-         {
-            "field":"numInc",
-            "type":"quantitative",
-            "title":"Number of Incidents"
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.dis == var2"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":"Financial Quarter",
+                  "labelAngle":0
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":"Average Response Time (min)",
+                  "domain":false
+               }
+            },
+            "color":{
+               "field":"servArea",
+               "scale":{
+                  "range":[
+                     "grey"
+                  ]
+               },
+               "legend":null
+            }
          }
-      ]
-      }
-   },
-   { "mark": {"type": "line", "fillOpacity":0.8},
-      "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.dis == var2"}],
-      "encoding": {
-        "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
-        "y": {"field": "dif", "type": "quantitative","axis": {"labelColor":"white", "titleColor": "white"}},
-        "color": {"field": "servArea", "scale": {"range": ["yellow"]},"legend": {"titleColor": "white","title":"District Average", "labelColor": "white", "orient": "none", "legendY": 295, "legendX":10}},
-        "tooltip":[
-         {
-            "field":"dif",
-            "type":"nominal",
-            "title":"Incident Type"
+      },
+      {
+         "mark":{
+            "type":"point",
+            "fillOpacity":0.7,
+            "strokeWidth":5,
+            "strokeCap":"round"
          },
-         {
-            "field":"numInc",
-            "type":"quantitative",
-            "title":"Number of Incidents"
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.dis == var2"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":"Financial Quarter"
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":"Average Response Time (min)"
+               }
+            },
+            "color":{
+               "field":"servArea",
+               "scale":{
+                  "range":[
+                     "grey"
+                  ]
+               },
+               "legend":null
+            },
+            "tooltip":[
+               {
+                  "field":"90Avg",
+                  "type":"quantitative",
+                  "title":"Response Time (minutes)"
+               },
+               {
+                  "field":"dif",
+                  "type":"quantitative",
+                  "title":"Difference (minutes)"
+               }
+            ]
          }
-      ]
+      },
+      {
+         "mark":{
+            "type":"line",
+            "fillOpacity":0.9,
+            "strokeWidth":5,
+            "strokeCap":"round"
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.sNumber == var1"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "color":{
+               "field":"servArea",
+               "scale":{
+                  "range":[
+                     "red"
+                  ]
+               },
+               "legend":{
+                  "title":null,
+                  "titleColor":"white",
+                  "labelColor":"white",
+                  "orient":"none",
+                  "legendY":310,
+                  "legendX":125
+               }
+            }
+         }
+      },
+      {
+         "mark":{
+            "type":"point",
+            "fillOpacity":0.9,
+            "strokeWidth":5
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.sNumber == var1"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "color":{
+               "field":"servArea",
+               "scale":{
+                  "range":[
+                     "red"
+                  ]
+               },
+               "legend":null
+            },
+            "tooltip":[
+               {
+                  "field":"90Avg",
+                  "type":"quantitative",
+                  "title":"Response Time (minutes)"
+               },
+               {
+                  "field":"dif",
+                  "type":"quantitative",
+                  "title":"Difference (minutes)"
+               }
+            ]
+         }
+      },
+      {
+         "mark":{
+            "type":"line",
+            "fillOpacity":0.8,
+            "strokeWidth":5,
+            "strokeCap":"round"
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag == 'agr'"
+            },
+            {
+               "filter":"datum.dis == var2"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "color":{
+               "field":"servArea",
+               "scale":{
+                  "range":[
+                     "yellow"
+                  ]
+               },
+               "legend":{
+                  "titleColor":"white",
+                  "title":null,
+                  "labelColor":"white",
+                  "orient":"none",
+                  "legendY":310,
+                  "legendX":10
+               }
+            }
+         }
+      },
+      {
+         "mark":{
+            "type":"point",
+            "fillOpacity":0.8,
+            "strokeWidth":5
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag == 'agr'"
+            },
+            {
+               "filter":"datum.dis == var2"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "color":{
+               "field":"servArea",
+               "scale":{
+                  "range":[
+                     "yellow"
+                  ]
+               },
+                "legend":null
+            },
+            "tooltip":[
+               {
+                  "field":"90Avg",
+                  "type":"quantitative",
+                  "title":"Response Time (minutes)"
+               },
+               {
+                  "field":"dif",
+                  "type":"quantitative",
+                  "title":"Difference (minutes)"
+               }
+            ]
+         }
+      },
+      {
+         "data":{
+            "values":[
+               {
+                  
+               }
+            ]
+         },
+         "transform":[{"calculate": "7.7", "as": "stand"}],
+         "mark":{
+            "type":"rule",
+            "fillOpacity":0.8,
+            "strokeWidth":5,
+            "strokeCap":"round",
+            "color":"green"
+         },
+         "encoding":{
+            "y":{
+               "datum":0,
+               "type":"quantitative"
+            },
+            "tooltip":[
+               {
+                  "field":"stand",
+                  "type":"quantitative",
+                  "title":"Standard Response Time"
+               }
+            ]
+         }
       }
-   }],
-    "resolve": {"scale": {"color": "independent"}}
-  
- }
+   ],
+   "resolve":{
+      "scale":{
+         "color":"independent"
+      }
+   }
+}
