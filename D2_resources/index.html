@@ -12,8 +12,8 @@
   <script type="text/javascript">
   //https://jackecameron.github.io/FIT3179/Week9Homework
 
-  var stationValues = {'CENTRAL': [1, 3, 4, 10, 38, 2, 35, 18, 50, 39, 13], 'SOUTH & EAST REGIONAL': [78, 77, 74, 79, 75, 76], 'EASTERN': [85, 28, 20, 22, 26, 23, 19, 84, 27, 82, 30], 'NORTHERN': [12, 14, 7, 15, 16, 5, 11, 9, 81, 80, 6], 'NORTH & WEST REGIONAL': [67, 73, 68, 71, 72, 70], 'SOUTHERN D1': [86, 25, 33, 32, 29, 31, 24, 34, 89], 'WESTERN D3': [66, 64, 63, 62, 61], 'SOUTHERN D2': [94, 91, 95, 87, 92, 90, 88, 93], 'WESTERN D2': [44, 43, 41, 51, 53, 48, 56, 52, 54, 55], 'WESTERN D1': [42, 47, 45, 40, 46, 59, 49, 57, 58]};
-  var stationNames = {'CENTRAL': ['Eastern Hill', 'Carlton', 'Brunswick', 'Richmond', 'South Melbourne', 'West Melbourne', 'Windsor', 'Hawthorn', 'Ascot Vale', 'Port Melbourne', 'Northcote'], 'SOUTH & EAST REGIONAL': ['Morwell', 'Traralgon', 'Wangaratta', 'Latrobe West', 'Shepparton', 'Wodonga'], 'EASTERN': ['Boronia', 'Vermont South', 'Box Hill', 'Ringwood', 'Croydon', 'Burwood', 'North Balwyn', 'South Warrandyte', 'Nunawading', 'Eltham City', 'Templestowe'], 'NORTHERN': ['Preston', 'Bundoora', 'Thomastown', 'Heidelberg', 'Greensborough', 'Broadmeadows', 'Epping', 'Somerton', 'South Morang', 'Craigieburn', 'Pascoe Vale'], 'NORTH & WEST REGIONAL': ['Ballarat City', 'Bendigo', 'Lucas', 'Portland', 'Mildura', 'Warrnambool'], 'SOUTHERN D1': ['Rowville', 'Oakleigh', 'Mentone', 'Ormond', 'Clayton', 'Glen Waverley', 'Malvern', 'Highett', 'Springvale'], 'WESTERN D3': ['Ocean Grove', 'Belmont', 'Geelong City', 'Corio', 'Lara'], 'SOUTHERN D2': ['Mornington', 'Frankston', 'Rosebud', 'Dandenong', 'Cranbourne', 'Patterson River', 'Hallam', 'Pakenham'], 'WESTERN D2': ['Sunshine', 'Deer Park', 'St Albans', 'Keilor', 'Sunbury', 'Taylors Lakes', 'Melton', 'Tullamarine', 'Greenvale', 'Caroline Springs'], 'WESTERN D1': ['Newport', 'Footscray', 'Spotswood', 'Laverton', 'Altona', 'Derrimut', 'North Laverton', 'Tarneit', 'Point Cook']};
+  var stationValues = {'CENTRAL': [1, 3, 4, 10, 38, 2, 35, 18, 50, 39, 13], 'SOUTH & EAST REGIONAL': [78, 77, 74, 79, 75, 76], 'EASTERN': [85, 28, 20, 22, 26, 23, 19, 84, 27, 82, 30], 'NORTHERN': [12, 14, 7, 15, 16, 5, 11, 9, 81, 80, 6], 'NORTH & WEST REGIONAL': [67, 73, 68, 71, 72, 70], 'SOUTHERN D1': [86, 25, 33, 32, 29, 31, 24, 34, 89], 'WESTERN D3': [66, 64, 63, 62, 61], 'SOUTHERN D2': [94, 91, 95, 87, 92, 90, 88, 93], 'WESTERN D2': [44, 43, 41, 51, 53, 48, 56, 52, 54, 55], 'WESTERN D1': [42, 47, 45, 40, 46, 59, 57, 58]};
+  var stationNames = {'CENTRAL': ['Eastern Hill', 'Carlton', 'Brunswick', 'Richmond', 'South Melbourne', 'West Melbourne', 'Windsor', 'Hawthorn', 'Ascot Vale', 'Port Melbourne', 'Northcote'], 'SOUTH & EAST REGIONAL': ['Morwell', 'Traralgon', 'Wangaratta', 'Latrobe West', 'Shepparton', 'Wodonga'], 'EASTERN': ['Boronia', 'Vermont South', 'Box Hill', 'Ringwood', 'Croydon', 'Burwood', 'North Balwyn', 'South Warrandyte', 'Nunawading', 'Eltham City', 'Templestowe'], 'NORTHERN': ['Preston', 'Bundoora', 'Thomastown', 'Heidelberg', 'Greensborough', 'Broadmeadows', 'Epping', 'Somerton', 'South Morang', 'Craigieburn', 'Pascoe Vale'], 'NORTH & WEST REGIONAL': ['Ballarat City', 'Bendigo', 'Lucas', 'Portland', 'Mildura', 'Warrnambool'], 'SOUTHERN D1': ['Rowville', 'Oakleigh', 'Mentone', 'Ormond', 'Clayton', 'Glen Waverley', 'Malvern', 'Highett', 'Springvale'], 'WESTERN D3': ['Ocean Grove', 'Belmont', 'Geelong City', 'Corio', 'Lara'], 'SOUTHERN D2': ['Mornington', 'Frankston', 'Rosebud', 'Dandenong', 'Cranbourne', 'Patterson River', 'Hallam', 'Pakenham'], 'WESTERN D2': ['Sunshine', 'Deer Park', 'St Albans', 'Keilor', 'Sunbury', 'Taylors Lakes', 'Melton', 'Tullamarine', 'Greenvale', 'Caroline Springs'], 'WESTERN D1': ['Newport', 'Footscray', 'Spotswood', 'Laverton', 'Altona', 'Derrimut', 'Tarneit', 'Point Cook']};
   var refs = ["js/chloroplethDistricts.json", "js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
   var eIDs = ["#chloro", "#barPlot", "#linePlot", "#donutChart"];
 
@@ -24,6 +24,9 @@
 
     for (let x=0; x < stationValues[dis].length; x++){
       var newElement  = document.createElement("option");
+      if (x==0){
+        updateCharts(stationValues[dis][x]);
+      }
       newElement.textContent = stationNames[dis][x];
       newElement.value = stationValues[dis][x];
       sSelect.appendChild(newElement);
@@ -31,7 +34,7 @@
   }
 
   function updateCharts(stationNum){
-
+    
     var chartRefs = ["js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
     var cIDs = ["#barPlot", "#linePlot", "#donutChart"]
 
@@ -105,32 +108,96 @@
           As with most governmental departments, there is always discussion regarding funding and resultant performance - this is especially true for the FRV, where performance can be a direct representation of public health and safety.
            As such, the FRV releases annual assessments and quarterly response time reviews.
            <br><br>
-          <span id="bigStat">7.7 <span id="bigStatS"> minutes</span></span>
+          <span id="bigStat">7.7 min</span>
           <br>
-          is the standard for emergency incident response times. 
+          is the standard response time for emergency incidents.
         </p>
 
         <p class="paragraph" id="introC3">
-          Whilst the FRV sets this expected response time, not all stations are able to achieve it. The provided map of metropolitan Melbourne can be used to see the percentage of incident responses that satisfied the proposed standard in 
-          each of the districts, as well as the station locations and the amount of equipment they have available. 
-          <br><br>Use the drop-down menus to select which financial quarter of 2021 you would like to explore and the district of interest. 
-          This will centre and zoom the map to the district of interest and update the rank plot to show the relative performance of each service area (this will be the stations within the selected district or a comparison of all districts).
+          Whilst the FRV sets this expected response time, not all stations are able to achieve it. The provided map of metropolitan Melbourne can be used to see the percentage of incident responses that satisfied the proposed standard in each of the districts.
+          The location of each FRV station is also depicted, with the size of the marker representing the number of major resources. 
+          <br><br>Use the drop-down menus to select which financial quarter of 2021 you would like to explore and zoom in on the district of interest. 
+          <br><br>The rank plot will also update to reveal the relative performance of each service area within the selected region.
+          The Central and Eastern districts are consistent top performers and this could be attributed to the density of their stations and how well equipped they are.
+          
           
         </p>
     </div>
+
+    <div id="spacer2"><p></p></div>
+
+    <div class="chartTitles">
+      <p id="cTitle01">Percentage of Response Times that Met the FRV Standard in Metropolitan Melbourne 2021</p>
+      <p id="cTitle02">Service Areas Ranked by Percent Standards Met in 2021</p>
+    </div>
+
 
     <div id="chloro"></div>
 
 
     <div class="stationInfo">
-      <p class="paragraph" id="info1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <p class="paragraph" id="info2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      <p class="paragraph" id="info3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p class="paragraph" id="info1">
+        One important aspect when considering the performance of a station is the number of incidents they respond to. These incidents can be divided into two categories: emergency and non-emergency. 
+        The FRV does not require non-emergency incidents to be responded to in the standard 7.7 minutes, so they are not included in the response time calculations.
+        </p>
+      <p class="paragraph" id="info2">
+        It is also important to consider how far above or below the standard the average response time is for each station. A negative difference implies that the station response is faster, whilst a
+        positive difference implies it is slower. When it comes to life-or-death situations, there are slim margins for success and some station performances are greatly lacking.
+      </p>
+      <p class="paragraph" id="info3">
+        The final consideration for fire station performance analysis is the availability of resources. This consists of two classes: appliances and pods. Appliances can be vehicles and 
+        heavy equipment, whilst pods are portable units that attach to vehicles and contain special tools and apparatus. Each class can be further deconstructed into the categories of aerial support, pumper trucks and specialist equipment.
+        All FRV stations must have at least one pumper and all pods classify as specialist equipment.
+      </p>
     </div>
-    <div>
 
-      <label id="districtSelector">Choose a District</label>
+  
+    <div id="spacer2"><p></p></div>
 
+    <div class="chartTitles">
+      <p id="cTitle1" >Total Number of Incidences and Type in FRV Service Areas Each Quarter of 2021</p>
+      <p id="cTitle2" style="text-align: center;">Difference in FRV Standard and Service Area Response Times (minutes) in 2021</p>
+      <p id="cTitle3" >Resource Availability of Individual FRV Stations with Divisions into Classes and Associated Equipment Types</p>
+    </div>
+
+    <div class="stationChartContainer">
+      <div id="barPlot"></div>
+      <div id="linePlot"></div>
+      <div id="donutChart"></div>
+      
+
+    <div id="spacer2"><p></p></div>
+
+    <div class="stationInfo">
+      <p class="paragraph" id="info1">
+        The low number of non-emergency incidents is the result of a conservative classification system. Public health and safety are ensured by assuming most incidents to be emergencies; however, this comes with a cost of resources and time.
+        <br><br>Observe that the average number of total incidents seen by a station in any district saw decreases in Q2 and Q3 of 2021. This is likely a direct result of the lockdowns that occurred due to COVID-19.
+        <br><br>The stations of Central have, on average, over 100 more incidents, in each quarter of 2021, than the stations of any other district. There is a proposed correlation between this increased rate and the population density of this district.
+        
+        </p>
+      <p class="paragraph" id="info2">
+        Only the Central and Eastern districts were able to consistently achieve average response times faster than 7.7 minutes, with the fastest response time achieved by the Eastern Hill Fire Station (Central) at 5.5 minutes. 
+        <br><br>It is noted that Central has a smaller area and a higher density of fire stations, which could account for its exceptional response times; however, as noted, it also has the largest number of incidences. 
+        <br><br>The Western districts are recognised to be much sparser areas and which is hypothesised to contribute to their much poorer response times - with Greenvale, of Western D2, having an average response time of 12.13 minutes in Q3 of 2021.
+        
+      </p>
+      <p class="paragraph" id="info3">
+        Richmond, from Central, is the most well-equipped service area in Metropolitan Melbourne, possessing nine different pods. These pods contain things such as breathing apparatus, HAZMAT suits, search and rescue tools and other specialised equipment.
+        Following closely behind are Eastern Hill and Port Melbourne, which are also both from Central, 
+        giving this district the resources to utilise its locality to respond to emergencies all across metropolitan Melbourne.
+        <br><br>Port Melbourne  also possess the FRV's only four fire boats, and so it responds to all emergency incidences 
+        that are classified as onshore or coastal.
+        <br><br>All districts, except for Northern and Southern D1 have at least one major fire station that has a resource count of five or more, but with possible cuts to funding, the other stations within these districts may not be able to
+         expand with increasing population, greatly hindering their ability to reach FRV response standards.
+        
+      </p>
+    </div>
+    <div id="spacer"><p></p></div>
+
+    <div id="fixedSelect">
+      <div id="customDropdowns">
+        <label id="districtSelector">District</label>
+  
       <select id="district" onchange="updateStationList(this.options[this.selectedIndex].value)">
         <option value="CENTRAL">Central</option>
         <option value="EASTERN">Eastern</option>
@@ -140,40 +207,37 @@
         <option value="WESTERN D1">Western D1</option>
         <option value="WESTERN D2">Western D2</option>
         <option value="WESTERN D3">Western D3</option>
-
+  
       </select> 
-
-      <label id="stationSelector">Choose a Station</label>
-
-      <select id="station" onchange="updateCharts(this.options[this.selectedIndex].value)">
-        <option value=1 >Eastern Hill</option>
-        <option value=3>Carlton</option>
-        <option value=4>Brunswick</option>
-        <option value=10>Richmond</option>
-        <option value=38>South Melbourne</option>
-        <option value=2>West Melbourne</option>
-        <option value=35>Windsor</option>
-        <option value=18>Hawthorn</option>
-        <option value=50>Ascot Vale</option>
-        <option value=39>Port Melbourne</option>
-        <option value=13>Northcote</option>
-      </select> 
+  
+  
+  
+  
+        <label id="stationSelector">Station</label>
+  
+        <select id="station" onchange="updateCharts(this.options[this.selectedIndex].value)">
+          <option value=1 >Eastern Hill</option>
+          <option value=3>Carlton</option>
+          <option value=4>Brunswick</option>
+          <option value=10>Richmond</option>
+          <option value=38>South Melbourne</option>
+          <option value=2>West Melbourne</option>
+          <option value=35>Windsor</option>
+          <option value=18>Hawthorn</option>
+          <option value=50>Ascot Vale</option>
+          <option value=39>Port Melbourne</option>
+          <option value=13>Northcote</option>
+        </select> 
+      </div>
 
     </div>
+    
+    
+
+
    
 
-    <div class="stationChartContainer">
-      <div style="color: red;" id="barPlot"></div>
-      <div style="color: green;" id="linePlot"></div>
-      <div style="color: blue;" id="donutChart"></div>
-    </div>
-
-
-    <footer style="width: 100%; height: auto;">
-    </footer>
-
-
-
+  </div>
 
 
   </div>

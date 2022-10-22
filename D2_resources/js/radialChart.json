@@ -1,6 +1,6 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "title": {"text": "Station Equipment Breakdown", "color": "white"},
+   
    "config":{
       "legend":{
          "disable":true
@@ -30,11 +30,12 @@
       {
          "mark":{
             "type":"arc",
-            "radius2":70,
-            "radius":120,
+            "radius2":100,
+            "radius":150,
             "stroke": "#161a1d",
             "strokeWidth": 10,
-            "cornerRadius": 10
+            "cornerRadius": 10,
+            "fillOpacity":0.8
          },
          "transform":[
             {
@@ -50,7 +51,7 @@
             "color":{
                "field":"type",
                "type":"nominal",
-               "scale":{"scheme":"greys", "type": "ordinal"}
+               "scale":{"scheme":"oranges", "type": "ordinal"}
             },
             "tooltip":[
               {
@@ -74,7 +75,7 @@
       {
          "mark":{
             "type":"text",
-            "radius":95,
+            "radius":125,
             "color":"#161a1d",
             "opacity":1
          },
@@ -85,13 +86,13 @@
               {
                "filter":"datum.perc != 0"
             },
-            {"calculate": "datum.perc + '%'", "as": "perLabel2"}
+            {"calculate": "datum.perc/100", "as": "perc2"}
          ],
          "encoding":{
            
             "text":{
-               "field":"perc",
-               "aggregate": "sum"
+               "field":"perc2",
+               "aggregate": "sum", "format":".1%","formatType": "number"
             },
         "detail": {"field": "type", "type": "nominal"}
          }
@@ -99,11 +100,12 @@
       {
          "mark":{
             "type":"arc",
-            "radius2":120,
-            "radius":170,
+            "radius2":150,
+            "radius":200,
             "stroke": "#161a1d",
             "strokeWidth": 10,
-            "cornerRadius": 10
+            "cornerRadius": 10,
+            "fillOpacity":0.8
          },
          "transform":[
             {
@@ -116,9 +118,10 @@
          ],
          "encoding":{
            
-            "color":{
+             "color":{
                "field":"type",
-               "type":"nominal"
+               "type":"nominal",
+               "scale":{"scheme":"reds", "type": "ordinal"}
             },
             "tooltip":[
               {
@@ -142,7 +145,7 @@
       {
          "mark":{
             "type":"text",
-            "radius":145,
+            "radius":175,
             "color":"white",
             "opacity": 1
          },
@@ -153,12 +156,12 @@
               {
                "filter":"datum.perc != 0"
             },
-            {"calculate": "datum.perc + '%'", "as": "perLabel2"}
+            {"calculate": "datum.perc/100", "as": "perc2"}
          ],
          "encoding":{
             "text":{
-               "field":"perc",
-               "aggregate": "sum"
+               "field":"perc2",
+               "aggregate": "sum", "format":".1%","formatType": "number"
             },
         "detail": {"field": "type", "type": "nominal"}
          }
@@ -166,5 +169,10 @@
    ],
    "view":{
       "stroke":null
+   },
+   "resolve":{
+      "scale":{
+         "color":"independent"
+      }
    }
 }

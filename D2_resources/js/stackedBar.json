@@ -1,11 +1,8 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "title":{
-      "text":"Number of Incidents per Quarter",
-      "color":"white"
-   },
-   "width":355,
-   "height":327,
+
+   "width":315,
+   "height":400,
    "background":"#161a1d",
    "config":{
       "padding":0,
@@ -32,11 +29,14 @@
             "type":"bar",
             "cornerRadiusTopLeft":10,
             "cornerRadiusTopRight":10,
-            "fillOpacity":0.75,
-            "strokeOpacity":0.5,
+            "cornerRadiusBottomLeft":10,
+            "cornerRadiusBottomRight":10,
+            "fillOpacity":0.1,
+            "strokeOpacity":0.75,
             "stroke":"white",
             "strokeWidth":2,
-            "width": 50
+            "width": 50,
+            "binSpacing": 0.1
          },
          "transform":[
             {
@@ -59,7 +59,7 @@
                "type":"ordinal",
                "axis":{"domain": false, "grid": false,
                   "labelColor":"white",
-                  "titleColor":"white", "labelAngle": 0
+                  "titleColor":"white", "labelAngle": 0, "tickOpacity":0, "title": null
                }
             },
             "y":{
@@ -71,7 +71,7 @@
                "field":"incType",
                "scale":{
                   "range":[
-                     "#ffc300",
+                     "#B7C4CF",
                      "#e63946"
                   ]
                }
@@ -97,10 +97,9 @@
          "mark":{
             "type":"tick",
             "interpolate":"linear",
-            "strokeOpacity":0.75,
+            "strokeOpacity":1,
             "strokeCap":"round",
-            "strokeWidth":7.5,
-            "width":50,
+            "width":60,
             "thickness": 5,
             "cornerRadius": 10
          },
@@ -134,8 +133,7 @@
                "field":"incType",
                "scale":{
                   "range":[
-                     "yellow",
-                     "red"
+                     "#850E35"
                   ]
                }
             },

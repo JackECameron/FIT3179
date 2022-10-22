@@ -200,7 +200,7 @@
         "latitude": {"field": "latitude", "type": "quantitative"},
         "size": {
          "legend":{
-            "title":"Equipment Quantity:",
+            "title":"Number of Resources:",
             "titleColor":"#ffffff",
             "orient":"none",
             "legendX":125,
@@ -217,7 +217,7 @@
           }
         },"description": {"field": "properties.AUTHORGID"},
         "tooltip": [{"field": "properties.AUTHORGID", "title": "Station Number"},{"field": "properties.NAME", "title": "Name"},
-        {"field": "grandTotal", "type": "quantitative", "title": "Vehicle and Equipment Store"}]
+        {"field": "grandTotal", "type": "quantitative", "title": "Number of Resources"}]
       }
             }
          ]

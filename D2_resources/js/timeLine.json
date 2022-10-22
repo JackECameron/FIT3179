@@ -1,12 +1,9 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "width":330,
-   "height":327,
+   "width":300,
+   "height":400,
    "padding":0,
-   "title":{
-      "text":"Average Station Response Time",
-      "color":"white"
-   },
+   
    "background":"#161a1d",
    "config":{
       "legend": {"disable": true},
@@ -26,11 +23,77 @@
    "data":{
       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_dif.csv"
    },
-   "layer":[
+   "layer":[ {
+         "transform":[{"calculate": "7.7", "as": "stand"}, {"filter": "datum.dis == 'datumLine'"}],
+         "mark":{
+            "type":"line",
+            "fillOpacity":0.8,
+            "strokeWidth":5,
+            "strokeCap":"round",
+            "color":"#9AD0EC"
+         },
+         "encoding":{
+           
+           "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":null
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":null
+               }
+            }
+         }
+      },
+      {
+         "transform":[{"calculate": "7.7", "as": "stand"}, {"filter": "datum.dis == 'datumLine'"}],
+         "mark":{
+            "type":"point",
+            "fillOpacity":0.8,
+            "strokeWidth":5,
+            "strokeCap":"round",
+            "color":"#9AD0EC"
+         },
+         "encoding":{
+           
+           "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "tooltip":[
+               {
+                  "field":"stand",
+                  "type":"quantitative",
+                  "title":"Standard Response Time"
+               }
+            ]
+         }
+      },
       {
          "mark":{
             "type":"line",
-            "fillOpacity":0.7,
+            "strokeOpacity":0.25,
             "strokeWidth":5,
             "strokeCap":"round"
          },
@@ -50,17 +113,22 @@
                   "labelColor":"white",
                   "titleColor":"white",
                   "title":"Financial Quarter",
-                  "labelAngle":0
+                  "tickOpacity":0,
+                  "labelAngle":0,
+                  "domainOpacity":0.25
                }
             },
             "y":{
                "field":"dif",
                "type":"quantitative",
-               "axis":{
+                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "title":"Average Response Time (min)",
-                  "domain":false
+                  "title":null,
+                  "tickOpacity":0,
+                  "labelAngle":0,
+                  "domain": false,
+                  "gridOpacity":0.25
                }
             },
             "color":{
@@ -77,7 +145,7 @@
       {
          "mark":{
             "type":"point",
-            "fillOpacity":0.7,
+            "strokeOpacity":0.25,
             "strokeWidth":5,
             "strokeCap":"round"
          },
@@ -117,7 +185,11 @@
                },
                "legend":null
             },
-            "tooltip":[
+            "tooltip":[ {
+                  "field":"servArea",
+                  "type":"nominal",
+                  "title":"Station"
+               },
                {
                   "field":"90Avg",
                   "type":"quantitative",
@@ -167,7 +239,7 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "red"
+                     "#E3BEC6"
                   ]
                },
                "legend":{
@@ -175,7 +247,7 @@
                   "titleColor":"white",
                   "labelColor":"white",
                   "orient":"none",
-                  "legendY":310,
+                  "legendY":0,
                   "legendX":125
                }
             }
@@ -216,12 +288,16 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "red"
+                     "#E3BEC6"
                   ]
                },
                "legend":null
             },
-            "tooltip":[
+            "tooltip":[ {
+                  "field":"servArea",
+                  "type":"nominal",
+                  "title":"Station"
+               },
                {
                   "field":"90Avg",
                   "type":"quantitative",
@@ -271,7 +347,7 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "yellow"
+                     "#850E35"
                   ]
                },
                "legend":{
@@ -279,7 +355,7 @@
                   "title":null,
                   "labelColor":"white",
                   "orient":"none",
-                  "legendY":310,
+                  "legendY":0,
                   "legendX":10
                }
             }
@@ -320,12 +396,16 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "yellow"
+                     "#850E35"
                   ]
                },
                 "legend":null
             },
-            "tooltip":[
+            "tooltip":[ {
+                  "field":"servArea",
+                  "type":"nominal",
+                  "title":"District"
+               },
                {
                   "field":"90Avg",
                   "type":"quantitative",
@@ -339,36 +419,40 @@
             ]
          }
       },
-      {
-         "data":{
-            "values":[
-               {
-                  
-               }
-            ]
-         },
-         "transform":[{"calculate": "7.7", "as": "stand"}],
+        {
          "mark":{
-            "type":"rule",
-            "fillOpacity":0.8,
-            "strokeWidth":5,
-            "strokeCap":"round",
-            "color":"green"
+            "type":"text",
+            "color":"white",
+            "dy": -15
          },
-         "encoding":{
-            "y":{
-               "datum":0,
-               "type":"quantitative"
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
             },
-            "tooltip":[
-               {
-                  "field":"stand",
-                  "type":"quantitative",
-                  "title":"Standard Response Time"
+            {
+               "filter":"datum.sNumber == var1"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
                }
-            ]
+            },
+            "y":{
+               "field":"dif",
+               "type":"quantitative",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },"text":{"field": "dif", "formatType": "number", "format": ".2"}
          }
       }
+        
    ],
    "resolve":{
       "scale":{

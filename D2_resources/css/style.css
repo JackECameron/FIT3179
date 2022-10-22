@@ -1,6 +1,7 @@
 
 body {
 	align-content: center;
+	text-align: center;
 	margin: auto;
 	max-width: 1200px;
 	background: #161a1d;
@@ -10,15 +11,15 @@ body {
 	position: absolute;
 	color: white;
 	text-align: left;
-	width: 100%;
+	width: 30%;
 	top:89%;
-	left:36%;
+	left:35%;
 	
 }
 
 .vega-bind {
 	float:left;
-	padding-right:1%;
+	padding-right:5%;
 }
 #hiddenUpdate {
 	visibility: hidden;
@@ -85,59 +86,96 @@ body {
 	padding-left: 5%
 }
 
+#cTitle1{
+	width: 26.5%;
+	padding-right: 5%;
+	float: left;
+}
+
+.chartTitles {
+	width: 100%;
+	font-size: 19.1px;
+	color: white;
+	text-align: justify;
+	
+}
+
+#cTitle2 {
+	width: 27%;
+	float: left;
+}
+
+#cTitle3 {
+	width: 36%;
+	padding-left: 5%;
+	float: left;
+}
+
+#cTitle01 {
+	width: 63%;
+	float: left;
+}
+
+#cTitle02 {
+	width: 37%;
+	float: left;
+}
+
 #chloro {
 	width: 100%;
 	text-align: center;
 	justify-content: center;
 	float: left;
-	padding-top:50px;
+	padding-top:25px;
 	padding-bottom:50px;
 
 }
 
 #donutChart {
-	width: 33%;
+	width: 37%;
 	text-align: right;
 	justify-content: right;
 	float: left; 
 	margin: 0;
-	padding-top:50px;
+	padding-top:2%;
+	padding-left:7.5%;
 
 }
 
 #barPlot {
-	width: 33%;
+	width: 26%;
 	text-align: left;
 	justify-content: left;
 	float: left;
 	margin: 0;
-	padding-top:50px;
+	padding-top: 50px;
 
 }
 
 #linePlot {
-	width: 33%;
+	width: 30%;
 	text-align: center;
 	justify-content: center;
 	float: left;
 	margin: 0;
 	margin-right: 0.5%;
 	margin-left: 0.5%;
-	padding-top:50px;
+	padding-top: 50px;
+	padding-left: 5%;
 
 }
 
 #info1{
-	width: 30%;
+	width: 26.5%;
 	padding-right: 5%;
 }
 
 #info2 {
-	width: 30%;
+	width: 27%;
 }
 
 #info3 {
-	width: 30%;
+	width: 36%;
 	padding-left: 5%
 }
 
@@ -148,12 +186,32 @@ body {
 #bigStat{
 	font-weight: bolder;
 	font-size: 50px;
-	color: white;
+	color: #9AD0EC;
 	text-align: center;
 	align-content: center;
 	display: block;
 }
 
 #customDropdowns {
+	width: 38%;
+	position:absolute;
+	top:-70px;
+	left:62.6%;
+	color: white;
+}
+
+
+#spacer2{
+	width: 100%;
+	height:20px;
+	display: inline-block;
+}
+
+#stationSelector {
+	padding-left: 20.75%;
+}
+
+#fixedSelect{
+	position: relative;
 	width: 100%;
 }
