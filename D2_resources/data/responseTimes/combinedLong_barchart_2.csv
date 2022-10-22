@@ -1,1141 +1,1141 @@
 description,dis,sNumber,sTag,servArea,incType,numInc,numStand,perMet,90Avg,q,rank,rankQ4
 Non-Emergency Incident,CENTRAL,11,agr,CENTRAL,nonInc,14,296,93.06,7.13,1,1,1
 Emergency Incident,CENTRAL,11,agr,CENTRAL,emInc,317,296,93.06,7.13,1,1,1
-Incident Total,CENTRAL,11,agr,CENTRAL,totInc,331,296,93.06,7.13,1,1,1
+District Total Incidents Average,CENTRAL,11,agr,CENTRAL,totInc,331,296,93.06,7.13,1,1,1
 Non-Emergency Incident,EASTERN,11,agr,EASTERN,nonInc,15,106,92.18,7.65,1,2,2
 Emergency Incident,EASTERN,11,agr,EASTERN,emInc,114,106,92.18,7.65,1,2,2
-Incident Total,EASTERN,11,agr,EASTERN,totInc,129,106,92.18,7.65,1,2,2
+District Total Incidents Average,EASTERN,11,agr,EASTERN,totInc,129,106,92.18,7.65,1,2,2
 Non-Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,nonInc,7,96,90.82,7.5,1,3,4
 Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,emInc,106,96,90.82,7.5,1,3,4
-Incident Total,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,113,96,90.82,7.5,1,3,4
+District Total Incidents Average,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,113,96,90.82,7.5,1,3,4
 Non-Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,nonInc,4,78,89.92,7.67,1,4,5
 Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,emInc,88,78,89.92,7.67,1,4,5
-Incident Total,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,92,78,89.92,7.67,1,4,5
+District Total Incidents Average,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,92,78,89.92,7.67,1,4,5
 Non-Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,nonInc,14,151,88.51,7.84,1,5,3
 Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,emInc,172,151,88.51,7.84,1,5,3
-Incident Total,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,186,151,88.51,7.84,1,5,3
+District Total Incidents Average,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,186,151,88.51,7.84,1,5,3
 Non-Emergency Incident,NORTHERN,11,agr,NORTHERN,nonInc,14,131,88.17,8.12,1,6,7
 Emergency Incident,NORTHERN,11,agr,NORTHERN,emInc,147,131,88.17,8.12,1,6,7
-Incident Total,NORTHERN,11,agr,NORTHERN,totInc,161,131,88.17,8.12,1,6,7
+District Total Incidents Average,NORTHERN,11,agr,NORTHERN,totInc,161,131,88.17,8.12,1,6,7
 Non-Emergency Incident,WESTERN D3,5,agr,WESTERN D3,nonInc,6,108,84.6,8.14,1,7,6
 Emergency Incident,WESTERN D3,5,agr,WESTERN D3,emInc,125,108,84.6,8.14,1,7,6
-Incident Total,WESTERN D3,5,agr,WESTERN D3,totInc,131,108,84.6,8.14,1,7,6
+District Total Incidents Average,WESTERN D3,5,agr,WESTERN D3,totInc,131,108,84.6,8.14,1,7,6
 Non-Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,nonInc,10,135,81.09,8.72,1,8,8
 Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,emInc,167,135,81.09,8.72,1,8,8
-Incident Total,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,177,135,81.09,8.72,1,8,8
+District Total Incidents Average,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,177,135,81.09,8.72,1,8,8
 Non-Emergency Incident,WESTERN D1,9,agr,WESTERN D1,nonInc,7,93,79.57,8.78,1,9,10
 Emergency Incident,WESTERN D1,9,agr,WESTERN D1,emInc,117,93,79.57,8.78,1,9,10
-Incident Total,WESTERN D1,9,agr,WESTERN D1,totInc,124,93,79.57,8.78,1,9,10
+District Total Incidents Average,WESTERN D1,9,agr,WESTERN D1,totInc,124,93,79.57,8.78,1,9,10
 Non-Emergency Incident,WESTERN D2,10,agr,WESTERN D2,nonInc,8,97,78.99,9.06,1,10,9
 Emergency Incident,WESTERN D2,10,agr,WESTERN D2,emInc,122,97,78.99,9.06,1,10,9
-Incident Total,WESTERN D2,10,agr,WESTERN D2,totInc,130,97,78.99,9.06,1,10,9
+District Total Incidents Average,WESTERN D2,10,agr,WESTERN D2,totInc,130,97,78.99,9.06,1,10,9
 Non-Emergency Incident,CENTRAL,11,agr,CENTRAL,nonInc,28,246,91.77,7.28,2,1,1
 Emergency Incident,CENTRAL,11,agr,CENTRAL,emInc,265,246,91.77,7.28,2,1,1
-Incident Total,CENTRAL,11,agr,CENTRAL,totInc,293,246,91.77,7.28,2,1,1
+District Total Incidents Average,CENTRAL,11,agr,CENTRAL,totInc,293,246,91.77,7.28,2,1,1
 Non-Emergency Incident,EASTERN,11,agr,EASTERN,nonInc,24,89,89.69,7.65,2,2,2
 Emergency Incident,EASTERN,11,agr,EASTERN,emInc,98,89,89.69,7.65,2,2,2
-Incident Total,EASTERN,11,agr,EASTERN,totInc,122,89,89.69,7.65,2,2,2
+District Total Incidents Average,EASTERN,11,agr,EASTERN,totInc,122,89,89.69,7.65,2,2,2
 Non-Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,nonInc,5,76,87.35,7.95,2,3,5
 Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,emInc,88,76,87.35,7.95,2,3,5
-Incident Total,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,93,76,87.35,7.95,2,3,5
+District Total Incidents Average,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,93,76,87.35,7.95,2,3,5
 Non-Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,nonInc,31,125,86.99,8.03,2,4,3
 Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,emInc,145,125,86.99,8.03,2,4,3
-Incident Total,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,176,125,86.99,8.03,2,4,3
+District Total Incidents Average,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,176,125,86.99,8.03,2,4,3
 Non-Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,nonInc,7,77,86.73,7.98,2,5,4
 Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,emInc,88,77,86.73,7.98,2,5,4
-Incident Total,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,95,77,86.73,7.98,2,5,4
+District Total Incidents Average,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,95,77,86.73,7.98,2,5,4
 Non-Emergency Incident,NORTHERN,11,agr,NORTHERN,nonInc,23,106,86.59,8.19,2,6,7
 Emergency Incident,NORTHERN,11,agr,NORTHERN,emInc,122,106,86.59,8.19,2,6,7
-Incident Total,NORTHERN,11,agr,NORTHERN,totInc,145,106,86.59,8.19,2,6,7
+District Total Incidents Average,NORTHERN,11,agr,NORTHERN,totInc,145,106,86.59,8.19,2,6,7
 Non-Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,nonInc,25,109,84.96,8.44,2,7,8
 Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,emInc,128,109,84.96,8.44,2,7,8
-Incident Total,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,153,109,84.96,8.44,2,7,8
+District Total Incidents Average,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,153,109,84.96,8.44,2,7,8
 Non-Emergency Incident,WESTERN D3,5,agr,WESTERN D3,nonInc,15,88,82.64,8.18,2,8,6
 Emergency Incident,WESTERN D3,5,agr,WESTERN D3,emInc,103,88,82.64,8.18,2,8,6
-Incident Total,WESTERN D3,5,agr,WESTERN D3,totInc,118,88,82.64,8.18,2,8,6
+District Total Incidents Average,WESTERN D3,5,agr,WESTERN D3,totInc,118,88,82.64,8.18,2,8,6
 Non-Emergency Incident,WESTERN D1,9,agr,WESTERN D1,nonInc,17,78,79.82,8.68,2,9,10
 Emergency Incident,WESTERN D1,9,agr,WESTERN D1,emInc,98,78,79.82,8.68,2,9,10
-Incident Total,WESTERN D1,9,agr,WESTERN D1,totInc,115,78,79.82,8.68,2,9,10
+District Total Incidents Average,WESTERN D1,9,agr,WESTERN D1,totInc,115,78,79.82,8.68,2,9,10
 Non-Emergency Incident,WESTERN D2,10,agr,WESTERN D2,nonInc,23,82,78.11,8.88,2,10,9
 Emergency Incident,WESTERN D2,10,agr,WESTERN D2,emInc,105,82,78.11,8.88,2,10,9
-Incident Total,WESTERN D2,10,agr,WESTERN D2,totInc,128,82,78.11,8.88,2,10,9
+District Total Incidents Average,WESTERN D2,10,agr,WESTERN D2,totInc,128,82,78.11,8.88,2,10,9
 Non-Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,nonInc,7,72,93.25,7.3,3,1,4
 Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,emInc,78,72,93.25,7.3,3,1,4
-Incident Total,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,85,72,93.25,7.3,3,1,4
+District Total Incidents Average,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,85,72,93.25,7.3,3,1,4
 Non-Emergency Incident,CENTRAL,11,agr,CENTRAL,nonInc,24,232,92.96,6.99,3,2,1
 Emergency Incident,CENTRAL,11,agr,CENTRAL,emInc,247,232,92.96,6.99,3,2,1
-Incident Total,CENTRAL,11,agr,CENTRAL,totInc,271,232,92.96,6.99,3,2,1
+District Total Incidents Average,CENTRAL,11,agr,CENTRAL,totInc,271,232,92.96,6.99,3,2,1
 Non-Emergency Incident,NORTHERN,11,agr,NORTHERN,nonInc,21,95,89.37,7.97,3,3,7
 Emergency Incident,NORTHERN,11,agr,NORTHERN,emInc,107,95,89.37,7.97,3,3,7
-Incident Total,NORTHERN,11,agr,NORTHERN,totInc,128,95,89.37,7.97,3,3,7
+District Total Incidents Average,NORTHERN,11,agr,NORTHERN,totInc,128,95,89.37,7.97,3,3,7
 Non-Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,nonInc,7,67,88.55,7.77,3,4,5
 Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,emInc,76,67,88.55,7.77,3,4,5
-Incident Total,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,83,67,88.55,7.77,3,4,5
+District Total Incidents Average,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,83,67,88.55,7.77,3,4,5
 Non-Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,nonInc,25,112,88.06,7.96,3,5,3
 Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,emInc,128,112,88.06,7.96,3,5,3
-Incident Total,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,153,112,88.06,7.96,3,5,3
+District Total Incidents Average,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,153,112,88.06,7.96,3,5,3
 Non-Emergency Incident,EASTERN,11,agr,EASTERN,nonInc,15,79,86.81,8.01,3,6,2
 Emergency Incident,EASTERN,11,agr,EASTERN,emInc,89,79,86.81,8.01,3,6,2
-Incident Total,EASTERN,11,agr,EASTERN,totInc,104,79,86.81,8.01,3,6,2
+District Total Incidents Average,EASTERN,11,agr,EASTERN,totInc,104,79,86.81,8.01,3,6,2
 Non-Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,nonInc,27,97,86.01,8.28,3,7,8
 Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,emInc,113,97,86.01,8.28,3,7,8
-Incident Total,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,140,97,86.01,8.28,3,7,8
+District Total Incidents Average,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,140,97,86.01,8.28,3,7,8
 Non-Emergency Incident,WESTERN D1,8,agr,WESTERN D1,nonInc,19,81,82.65,8.45,3,8,10
 Emergency Incident,WESTERN D1,8,agr,WESTERN D1,emInc,97,81,82.65,8.45,3,8,10
-Incident Total,WESTERN D1,8,agr,WESTERN D1,totInc,116,81,82.65,8.45,3,8,10
+District Total Incidents Average,WESTERN D1,8,agr,WESTERN D1,totInc,116,81,82.65,8.45,3,8,10
 Non-Emergency Incident,WESTERN D3,5,agr,WESTERN D3,nonInc,15,77,82.26,7.91,3,9,6
 Emergency Incident,WESTERN D3,5,agr,WESTERN D3,emInc,90,77,82.26,7.91,3,9,6
-Incident Total,WESTERN D3,5,agr,WESTERN D3,totInc,105,77,82.26,7.91,3,9,6
+District Total Incidents Average,WESTERN D3,5,agr,WESTERN D3,totInc,105,77,82.26,7.91,3,9,6
 Non-Emergency Incident,WESTERN D2,10,agr,WESTERN D2,nonInc,20,81,80.69,8.89,3,10,9
 Emergency Incident,WESTERN D2,10,agr,WESTERN D2,emInc,100,81,80.69,8.89,3,10,9
-Incident Total,WESTERN D2,10,agr,WESTERN D2,totInc,120,81,80.69,8.89,3,10,9
+District Total Incidents Average,WESTERN D2,10,agr,WESTERN D2,totInc,120,81,80.69,8.89,3,10,9
 Non-Emergency Incident,CENTRAL,11,agr,CENTRAL,nonInc,32,260,90.7,7.39,4,1,1
 Emergency Incident,CENTRAL,11,agr,CENTRAL,emInc,284,260,90.7,7.39,4,1,1
-Incident Total,CENTRAL,11,agr,CENTRAL,totInc,316,260,90.7,7.39,4,1,1
+District Total Incidents Average,CENTRAL,11,agr,CENTRAL,totInc,316,260,90.7,7.39,4,1,1
 Non-Emergency Incident,EASTERN,11,agr,EASTERN,nonInc,30,94,89.46,7.7,4,2,2
 Emergency Incident,EASTERN,11,agr,EASTERN,emInc,104,94,89.46,7.7,4,2,2
-Incident Total,EASTERN,11,agr,EASTERN,totInc,134,94,89.46,7.7,4,2,2
+District Total Incidents Average,EASTERN,11,agr,EASTERN,totInc,134,94,89.46,7.7,4,2,2
 Non-Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,nonInc,36,134,86.89,8.02,4,3,3
 Emergency Incident,SOUTHERN D1,9,agr,SOUTHERN D1,emInc,156,134,86.89,8.02,4,3,3
-Incident Total,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,192,134,86.89,8.02,4,3,3
+District Total Incidents Average,SOUTHERN D1,9,agr,SOUTHERN D1,totInc,192,134,86.89,8.02,4,3,3
 Non-Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,nonInc,13,79,86.47,7.98,4,4,4
 Emergency Incident,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,emInc,93,79,86.47,7.98,4,4,4
-Incident Total,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,106,79,86.47,7.98,4,4,4
+District Total Incidents Average,NORTH & WEST REGIONAL,6,agr,NORTH & WEST REGIONAL,totInc,106,79,86.47,7.98,4,4,4
 Non-Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,nonInc,9,73,86.43,8.09,4,5,5
 Emergency Incident,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,emInc,84,73,86.43,8.09,4,5,5
-Incident Total,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,93,73,86.43,8.09,4,5,5
+District Total Incidents Average,SOUTH & EAST REGIONAL,6,agr,SOUTH & EAST REGIONAL,totInc,93,73,86.43,8.09,4,5,5
 Non-Emergency Incident,WESTERN D3,5,agr,WESTERN D3,nonInc,21,86,86.38,7.83,4,6,6
 Emergency Incident,WESTERN D3,5,agr,WESTERN D3,emInc,100,86,86.38,7.83,4,6,6
-Incident Total,WESTERN D3,5,agr,WESTERN D3,totInc,121,86,86.38,7.83,4,6,6
+District Total Incidents Average,WESTERN D3,5,agr,WESTERN D3,totInc,121,86,86.38,7.83,4,6,6
 Non-Emergency Incident,NORTHERN,11,agr,NORTHERN,nonInc,33,113,86.18,8.19,4,7,7
 Emergency Incident,NORTHERN,11,agr,NORTHERN,emInc,132,113,86.18,8.19,4,7,7
-Incident Total,NORTHERN,11,agr,NORTHERN,totInc,165,113,86.18,8.19,4,7,7
+District Total Incidents Average,NORTHERN,11,agr,NORTHERN,totInc,165,113,86.18,8.19,4,7,7
 Non-Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,nonInc,33,117,85.21,8.63,4,8,8
 Emergency Incident,SOUTHERN D2,8,agr,SOUTHERN D2,emInc,138,117,85.21,8.63,4,8,8
-Incident Total,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,171,117,85.21,8.63,4,8,8
+District Total Incidents Average,SOUTHERN D2,8,agr,SOUTHERN D2,totInc,171,117,85.21,8.63,4,8,8
 Non-Emergency Incident,WESTERN D2,10,agr,WESTERN D2,nonInc,28,93,79.46,9,4,9,9
 Emergency Incident,WESTERN D2,10,agr,WESTERN D2,emInc,117,93,79.46,9,4,9,9
-Incident Total,WESTERN D2,10,agr,WESTERN D2,totInc,145,93,79.46,9,4,9,9
+District Total Incidents Average,WESTERN D2,10,agr,WESTERN D2,totInc,145,93,79.46,9,4,9,9
 Non-Emergency Incident,WESTERN D1,8,agr,WESTERN D1,nonInc,27,97,77.96,9.05,4,10,10
 Emergency Incident,WESTERN D1,8,agr,WESTERN D1,emInc,125,97,77.96,9.05,4,10,10
-Incident Total,WESTERN D1,8,agr,WESTERN D1,totInc,152,97,77.96,9.05,4,10,10
+District Total Incidents Average,WESTERN D1,8,agr,WESTERN D1,totInc,152,97,77.96,9.05,4,10,10
 Non-Emergency Incident,CENTRAL,1,FS1,Eastern Hill,nonInc,14,339,98,5.7,1,1,2
 Emergency Incident,CENTRAL,1,FS1,Eastern Hill,emInc,346,339,98,5.7,1,1,2
-Incident Total,CENTRAL,1,FS1,Eastern Hill,totInc,360,339,98,5.7,1,1,2
+District Total Incidents Average,CENTRAL,1,FS1,Eastern Hill,totInc,360,339,98,5.7,1,1,2
 Non-Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,nonInc,1,50,98,6.7,1,2,15
 Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,emInc,51,50,98,6.7,1,2,15
-Incident Total,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,52,50,98,6.7,1,2,15
+District Total Incidents Average,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,52,50,98,6.7,1,2,15
 Non-Emergency Incident,EASTERN,85,FS85,Boronia,nonInc,15,95,97.9,7,1,3,28
 Emergency Incident,EASTERN,85,FS85,Boronia,emInc,97,95,97.9,7,1,3,28
-Incident Total,EASTERN,85,FS85,Boronia,totInc,112,95,97.9,7,1,3,28
+District Total Incidents Average,EASTERN,85,FS85,Boronia,totInc,112,95,97.9,7,1,3,28
 Non-Emergency Incident,CENTRAL,3,FS3,Carlton,nonInc,1,328,96.5,6.4,1,4,3
 Emergency Incident,CENTRAL,3,FS3,Carlton,emInc,340,328,96.5,6.4,1,4,3
-Incident Total,CENTRAL,3,FS3,Carlton,totInc,341,328,96.5,6.4,1,4,3
+District Total Incidents Average,CENTRAL,3,FS3,Carlton,totInc,341,328,96.5,6.4,1,4,3
 Non-Emergency Incident,NORTHERN,12,FS12,Preston,nonInc,24,193,96.5,7.3,1,5,12
 Emergency Incident,NORTHERN,12,FS12,Preston,emInc,200,193,96.5,7.3,1,5,12
-Incident Total,NORTHERN,12,FS12,Preston,totInc,224,193,96.5,7.3,1,5,12
+District Total Incidents Average,NORTHERN,12,FS12,Preston,totInc,224,193,96.5,7.3,1,5,12
 Non-Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,nonInc,5,120,96,6.2,1,6,4
 Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,emInc,125,120,96,6.2,1,6,4
-Incident Total,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,130,120,96,6.2,1,6,4
+District Total Incidents Average,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,130,120,96,6.2,1,6,4
 Non-Emergency Incident,CENTRAL,4,FS4,Brunswick,nonInc,15,207,95.8,6.8,1,7,17
 Emergency Incident,CENTRAL,4,FS4,Brunswick,emInc,216,207,95.8,6.8,1,7,17
-Incident Total,CENTRAL,4,FS4,Brunswick,totInc,231,207,95.8,6.8,1,7,17
+District Total Incidents Average,CENTRAL,4,FS4,Brunswick,totInc,231,207,95.8,6.8,1,7,17
 Non-Emergency Incident,CENTRAL,10,FS10,Richmond,nonInc,10,334,95.7,6.5,1,8,16
 Emergency Incident,CENTRAL,10,FS10,Richmond,emInc,349,334,95.7,6.5,1,8,16
-Incident Total,CENTRAL,10,FS10,Richmond,totInc,359,334,95.7,6.5,1,8,16
+District Total Incidents Average,CENTRAL,10,FS10,Richmond,totInc,359,334,95.7,6.5,1,8,16
 Non-Emergency Incident,EASTERN,28,FS28,Vermont South,nonInc,15,134,95.7,7.1,1,9,19
 Emergency Incident,EASTERN,28,FS28,Vermont South,emInc,140,134,95.7,7.1,1,9,19
-Incident Total,EASTERN,28,FS28,Vermont South,totInc,155,134,95.7,7.1,1,9,19
+District Total Incidents Average,EASTERN,28,FS28,Vermont South,totInc,155,134,95.7,7.1,1,9,19
 Non-Emergency Incident,SOUTHERN D1,86,FS86,Rowville,nonInc,1,65,95.6,6.7,1,10,21
 Emergency Incident,SOUTHERN D1,86,FS86,Rowville,emInc,68,65,95.6,6.7,1,10,21
-Incident Total,SOUTHERN D1,86,FS86,Rowville,totInc,69,65,95.6,6.7,1,10,21
+District Total Incidents Average,SOUTHERN D1,86,FS86,Rowville,totInc,69,65,95.6,6.7,1,10,21
 Non-Emergency Incident,EASTERN,20,FS20,Box Hill,nonInc,27,168,95.5,7,1,11,10
 Emergency Incident,EASTERN,20,FS20,Box Hill,emInc,176,168,95.5,7,1,11,10
-Incident Total,EASTERN,20,FS20,Box Hill,totInc,203,168,95.5,7,1,11,10
+District Total Incidents Average,EASTERN,20,FS20,Box Hill,totInc,203,168,95.5,7,1,11,10
 Non-Emergency Incident,CENTRAL,38,FS38,South Melbourne,nonInc,13,432,95.2,6.6,1,12,14
 Emergency Incident,CENTRAL,38,FS38,South Melbourne,emInc,454,432,95.2,6.6,1,12,14
-Incident Total,CENTRAL,38,FS38,South Melbourne,totInc,467,432,95.2,6.6,1,12,14
+District Total Incidents Average,CENTRAL,38,FS38,South Melbourne,totInc,467,432,95.2,6.6,1,12,14
 Non-Emergency Incident,CENTRAL,2,FS2,West Melbourne,nonInc,6,343,95,6.8,1,13,7
 Emergency Incident,CENTRAL,2,FS2,West Melbourne,emInc,361,343,95,6.8,1,13,7
-Incident Total,CENTRAL,2,FS2,West Melbourne,totInc,367,343,95,6.8,1,13,7
+District Total Incidents Average,CENTRAL,2,FS2,West Melbourne,totInc,367,343,95,6.8,1,13,7
 Non-Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,nonInc,1,19,95,6.1,1,14,1
 Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,emInc,20,19,95,6.1,1,14,1
-Incident Total,WESTERN D3,66,FS66,Ocean Grove,totInc,21,19,95,6.1,1,14,1
+District Total Incidents Average,WESTERN D3,66,FS66,Ocean Grove,totInc,21,19,95,6.1,1,14,1
 Non-Emergency Incident,EASTERN,22,FS22,Ringwood,nonInc,11,131,94.9,7.2,1,15,22
 Emergency Incident,EASTERN,22,FS22,Ringwood,emInc,138,131,94.9,7.2,1,15,22
-Incident Total,EASTERN,22,FS22,Ringwood,totInc,149,131,94.9,7.2,1,15,22
+District Total Incidents Average,EASTERN,22,FS22,Ringwood,totInc,149,131,94.9,7.2,1,15,22
 Non-Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,nonInc,23,146,94.8,7.3,1,16,29
 Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,emInc,154,146,94.8,7.3,1,16,29
-Incident Total,SOUTHERN D1,25,FS25,Oakleigh,totInc,177,146,94.8,7.3,1,16,29
+District Total Incidents Average,SOUTHERN D1,25,FS25,Oakleigh,totInc,177,146,94.8,7.3,1,16,29
 Non-Emergency Incident,SOUTHERN D2,94,FS94,Mornington,nonInc,8,72,94.7,7.3,1,17,25
 Emergency Incident,SOUTHERN D2,94,FS94,Mornington,emInc,76,72,94.7,7.3,1,17,25
-Incident Total,SOUTHERN D2,94,FS94,Mornington,totInc,84,72,94.7,7.3,1,17,25
+District Total Incidents Average,SOUTHERN D2,94,FS94,Mornington,totInc,84,72,94.7,7.3,1,17,25
 Non-Emergency Incident,EASTERN,26,FS26,Croydon,nonInc,19,118,94.4,7.3,1,18,11
 Emergency Incident,EASTERN,26,FS26,Croydon,emInc,125,118,94.4,7.3,1,18,11
-Incident Total,EASTERN,26,FS26,Croydon,totInc,144,118,94.4,7.3,1,18,11
+District Total Incidents Average,EASTERN,26,FS26,Croydon,totInc,144,118,94.4,7.3,1,18,11
 Non-Emergency Incident,WESTERN D2,44,FS44,Sunshine,nonInc,13,193,94.1,7.3,1,19,24
 Emergency Incident,WESTERN D2,44,FS44,Sunshine,emInc,205,193,94.1,7.3,1,19,24
-Incident Total,WESTERN D2,44,FS44,Sunshine,totInc,218,193,94.1,7.3,1,19,24
+District Total Incidents Average,WESTERN D2,44,FS44,Sunshine,totInc,218,193,94.1,7.3,1,19,24
 Non-Emergency Incident,WESTERN D1,42,FS42,Newport,nonInc,7,74,93.7,7.5,1,20,43
 Emergency Incident,WESTERN D1,42,FS42,Newport,emInc,79,74,93.7,7.5,1,20,43
-Incident Total,WESTERN D1,42,FS42,Newport,totInc,86,74,93.7,7.5,1,20,43
+District Total Incidents Average,WESTERN D1,42,FS42,Newport,totInc,86,74,93.7,7.5,1,20,43
 Non-Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,nonInc,12,177,93.7,7.4,1,21,65
 Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,emInc,189,177,93.7,7.4,1,21,65
-Incident Total,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,201,177,93.7,7.4,1,21,65
+District Total Incidents Average,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,201,177,93.7,7.4,1,21,65
 Non-Emergency Incident,NORTHERN,14,FS14,Bundoora,nonInc,9,170,93.4,7.4,1,22,46
 Emergency Incident,NORTHERN,14,FS14,Bundoora,emInc,182,170,93.4,7.4,1,22,46
-Incident Total,NORTHERN,14,FS14,Bundoora,totInc,191,170,93.4,7.4,1,22,46
+District Total Incidents Average,NORTHERN,14,FS14,Bundoora,totInc,191,170,93.4,7.4,1,22,46
 Non-Emergency Incident,WESTERN D1,47,FS47,Footscray,nonInc,16,173,93,7.5,1,23,35
 Emergency Incident,WESTERN D1,47,FS47,Footscray,emInc,186,173,93,7.5,1,23,35
-Incident Total,WESTERN D1,47,FS47,Footscray,totInc,202,173,93,7.5,1,23,35
+District Total Incidents Average,WESTERN D1,47,FS47,Footscray,totInc,202,173,93,7.5,1,23,35
 Non-Emergency Incident,NORTHERN,7,FS7,Thomastown,nonInc,19,124,92.5,7.7,1,24,45
 Emergency Incident,NORTHERN,7,FS7,Thomastown,emInc,134,124,92.5,7.7,1,24,45
-Incident Total,NORTHERN,7,FS7,Thomastown,totInc,153,124,92.5,7.7,1,24,45
+District Total Incidents Average,NORTHERN,7,FS7,Thomastown,totInc,153,124,92.5,7.7,1,24,45
 Non-Emergency Incident,EASTERN,23,FS23,Burwood,nonInc,21,142,92.2,7.6,1,25,5
 Emergency Incident,EASTERN,23,FS23,Burwood,emInc,154,142,92.2,7.6,1,25,5
-Incident Total,EASTERN,23,FS23,Burwood,totInc,175,142,92.2,7.6,1,25,5
+District Total Incidents Average,EASTERN,23,FS23,Burwood,totInc,175,142,92.2,7.6,1,25,5
 Non-Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,nonInc,4,82,92.1,7.1,1,26,52
 Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,emInc,89,82,92.1,7.1,1,26,52
-Incident Total,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,93,82,92.1,7.1,1,26,52
+District Total Incidents Average,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,93,82,92.1,7.1,1,26,52
 Non-Emergency Incident,NORTHERN,15,FS15,Heidelberg,nonInc,25,200,91.7,7.5,1,27,42
 Emergency Incident,NORTHERN,15,FS15,Heidelberg,emInc,218,200,91.7,7.5,1,27,42
-Incident Total,NORTHERN,15,FS15,Heidelberg,totInc,243,200,91.7,7.5,1,27,42
+District Total Incidents Average,NORTHERN,15,FS15,Heidelberg,totInc,243,200,91.7,7.5,1,27,42
 Non-Emergency Incident,WESTERN D3,64,FS64,Belmont,nonInc,6,100,91.7,7.5,1,28,27
 Emergency Incident,WESTERN D3,64,FS64,Belmont,emInc,109,100,91.7,7.5,1,28,27
-Incident Total,WESTERN D3,64,FS64,Belmont,totInc,115,100,91.7,7.5,1,28,27
+District Total Incidents Average,WESTERN D3,64,FS64,Belmont,totInc,115,100,91.7,7.5,1,28,27
 Non-Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,nonInc,1,65,91.5,6.7,1,29,38
 Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,emInc,71,65,91.5,6.7,1,29,38
-Incident Total,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,72,65,91.5,6.7,1,29,38
+District Total Incidents Average,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,72,65,91.5,6.7,1,29,38
 Non-Emergency Incident,WESTERN D3,63,FS63,Geelong City,nonInc,9,203,91.4,7.7,1,30,9
 Emergency Incident,WESTERN D3,63,FS63,Geelong City,emInc,222,203,91.4,7.7,1,30,9
-Incident Total,WESTERN D3,63,FS63,Geelong City,totInc,231,203,91.4,7.7,1,30,9
+District Total Incidents Average,WESTERN D3,63,FS63,Geelong City,totInc,231,203,91.4,7.7,1,30,9
 Non-Emergency Incident,CENTRAL,35,FS35,Windsor,nonInc,36,546,91.3,7.6,1,31,34
 Emergency Incident,CENTRAL,35,FS35,Windsor,emInc,598,546,91.3,7.6,1,31,34
-Incident Total,CENTRAL,35,FS35,Windsor,totInc,634,546,91.3,7.6,1,31,34
+District Total Incidents Average,CENTRAL,35,FS35,Windsor,totInc,634,546,91.3,7.6,1,31,34
 Non-Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,nonInc,5,40,90.9,7.6,1,32,50
 Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,emInc,44,40,90.9,7.6,1,32,50
-Incident Total,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,49,40,90.9,7.6,1,32,50
+District Total Incidents Average,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,49,40,90.9,7.6,1,32,50
 Non-Emergency Incident,SOUTHERN D1,33,FS33,Mentone,nonInc,19,129,90.2,8,1,33,37
 Emergency Incident,SOUTHERN D1,33,FS33,Mentone,emInc,143,129,90.2,8,1,33,37
-Incident Total,SOUTHERN D1,33,FS33,Mentone,totInc,162,129,90.2,8,1,33,37
+District Total Incidents Average,SOUTHERN D1,33,FS33,Mentone,totInc,162,129,90.2,8,1,33,37
 Non-Emergency Incident,EASTERN,19,FS19,North Balwyn,nonInc,20,109,90.1,7.7,1,34,61
 Emergency Incident,EASTERN,19,FS19,North Balwyn,emInc,121,109,90.1,7.7,1,34,61
-Incident Total,EASTERN,19,FS19,North Balwyn,totInc,141,109,90.1,7.7,1,34,61
+District Total Incidents Average,EASTERN,19,FS19,North Balwyn,totInc,141,109,90.1,7.7,1,34,61
 Non-Emergency Incident,SOUTHERN D1,32,FS32,Ormond,nonInc,14,185,89.8,7.8,1,35,62
 Emergency Incident,SOUTHERN D1,32,FS32,Ormond,emInc,206,185,89.8,7.8,1,35,62
-Incident Total,SOUTHERN D1,32,FS32,Ormond,totInc,220,185,89.8,7.8,1,35,62
+District Total Incidents Average,SOUTHERN D1,32,FS32,Ormond,totInc,220,185,89.8,7.8,1,35,62
 Non-Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,nonInc,3,26,89.7,7.6,1,36,51
 Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,emInc,29,26,89.7,7.6,1,36,51
-Incident Total,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,32,26,89.7,7.6,1,36,51
+District Total Incidents Average,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,32,26,89.7,7.6,1,36,51
 Non-Emergency Incident,EASTERN,84,FS84,South Warrandyte,nonInc,4,17,89.5,8.9,1,37,70
 Emergency Incident,EASTERN,84,FS84,South Warrandyte,emInc,19,17,89.5,8.9,1,37,70
-Incident Total,EASTERN,84,FS84,South Warrandyte,totInc,23,17,89.5,8.9,1,37,70
+District Total Incidents Average,EASTERN,84,FS84,South Warrandyte,totInc,23,17,89.5,8.9,1,37,70
 Non-Emergency Incident,CENTRAL,18,FS18,Hawthorn,nonInc,23,218,89.3,7.9,1,38,47
 Emergency Incident,CENTRAL,18,FS18,Hawthorn,emInc,244,218,89.3,7.9,1,38,47
-Incident Total,CENTRAL,18,FS18,Hawthorn,totInc,267,218,89.3,7.9,1,38,47
+District Total Incidents Average,CENTRAL,18,FS18,Hawthorn,totInc,267,218,89.3,7.9,1,38,47
 Non-Emergency Incident,SOUTHERN D2,91,FS91,Frankston,nonInc,8,251,89.3,7.9,1,39,26
 Emergency Incident,SOUTHERN D2,91,FS91,Frankston,emInc,281,251,89.3,7.9,1,39,26
-Incident Total,SOUTHERN D2,91,FS91,Frankston,totInc,289,251,89.3,7.9,1,39,26
+District Total Incidents Average,SOUTHERN D2,91,FS91,Frankston,totInc,289,251,89.3,7.9,1,39,26
 Non-Emergency Incident,CENTRAL,50,FS50,Ascot Vale,nonInc,8,190,89.2,7.9,1,40,48
 Emergency Incident,CENTRAL,50,FS50,Ascot Vale,emInc,213,190,89.2,7.9,1,40,48
-Incident Total,CENTRAL,50,FS50,Ascot Vale,totInc,221,190,89.2,7.9,1,40,48
+District Total Incidents Average,CENTRAL,50,FS50,Ascot Vale,totInc,221,190,89.2,7.9,1,40,48
 Non-Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,nonInc,4,49,89.1,8.1,1,41,53
 Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,emInc,55,49,89.1,8.1,1,41,53
-Incident Total,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,59,49,89.1,8.1,1,41,53
+District Total Incidents Average,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,59,49,89.1,8.1,1,41,53
 Non-Emergency Incident,CENTRAL,39,FS39,Port Melbourne,nonInc,5,154,89,8.3,1,42,32
 Emergency Incident,CENTRAL,39,FS39,Port Melbourne,emInc,173,154,89,8.3,1,42,32
-Incident Total,CENTRAL,39,FS39,Port Melbourne,totInc,178,154,89,8.3,1,42,32
+District Total Incidents Average,CENTRAL,39,FS39,Port Melbourne,totInc,178,154,89,8.3,1,42,32
 Non-Emergency Incident,NORTHERN,16,FS16,Greensborough,nonInc,11,71,88.8,8.9,1,43,31
 Emergency Incident,NORTHERN,16,FS16,Greensborough,emInc,80,71,88.8,8.9,1,43,31
-Incident Total,NORTHERN,16,FS16,Greensborough,totInc,91,71,88.8,8.9,1,43,31
+District Total Incidents Average,NORTHERN,16,FS16,Greensborough,totInc,91,71,88.8,8.9,1,43,31
 Non-Emergency Incident,EASTERN,27,FS27,Nunawading,nonInc,11,119,88.8,8.3,1,44,18
 Emergency Incident,EASTERN,27,FS27,Nunawading,emInc,134,119,88.8,8.3,1,44,18
-Incident Total,EASTERN,27,FS27,Nunawading,totInc,145,119,88.8,8.3,1,44,18
+District Total Incidents Average,EASTERN,27,FS27,Nunawading,totInc,145,119,88.8,8.3,1,44,18
 Non-Emergency Incident,NORTHERN,5,FS5,Broadmeadows,nonInc,21,212,88.7,8.2,1,45,69
 Emergency Incident,NORTHERN,5,FS5,Broadmeadows,emInc,239,212,88.7,8.2,1,45,69
-Incident Total,NORTHERN,5,FS5,Broadmeadows,totInc,260,212,88.7,8.2,1,45,69
+District Total Incidents Average,NORTHERN,5,FS5,Broadmeadows,totInc,260,212,88.7,8.2,1,45,69
 Non-Emergency Incident,CENTRAL,13,FS13,Northcote,nonInc,23,165,88.7,7.9,1,46,59
 Emergency Incident,CENTRAL,13,FS13,Northcote,emInc,186,165,88.7,7.9,1,46,59
-Incident Total,CENTRAL,13,FS13,Northcote,totInc,209,165,88.7,7.9,1,46,59
+District Total Incidents Average,CENTRAL,13,FS13,Northcote,totInc,209,165,88.7,7.9,1,46,59
 Non-Emergency Incident,EASTERN,82,FS82,Eltham City,nonInc,16,53,88.3,8,1,47,39
 Emergency Incident,EASTERN,82,FS82,Eltham City,emInc,60,53,88.3,8,1,47,39
-Incident Total,EASTERN,82,FS82,Eltham City,totInc,76,53,88.3,8,1,47,39
+District Total Incidents Average,EASTERN,82,FS82,Eltham City,totInc,76,53,88.3,8,1,47,39
 Non-Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,nonInc,12,113,87.6,8.3,1,48,33
 Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,emInc,129,113,87.6,8.3,1,48,33
-Incident Total,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,141,113,87.6,8.3,1,48,33
+District Total Incidents Average,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,141,113,87.6,8.3,1,48,33
 Non-Emergency Incident,WESTERN D2,43,FS43,Deer Park,nonInc,14,117,87.3,8.4,1,49,73
 Emergency Incident,WESTERN D2,43,FS43,Deer Park,emInc,134,117,87.3,8.4,1,49,73
-Incident Total,WESTERN D2,43,FS43,Deer Park,totInc,148,117,87.3,8.4,1,49,73
+District Total Incidents Average,WESTERN D2,43,FS43,Deer Park,totInc,148,117,87.3,8.4,1,49,73
 Non-Emergency Incident,NORTHERN,11,FS11,Epping,nonInc,13,115,87.1,8.3,1,50,23
 Emergency Incident,NORTHERN,11,FS11,Epping,emInc,132,115,87.1,8.3,1,50,23
-Incident Total,NORTHERN,11,FS11,Epping,totInc,145,115,87.1,8.3,1,50,23
+District Total Incidents Average,NORTHERN,11,FS11,Epping,totInc,145,115,87.1,8.3,1,50,23
 Non-Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,nonInc,8,54,87.1,7.7,1,51,6
 Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,emInc,62,54,87.1,7.7,1,51,6
-Incident Total,SOUTHERN D2,95,FS95,Rosebud,totInc,70,54,87.1,7.7,1,51,6
+District Total Incidents Average,SOUTHERN D2,95,FS95,Rosebud,totInc,70,54,87.1,7.7,1,51,6
 Non-Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,nonInc,10,100,87,7.9,1,52,60
 Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,emInc,115,100,87,7.9,1,52,60
-Incident Total,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,125,100,87,7.9,1,52,60
+District Total Incidents Average,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,125,100,87,7.9,1,52,60
 Non-Emergency Incident,EASTERN,30,FS30,Templestowe,nonInc,9,72,86.7,8,1,53,40
 Emergency Incident,EASTERN,30,FS30,Templestowe,emInc,83,72,86.7,8,1,53,40
-Incident Total,EASTERN,30,FS30,Templestowe,totInc,92,72,86.7,8,1,53,40
+District Total Incidents Average,EASTERN,30,FS30,Templestowe,totInc,92,72,86.7,8,1,53,40
 Non-Emergency Incident,SOUTHERN D1,29,FS29,Clayton,nonInc,13,95,86.4,8,1,54,8
 Emergency Incident,SOUTHERN D1,29,FS29,Clayton,emInc,110,95,86.4,8,1,54,8
-Incident Total,SOUTHERN D1,29,FS29,Clayton,totInc,123,95,86.4,8,1,54,8
+District Total Incidents Average,SOUTHERN D1,29,FS29,Clayton,totInc,123,95,86.4,8,1,54,8
 Non-Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,nonInc,12,248,86.4,8.1,1,55,54
 Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,emInc,287,248,86.4,8.1,1,55,54
-Incident Total,SOUTHERN D1,31,FS31,Glen Waverley,totInc,299,248,86.4,8.1,1,55,54
+District Total Incidents Average,SOUTHERN D1,31,FS31,Glen Waverley,totInc,299,248,86.4,8.1,1,55,54
 Non-Emergency Incident,SOUTHERN D1,24,FS24,Malvern,nonInc,8,144,86.2,8.2,1,56,30
 Emergency Incident,SOUTHERN D1,24,FS24,Malvern,emInc,167,144,86.2,8.2,1,56,30
-Incident Total,SOUTHERN D1,24,FS24,Malvern,totInc,175,144,86.2,8.2,1,56,30
+District Total Incidents Average,SOUTHERN D1,24,FS24,Malvern,totInc,175,144,86.2,8.2,1,56,30
 Non-Emergency Incident,WESTERN D2,41,FS41,St Albans,nonInc,8,81,86.2,8.4,1,57,13
 Emergency Incident,WESTERN D2,41,FS41,St Albans,emInc,94,81,86.2,8.4,1,57,13
-Incident Total,WESTERN D2,41,FS41,St Albans,totInc,102,81,86.2,8.4,1,57,13
+District Total Incidents Average,WESTERN D2,41,FS41,St Albans,totInc,102,81,86.2,8.4,1,57,13
 Non-Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,nonInc,5,148,85.5,8.7,1,58,41
 Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,emInc,173,148,85.5,8.7,1,58,41
-Incident Total,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,178,148,85.5,8.7,1,58,41
+District Total Incidents Average,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,178,148,85.5,8.7,1,58,41
 Non-Emergency Incident,WESTERN D3,62,FS62,Corio,nonInc,11,186,85.3,8.3,1,59,64
 Emergency Incident,WESTERN D3,62,FS62,Corio,emInc,218,186,85.3,8.3,1,59,64
-Incident Total,WESTERN D3,62,FS62,Corio,totInc,229,186,85.3,8.3,1,59,64
+District Total Incidents Average,WESTERN D3,62,FS62,Corio,totInc,229,186,85.3,8.3,1,59,64
 Non-Emergency Incident,NORTHERN,9,FS9,Somerton,nonInc,6,69,84.1,8.2,1,60,20
 Emergency Incident,NORTHERN,9,FS9,Somerton,emInc,82,69,84.1,8.2,1,60,20
-Incident Total,NORTHERN,9,FS9,Somerton,totInc,88,69,84.1,8.2,1,60,20
+District Total Incidents Average,NORTHERN,9,FS9,Somerton,totInc,88,69,84.1,8.2,1,60,20
 Non-Emergency Incident,SOUTHERN D1,34,FS34,Highett,nonInc,23,216,84,8.2,1,61,68
 Emergency Incident,SOUTHERN D1,34,FS34,Highett,emInc,257,216,84,8.2,1,61,68
-Incident Total,SOUTHERN D1,34,FS34,Highett,totInc,280,216,84,8.2,1,61,68
+District Total Incidents Average,SOUTHERN D1,34,FS34,Highett,totInc,280,216,84,8.2,1,61,68
 Non-Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,nonInc,9,70,83.3,8.7,1,62,66
 Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,emInc,84,70,83.3,8.7,1,62,66
-Incident Total,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,93,70,83.3,8.7,1,62,66
+District Total Incidents Average,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,93,70,83.3,8.7,1,62,66
 Non-Emergency Incident,SOUTHERN D1,89,FS89,Springvale,nonInc,17,124,83.2,8.3,1,63,63
 Emergency Incident,SOUTHERN D1,89,FS89,Springvale,emInc,149,124,83.2,8.3,1,63,63
-Incident Total,SOUTHERN D1,89,FS89,Springvale,totInc,166,124,83.2,8.3,1,63,63
+District Total Incidents Average,SOUTHERN D1,89,FS89,Springvale,totInc,166,124,83.2,8.3,1,63,63
 Non-Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,nonInc,20,265,83.1,8.8,1,64,56
 Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,emInc,319,265,83.1,8.8,1,64,56
-Incident Total,SOUTHERN D2,87,FS87,Dandenong,totInc,339,265,83.1,8.8,1,64,56
+District Total Incidents Average,SOUTHERN D2,87,FS87,Dandenong,totInc,339,265,83.1,8.8,1,64,56
 Non-Emergency Incident,NORTHERN,81,FS81,South Morang,nonInc,3,29,82.9,8.4,1,65,44
 Emergency Incident,NORTHERN,81,FS81,South Morang,emInc,35,29,82.9,8.4,1,65,44
-Incident Total,NORTHERN,81,FS81,South Morang,totInc,38,29,82.9,8.4,1,65,44
+District Total Incidents Average,NORTHERN,81,FS81,South Morang,totInc,38,29,82.9,8.4,1,65,44
 Non-Emergency Incident,WESTERN D1,45,FS45,Spotswood,nonInc,4,52,82.5,8.2,1,66,71
 Emergency Incident,WESTERN D1,45,FS45,Spotswood,emInc,63,52,82.5,8.2,1,66,71
-Incident Total,WESTERN D1,45,FS45,Spotswood,totInc,67,52,82.5,8.2,1,66,71
+District Total Incidents Average,WESTERN D1,45,FS45,Spotswood,totInc,67,52,82.5,8.2,1,66,71
 Non-Emergency Incident,NORTHERN,80,FS80,Craigieburn,nonInc,15,134,82.2,8.6,1,67,77
 Emergency Incident,NORTHERN,80,FS80,Craigieburn,emInc,163,134,82.2,8.6,1,67,77
-Incident Total,NORTHERN,80,FS80,Craigieburn,totInc,178,134,82.2,8.6,1,67,77
+District Total Incidents Average,NORTHERN,80,FS80,Craigieburn,totInc,178,134,82.2,8.6,1,67,77
 Non-Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,nonInc,10,123,82,8.8,1,68,72
 Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,emInc,150,123,82,8.8,1,68,72
-Incident Total,NORTHERN,6,FS6,Pascoe Vale,totInc,160,123,82,8.8,1,68,72
+District Total Incidents Average,NORTHERN,6,FS6,Pascoe Vale,totInc,160,123,82,8.8,1,68,72
 Non-Emergency Incident,WESTERN D2,51,FS51,Keilor,nonInc,11,76,81.7,8.3,1,69,36
 Emergency Incident,WESTERN D2,51,FS51,Keilor,emInc,93,76,81.7,8.3,1,69,36
-Incident Total,WESTERN D2,51,FS51,Keilor,totInc,104,76,81.7,8.3,1,69,36
+District Total Incidents Average,WESTERN D2,51,FS51,Keilor,totInc,104,76,81.7,8.3,1,69,36
 Non-Emergency Incident,WESTERN D1,40,FS40,Laverton,nonInc,11,125,79.1,8.9,1,70,74
 Emergency Incident,WESTERN D1,40,FS40,Laverton,emInc,158,125,79.1,8.9,1,70,74
-Incident Total,WESTERN D1,40,FS40,Laverton,totInc,169,125,79.1,8.9,1,70,74
+District Total Incidents Average,WESTERN D1,40,FS40,Laverton,totInc,169,125,79.1,8.9,1,70,74
 Non-Emergency Incident,WESTERN D2,53,FS53,Sunbury,nonInc,9,71,78.9,9.7,1,71,76
 Emergency Incident,WESTERN D2,53,FS53,Sunbury,emInc,90,71,78.9,9.7,1,71,76
-Incident Total,WESTERN D2,53,FS53,Sunbury,totInc,99,71,78.9,9.7,1,71,76
+District Total Incidents Average,WESTERN D2,53,FS53,Sunbury,totInc,99,71,78.9,9.7,1,71,76
 Non-Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,nonInc,4,52,78.8,10.6,1,72,49
 Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,emInc,66,52,78.8,10.6,1,72,49
-Incident Total,WESTERN D2,48,FS48,Taylors Lakes,totInc,70,52,78.8,10.6,1,72,49
+District Total Incidents Average,WESTERN D2,48,FS48,Taylors Lakes,totInc,70,52,78.8,10.6,1,72,49
 Non-Emergency Incident,WESTERN D2,56,FS56,Melton,nonInc,10,169,78.2,9.6,1,73,78
 Emergency Incident,WESTERN D2,56,FS56,Melton,emInc,216,169,78.2,9.6,1,73,78
-Incident Total,WESTERN D2,56,FS56,Melton,totInc,226,169,78.2,9.6,1,73,78
+District Total Incidents Average,WESTERN D2,56,FS56,Melton,totInc,226,169,78.2,9.6,1,73,78
 Non-Emergency Incident,WESTERN D1,46,FS46,Altona,nonInc,0,47,77,8.7,1,74,57
 Emergency Incident,WESTERN D1,46,FS46,Altona,emInc,61,47,77,8.7,1,74,57
-Incident Total,WESTERN D1,46,FS46,Altona,totInc,61,47,77,8.7,1,74,57
+District Total Incidents Average,WESTERN D1,46,FS46,Altona,totInc,61,47,77,8.7,1,74,57
 Non-Emergency Incident,WESTERN D1,59,FS59,Derrimut,nonInc,4,46,76.7,8.9,1,75,85
 Emergency Incident,WESTERN D1,59,FS59,Derrimut,emInc,60,46,76.7,8.9,1,75,85
-Incident Total,WESTERN D1,59,FS59,Derrimut,totInc,64,46,76.7,8.9,1,75,85
+District Total Incidents Average,WESTERN D1,59,FS59,Derrimut,totInc,64,46,76.7,8.9,1,75,85
 Non-Emergency Incident,WESTERN D2,52,FS52,Tullamarine,nonInc,4,85,76.6,8.7,1,76,80
 Emergency Incident,WESTERN D2,52,FS52,Tullamarine,emInc,111,85,76.6,8.7,1,76,80
-Incident Total,WESTERN D2,52,FS52,Tullamarine,totInc,115,85,76.6,8.7,1,76,80
+District Total Incidents Average,WESTERN D2,52,FS52,Tullamarine,totInc,115,85,76.6,8.7,1,76,80
 Non-Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,nonInc,15,151,76.6,9,1,77,67
 Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,emInc,197,151,76.6,9,1,77,67
-Incident Total,SOUTHERN D2,92,FS92,Cranbourne,totInc,212,151,76.6,9,1,77,67
+District Total Incidents Average,SOUTHERN D2,92,FS92,Cranbourne,totInc,212,151,76.6,9,1,77,67
 Non-Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,nonInc,8,65,76.5,9,1,78,75
 Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,emInc,85,65,76.5,9,1,78,75
-Incident Total,SOUTHERN D2,90,FS90,Patterson River,totInc,93,65,76.5,9,1,78,75
+District Total Incidents Average,SOUTHERN D2,90,FS90,Patterson River,totInc,93,65,76.5,9,1,78,75
 Non-Emergency Incident,WESTERN D1,57,FS57,Tarneit,nonInc,21,172,71.7,10,1,80,82
 Emergency Incident,WESTERN D1,57,FS57,Tarneit,emInc,240,172,71.7,10,1,80,82
-Incident Total,WESTERN D1,57,FS57,Tarneit,totInc,261,172,71.7,10,1,80,82
+District Total Incidents Average,WESTERN D1,57,FS57,Tarneit,totInc,261,172,71.7,10,1,80,82
 Non-Emergency Incident,SOUTHERN D2,88,FS88,Hallam,nonInc,14,131,71.6,9.9,1,81,55
 Emergency Incident,SOUTHERN D2,88,FS88,Hallam,emInc,183,131,71.6,9.9,1,81,55
-Incident Total,SOUTHERN D2,88,FS88,Hallam,totInc,197,131,71.6,9.9,1,81,55
+District Total Incidents Average,SOUTHERN D2,88,FS88,Hallam,totInc,197,131,71.6,9.9,1,81,55
 Non-Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,nonInc,4,88,69.8,10.2,1,82,58
 Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,emInc,126,88,69.8,10.2,1,82,58
-Incident Total,SOUTHERN D2,93,FS93,Pakenham,totInc,130,88,69.8,10.2,1,82,58
+District Total Incidents Average,SOUTHERN D2,93,FS93,Pakenham,totInc,130,88,69.8,10.2,1,82,58
 Non-Emergency Incident,WESTERN D1,58,FS58,Point Cook,nonInc,1,62,68.1,10.1,1,83,79
 Emergency Incident,WESTERN D1,58,FS58,Point Cook,emInc,91,62,68.1,10.1,1,83,79
-Incident Total,WESTERN D1,58,FS58,Point Cook,totInc,92,62,68.1,10.1,1,83,79
+District Total Incidents Average,WESTERN D1,58,FS58,Point Cook,totInc,92,62,68.1,10.1,1,83,79
 Non-Emergency Incident,WESTERN D2,54,FS54,Greenvale,nonInc,3,33,67.3,10.2,1,84,81
 Emergency Incident,WESTERN D2,54,FS54,Greenvale,emInc,49,33,67.3,10.2,1,84,81
-Incident Total,WESTERN D2,54,FS54,Greenvale,totInc,52,33,67.3,10.2,1,84,81
+District Total Incidents Average,WESTERN D2,54,FS54,Greenvale,totInc,52,33,67.3,10.2,1,84,81
 Non-Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,nonInc,10,93,60.8,9.4,1,85,84
 Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,emInc,153,93,60.8,9.4,1,85,84
-Incident Total,WESTERN D2,55,FS55,Caroline Springs,totInc,163,93,60.8,9.4,1,85,84
+District Total Incidents Average,WESTERN D2,55,FS55,Caroline Springs,totInc,163,93,60.8,9.4,1,85,84
 Non-Emergency Incident,WESTERN D3,61,FS61,Lara,nonInc,3,31,59.6,11.1,1,86,83
 Emergency Incident,WESTERN D3,61,FS61,Lara,emInc,52,31,59.6,11.1,1,86,83
-Incident Total,WESTERN D3,61,FS61,Lara,totInc,55,31,59.6,11.1,1,86,83
+District Total Incidents Average,WESTERN D3,61,FS61,Lara,totInc,55,31,59.6,11.1,1,86,83
 Non-Emergency Incident,CENTRAL,3,FS3,Carlton,nonInc,18,317,97.8,6.5,2,1,3
 Emergency Incident,CENTRAL,3,FS3,Carlton,emInc,324,317,97.8,6.5,2,1,3
-Incident Total,CENTRAL,3,FS3,Carlton,totInc,342,317,97.8,6.5,2,1,3
+District Total Incidents Average,CENTRAL,3,FS3,Carlton,totInc,342,317,97.8,6.5,2,1,3
 Non-Emergency Incident,CENTRAL,1,FS1,Eastern Hill,nonInc,16,353,97,6,2,2,2
 Emergency Incident,CENTRAL,1,FS1,Eastern Hill,emInc,364,353,97,6,2,2,2
-Incident Total,CENTRAL,1,FS1,Eastern Hill,totInc,380,353,97,6,2,2,2
+District Total Incidents Average,CENTRAL,1,FS1,Eastern Hill,totInc,380,353,97,6,2,2,2
 Non-Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,nonInc,6,30,96.8,6.2,2,3,1
 Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,emInc,31,30,96.8,6.2,2,3,1
-Incident Total,WESTERN D3,66,FS66,Ocean Grove,totInc,37,30,96.8,6.2,2,3,1
+District Total Incidents Average,WESTERN D3,66,FS66,Ocean Grove,totInc,37,30,96.8,6.2,2,3,1
 Non-Emergency Incident,EASTERN,85,FS85,Boronia,nonInc,22,75,96.2,6.9,2,4,28
 Emergency Incident,EASTERN,85,FS85,Boronia,emInc,78,75,96.2,6.9,2,4,28
-Incident Total,EASTERN,85,FS85,Boronia,totInc,100,75,96.2,6.9,2,4,28
+District Total Incidents Average,EASTERN,85,FS85,Boronia,totInc,100,75,96.2,6.9,2,4,28
 Non-Emergency Incident,SOUTHERN D1,86,FS86,Rowville,nonInc,16,51,96.2,7,2,5,21
 Emergency Incident,SOUTHERN D1,86,FS86,Rowville,emInc,53,51,96.2,7,2,5,21
-Incident Total,SOUTHERN D1,86,FS86,Rowville,totInc,69,51,96.2,7,2,5,21
+District Total Incidents Average,SOUTHERN D1,86,FS86,Rowville,totInc,69,51,96.2,7,2,5,21
 Non-Emergency Incident,CENTRAL,38,FS38,South Melbourne,nonInc,24,378,95.5,6.8,2,6,14
 Emergency Incident,CENTRAL,38,FS38,South Melbourne,emInc,396,378,95.5,6.8,2,6,14
-Incident Total,CENTRAL,38,FS38,South Melbourne,totInc,420,378,95.5,6.8,2,6,14
+District Total Incidents Average,CENTRAL,38,FS38,South Melbourne,totInc,420,378,95.5,6.8,2,6,14
 Non-Emergency Incident,EASTERN,30,FS30,Templestowe,nonInc,13,59,95.2,7.4,2,7,40
 Emergency Incident,EASTERN,30,FS30,Templestowe,emInc,62,59,95.2,7.4,2,7,40
-Incident Total,EASTERN,30,FS30,Templestowe,totInc,75,59,95.2,7.4,2,7,40
+District Total Incidents Average,EASTERN,30,FS30,Templestowe,totInc,75,59,95.2,7.4,2,7,40
 Non-Emergency Incident,CENTRAL,2,FS2,West Melbourne,nonInc,30,284,94.7,6.6,2,8,7
 Emergency Incident,CENTRAL,2,FS2,West Melbourne,emInc,300,284,94.7,6.6,2,8,7
-Incident Total,CENTRAL,2,FS2,West Melbourne,totInc,330,284,94.7,6.6,2,8,7
+District Total Incidents Average,CENTRAL,2,FS2,West Melbourne,totInc,330,284,94.7,6.6,2,8,7
 Non-Emergency Incident,NORTHERN,14,FS14,Bundoora,nonInc,19,144,94.7,7.4,2,9,46
 Emergency Incident,NORTHERN,14,FS14,Bundoora,emInc,152,144,94.7,7.4,2,9,46
-Incident Total,NORTHERN,14,FS14,Bundoora,totInc,171,144,94.7,7.4,2,9,46
+District Total Incidents Average,NORTHERN,14,FS14,Bundoora,totInc,171,144,94.7,7.4,2,9,46
 Non-Emergency Incident,WESTERN D2,44,FS44,Sunshine,nonInc,38,126,94,7.3,2,10,24
 Emergency Incident,WESTERN D2,44,FS44,Sunshine,emInc,134,126,94,7.3,2,10,24
-Incident Total,WESTERN D2,44,FS44,Sunshine,totInc,172,126,94,7.3,2,10,24
+District Total Incidents Average,WESTERN D2,44,FS44,Sunshine,totInc,172,126,94,7.3,2,10,24
 Non-Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,nonInc,6,103,93.6,6.6,2,11,4
 Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,emInc,110,103,93.6,6.6,2,11,4
-Incident Total,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,116,103,93.6,6.6,2,11,4
+District Total Incidents Average,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,116,103,93.6,6.6,2,11,4
 Non-Emergency Incident,EASTERN,28,FS28,Vermont South,nonInc,25,114,93.4,7.3,2,12,19
 Emergency Incident,EASTERN,28,FS28,Vermont South,emInc,122,114,93.4,7.3,2,12,19
-Incident Total,EASTERN,28,FS28,Vermont South,totInc,147,114,93.4,7.3,2,12,19
+District Total Incidents Average,EASTERN,28,FS28,Vermont South,totInc,147,114,93.4,7.3,2,12,19
 Non-Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,nonInc,4,52,92.9,6.6,2,13,38
 Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,emInc,56,52,92.9,6.6,2,13,38
-Incident Total,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,60,52,92.9,6.6,2,13,38
+District Total Incidents Average,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,60,52,92.9,6.6,2,13,38
 Non-Emergency Incident,SOUTHERN D2,94,FS94,Mornington,nonInc,4,79,92.9,7,2,14,25
 Emergency Incident,SOUTHERN D2,94,FS94,Mornington,emInc,85,79,92.9,7,2,14,25
-Incident Total,SOUTHERN D2,94,FS94,Mornington,totInc,89,79,92.9,7,2,14,25
+District Total Incidents Average,SOUTHERN D2,94,FS94,Mornington,totInc,89,79,92.9,7,2,14,25
 Non-Emergency Incident,WESTERN D3,64,FS64,Belmont,nonInc,13,96,92.3,7.5,2,15,27
 Emergency Incident,WESTERN D3,64,FS64,Belmont,emInc,104,96,92.3,7.5,2,15,27
-Incident Total,WESTERN D3,64,FS64,Belmont,totInc,117,96,92.3,7.5,2,15,27
+District Total Incidents Average,WESTERN D3,64,FS64,Belmont,totInc,117,96,92.3,7.5,2,15,27
 Non-Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,nonInc,4,60,92.3,7.7,2,16,52
 Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,emInc,65,60,92.3,7.7,2,16,52
-Incident Total,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,69,60,92.3,7.7,2,16,52
+District Total Incidents Average,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,69,60,92.3,7.7,2,16,52
 Non-Emergency Incident,EASTERN,22,FS22,Ringwood,nonInc,40,125,91.9,7.5,2,17,22
 Emergency Incident,EASTERN,22,FS22,Ringwood,emInc,136,125,91.9,7.5,2,17,22
-Incident Total,EASTERN,22,FS22,Ringwood,totInc,176,125,91.9,7.5,2,17,22
+District Total Incidents Average,EASTERN,22,FS22,Ringwood,totInc,176,125,91.9,7.5,2,17,22
 Non-Emergency Incident,NORTHERN,15,FS15,Heidelberg,nonInc,28,168,91.8,7.4,2,18,42
 Emergency Incident,NORTHERN,15,FS15,Heidelberg,emInc,183,168,91.8,7.4,2,18,42
-Incident Total,NORTHERN,15,FS15,Heidelberg,totInc,211,168,91.8,7.4,2,18,42
+District Total Incidents Average,NORTHERN,15,FS15,Heidelberg,totInc,211,168,91.8,7.4,2,18,42
 Non-Emergency Incident,SOUTHERN D2,91,FS91,Frankston,nonInc,30,179,91.8,7.6,2,19,26
 Emergency Incident,SOUTHERN D2,91,FS91,Frankston,emInc,195,179,91.8,7.6,2,19,26
-Incident Total,SOUTHERN D2,91,FS91,Frankston,totInc,225,179,91.8,7.6,2,19,26
+District Total Incidents Average,SOUTHERN D2,91,FS91,Frankston,totInc,225,179,91.8,7.6,2,19,26
 Non-Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,nonInc,4,77,91.7,7.2,2,20,15
 Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,emInc,84,77,91.7,7.2,2,20,15
-Incident Total,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,88,77,91.7,7.2,2,20,15
+District Total Incidents Average,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,88,77,91.7,7.2,2,20,15
 Non-Emergency Incident,CENTRAL,10,FS10,Richmond,nonInc,13,269,91.5,7.2,2,21,16
 Emergency Incident,CENTRAL,10,FS10,Richmond,emInc,294,269,91.5,7.2,2,21,16
-Incident Total,CENTRAL,10,FS10,Richmond,totInc,307,269,91.5,7.2,2,21,16
+District Total Incidents Average,CENTRAL,10,FS10,Richmond,totInc,307,269,91.5,7.2,2,21,16
 Non-Emergency Incident,CENTRAL,4,FS4,Brunswick,nonInc,42,159,91.4,7.4,2,22,17
 Emergency Incident,CENTRAL,4,FS4,Brunswick,emInc,174,159,91.4,7.4,2,22,17
-Incident Total,CENTRAL,4,FS4,Brunswick,totInc,216,159,91.4,7.4,2,22,17
+District Total Incidents Average,CENTRAL,4,FS4,Brunswick,totInc,216,159,91.4,7.4,2,22,17
 Non-Emergency Incident,EASTERN,27,FS27,Nunawading,nonInc,26,94,91.3,7.5,2,23,18
 Emergency Incident,EASTERN,27,FS27,Nunawading,emInc,103,94,91.3,7.5,2,23,18
-Incident Total,EASTERN,27,FS27,Nunawading,totInc,129,94,91.3,7.5,2,23,18
+District Total Incidents Average,EASTERN,27,FS27,Nunawading,totInc,129,94,91.3,7.5,2,23,18
 Non-Emergency Incident,WESTERN D1,47,FS47,Footscray,nonInc,19,165,91.2,7.4,2,24,35
 Emergency Incident,WESTERN D1,47,FS47,Footscray,emInc,181,165,91.2,7.4,2,24,35
-Incident Total,WESTERN D1,47,FS47,Footscray,totInc,200,165,91.2,7.4,2,24,35
+District Total Incidents Average,WESTERN D1,47,FS47,Footscray,totInc,200,165,91.2,7.4,2,24,35
 Non-Emergency Incident,EASTERN,20,FS20,Box Hill,nonInc,26,161,91,7.5,2,25,10
 Emergency Incident,EASTERN,20,FS20,Box Hill,emInc,177,161,91,7.5,2,25,10
-Incident Total,EASTERN,20,FS20,Box Hill,totInc,203,161,91,7.5,2,25,10
+District Total Incidents Average,EASTERN,20,FS20,Box Hill,totInc,203,161,91,7.5,2,25,10
 Non-Emergency Incident,NORTHERN,16,FS16,Greensborough,nonInc,14,70,90.9,7.7,2,26,31
 Emergency Incident,NORTHERN,16,FS16,Greensborough,emInc,77,70,90.9,7.7,2,26,31
-Incident Total,NORTHERN,16,FS16,Greensborough,totInc,91,70,90.9,7.7,2,26,31
+District Total Incidents Average,NORTHERN,16,FS16,Greensborough,totInc,91,70,90.9,7.7,2,26,31
 Non-Emergency Incident,EASTERN,26,FS26,Croydon,nonInc,34,88,90.7,7.5,2,27,11
 Emergency Incident,EASTERN,26,FS26,Croydon,emInc,97,88,90.7,7.5,2,27,11
-Incident Total,EASTERN,26,FS26,Croydon,totInc,131,88,90.7,7.5,2,27,11
+District Total Incidents Average,EASTERN,26,FS26,Croydon,totInc,131,88,90.7,7.5,2,27,11
 Non-Emergency Incident,CENTRAL,39,FS39,Port Melbourne,nonInc,22,109,90.1,7.4,2,28,32
 Emergency Incident,CENTRAL,39,FS39,Port Melbourne,emInc,121,109,90.1,7.4,2,28,32
-Incident Total,CENTRAL,39,FS39,Port Melbourne,totInc,143,109,90.1,7.4,2,28,32
+District Total Incidents Average,CENTRAL,39,FS39,Port Melbourne,totInc,143,109,90.1,7.4,2,28,32
 Non-Emergency Incident,SOUTHERN D1,24,FS24,Malvern,nonInc,26,152,89.9,8,2,29,30
 Emergency Incident,SOUTHERN D1,24,FS24,Malvern,emInc,169,152,89.9,8,2,29,30
-Incident Total,SOUTHERN D1,24,FS24,Malvern,totInc,195,152,89.9,8,2,29,30
+District Total Incidents Average,SOUTHERN D1,24,FS24,Malvern,totInc,195,152,89.9,8,2,29,30
 Non-Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,nonInc,12,53,89.8,7.7,2,30,6
 Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,emInc,59,53,89.8,7.7,2,30,6
-Incident Total,SOUTHERN D2,95,FS95,Rosebud,totInc,71,53,89.8,7.7,2,30,6
+District Total Incidents Average,SOUTHERN D2,95,FS95,Rosebud,totInc,71,53,89.8,7.7,2,30,6
 Non-Emergency Incident,CENTRAL,35,FS35,Windsor,nonInc,62,402,89.5,7.7,2,31,34
 Emergency Incident,CENTRAL,35,FS35,Windsor,emInc,449,402,89.5,7.7,2,31,34
-Incident Total,CENTRAL,35,FS35,Windsor,totInc,511,402,89.5,7.7,2,31,34
+District Total Incidents Average,CENTRAL,35,FS35,Windsor,totInc,511,402,89.5,7.7,2,31,34
 Non-Emergency Incident,WESTERN D2,41,FS41,St Albans,nonInc,33,102,89.5,7.8,2,32,13
 Emergency Incident,WESTERN D2,41,FS41,St Albans,emInc,114,102,89.5,7.8,2,32,13
-Incident Total,WESTERN D2,41,FS41,St Albans,totInc,147,102,89.5,7.8,2,32,13
+District Total Incidents Average,WESTERN D2,41,FS41,St Albans,totInc,147,102,89.5,7.8,2,32,13
 Non-Emergency Incident,NORTHERN,12,FS12,Preston,nonInc,29,127,89.4,7.6,2,33,12
 Emergency Incident,NORTHERN,12,FS12,Preston,emInc,142,127,89.4,7.6,2,33,12
-Incident Total,NORTHERN,12,FS12,Preston,totInc,171,127,89.4,7.6,2,33,12
+District Total Incidents Average,NORTHERN,12,FS12,Preston,totInc,171,127,89.4,7.6,2,33,12
 Non-Emergency Incident,EASTERN,23,FS23,Burwood,nonInc,32,119,88.8,7.9,2,34,5
 Emergency Incident,EASTERN,23,FS23,Burwood,emInc,134,119,88.8,7.9,2,34,5
-Incident Total,EASTERN,23,FS23,Burwood,totInc,166,119,88.8,7.9,2,34,5
+District Total Incidents Average,EASTERN,23,FS23,Burwood,totInc,166,119,88.8,7.9,2,34,5
 Non-Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,nonInc,4,55,88.7,7.4,2,35,53
 Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,emInc,62,55,88.7,7.4,2,35,53
-Incident Total,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,66,55,88.7,7.4,2,35,53
+District Total Incidents Average,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,66,55,88.7,7.4,2,35,53
 Non-Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,nonInc,29,117,88.6,8.1,2,36,29
 Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,emInc,132,117,88.6,8.1,2,36,29
-Incident Total,SOUTHERN D1,25,FS25,Oakleigh,totInc,161,117,88.6,8.1,2,36,29
+District Total Incidents Average,SOUTHERN D1,25,FS25,Oakleigh,totInc,161,117,88.6,8.1,2,36,29
 Non-Emergency Incident,CENTRAL,50,FS50,Ascot Vale,nonInc,22,139,88.5,8.1,2,37,48
 Emergency Incident,CENTRAL,50,FS50,Ascot Vale,emInc,157,139,88.5,8.1,2,37,48
-Incident Total,CENTRAL,50,FS50,Ascot Vale,totInc,179,139,88.5,8.1,2,37,48
+District Total Incidents Average,CENTRAL,50,FS50,Ascot Vale,totInc,179,139,88.5,8.1,2,37,48
 Non-Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,nonInc,6,85,88.5,7.9,2,38,33
 Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,emInc,96,85,88.5,7.9,2,38,33
-Incident Total,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,102,85,88.5,7.9,2,38,33
+District Total Incidents Average,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,102,85,88.5,7.9,2,38,33
 Non-Emergency Incident,SOUTHERN D1,29,FS29,Clayton,nonInc,28,91,88.3,7.9,2,39,8
 Emergency Incident,SOUTHERN D1,29,FS29,Clayton,emInc,103,91,88.3,7.9,2,39,8
-Incident Total,SOUTHERN D1,29,FS29,Clayton,totInc,131,91,88.3,7.9,2,39,8
+District Total Incidents Average,SOUTHERN D1,29,FS29,Clayton,totInc,131,91,88.3,7.9,2,39,8
 Non-Emergency Incident,WESTERN D3,63,FS63,Geelong City,nonInc,24,136,88.3,7.9,2,40,9
 Emergency Incident,WESTERN D3,63,FS63,Geelong City,emInc,154,136,88.3,7.9,2,40,9
-Incident Total,WESTERN D3,63,FS63,Geelong City,totInc,178,136,88.3,7.9,2,40,9
+District Total Incidents Average,WESTERN D3,63,FS63,Geelong City,totInc,178,136,88.3,7.9,2,40,9
 Non-Emergency Incident,WESTERN D1,40,FS40,Laverton,nonInc,28,89,88.1,8.4,2,41,74
 Emergency Incident,WESTERN D1,40,FS40,Laverton,emInc,101,89,88.1,8.4,2,41,74
-Incident Total,WESTERN D1,40,FS40,Laverton,totInc,129,89,88.1,8.4,2,41,74
+District Total Incidents Average,WESTERN D1,40,FS40,Laverton,totInc,129,89,88.1,8.4,2,41,74
 Non-Emergency Incident,CENTRAL,18,FS18,Hawthorn,nonInc,32,167,87.9,8.2,2,42,47
 Emergency Incident,CENTRAL,18,FS18,Hawthorn,emInc,190,167,87.9,8.2,2,42,47
-Incident Total,CENTRAL,18,FS18,Hawthorn,totInc,222,167,87.9,8.2,2,42,47
+District Total Incidents Average,CENTRAL,18,FS18,Hawthorn,totInc,222,167,87.9,8.2,2,42,47
 Non-Emergency Incident,EASTERN,19,FS19,North Balwyn,nonInc,23,80,87,8.1,2,43,61
 Emergency Incident,EASTERN,19,FS19,North Balwyn,emInc,92,80,87,8.1,2,43,61
-Incident Total,EASTERN,19,FS19,North Balwyn,totInc,115,80,87,8.1,2,43,61
+District Total Incidents Average,EASTERN,19,FS19,North Balwyn,totInc,115,80,87,8.1,2,43,61
 Non-Emergency Incident,NORTHERN,7,FS7,Thomastown,nonInc,28,92,86.8,8.3,2,44,45
 Emergency Incident,NORTHERN,7,FS7,Thomastown,emInc,106,92,86.8,8.3,2,44,45
-Incident Total,NORTHERN,7,FS7,Thomastown,totInc,134,92,86.8,8.3,2,44,45
+District Total Incidents Average,NORTHERN,7,FS7,Thomastown,totInc,134,92,86.8,8.3,2,44,45
 Non-Emergency Incident,WESTERN D3,62,FS62,Corio,nonInc,24,151,86.8,8,2,45,64
 Emergency Incident,WESTERN D3,62,FS62,Corio,emInc,174,151,86.8,8,2,45,64
-Incident Total,WESTERN D3,62,FS62,Corio,totInc,198,151,86.8,8,2,45,64
+District Total Incidents Average,WESTERN D3,62,FS62,Corio,totInc,198,151,86.8,8,2,45,64
 Non-Emergency Incident,NORTHERN,9,FS9,Somerton,nonInc,16,65,86.7,8.3,2,46,20
 Emergency Incident,NORTHERN,9,FS9,Somerton,emInc,75,65,86.7,8.3,2,46,20
-Incident Total,NORTHERN,9,FS9,Somerton,totInc,91,65,86.7,8.3,2,46,20
+District Total Incidents Average,NORTHERN,9,FS9,Somerton,totInc,91,65,86.7,8.3,2,46,20
 Non-Emergency Incident,WESTERN D2,43,FS43,Deer Park,nonInc,35,83,86.5,8.5,2,47,73
 Emergency Incident,WESTERN D2,43,FS43,Deer Park,emInc,96,83,86.5,8.5,2,47,73
-Incident Total,WESTERN D2,43,FS43,Deer Park,totInc,131,83,86.5,8.5,2,47,73
+District Total Incidents Average,WESTERN D2,43,FS43,Deer Park,totInc,131,83,86.5,8.5,2,47,73
 Non-Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,nonInc,36,214,86.3,8.4,2,48,56
 Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,emInc,248,214,86.3,8.4,2,48,56
-Incident Total,SOUTHERN D2,87,FS87,Dandenong,totInc,284,214,86.3,8.4,2,48,56
+District Total Incidents Average,SOUTHERN D2,87,FS87,Dandenong,totInc,284,214,86.3,8.4,2,48,56
 Non-Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,nonInc,4,31,86.1,7.9,2,49,50
 Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,emInc,36,31,86.1,7.9,2,49,50
-Incident Total,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,40,31,86.1,7.9,2,49,50
+District Total Incidents Average,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,40,31,86.1,7.9,2,49,50
 Non-Emergency Incident,WESTERN D1,42,FS42,Newport,nonInc,12,74,86,8.4,2,50,43
 Emergency Incident,WESTERN D1,42,FS42,Newport,emInc,86,74,86,8.4,2,50,43
-Incident Total,WESTERN D1,42,FS42,Newport,totInc,98,74,86,8.4,2,50,43
+District Total Incidents Average,WESTERN D1,42,FS42,Newport,totInc,98,74,86,8.4,2,50,43
 Non-Emergency Incident,CENTRAL,13,FS13,Northcote,nonInc,28,119,85.6,8.2,2,51,59
 Emergency Incident,CENTRAL,13,FS13,Northcote,emInc,139,119,85.6,8.2,2,51,59
-Incident Total,CENTRAL,13,FS13,Northcote,totInc,167,119,85.6,8.2,2,51,59
+District Total Incidents Average,CENTRAL,13,FS13,Northcote,totInc,167,119,85.6,8.2,2,51,59
 Non-Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,nonInc,38,179,85.2,8.4,2,52,54
 Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,emInc,210,179,85.2,8.4,2,52,54
-Incident Total,SOUTHERN D1,31,FS31,Glen Waverley,totInc,248,179,85.2,8.4,2,52,54
+District Total Incidents Average,SOUTHERN D1,31,FS31,Glen Waverley,totInc,248,179,85.2,8.4,2,52,54
 Non-Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,nonInc,16,75,85.2,8.6,2,53,60
 Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,emInc,88,75,85.2,8.6,2,53,60
-Incident Total,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,104,75,85.2,8.6,2,53,60
+District Total Incidents Average,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,104,75,85.2,8.6,2,53,60
 Non-Emergency Incident,NORTHERN,81,FS81,South Morang,nonInc,4,23,85.2,7.9,2,54,44
 Emergency Incident,NORTHERN,81,FS81,South Morang,emInc,27,23,85.2,7.9,2,54,44
-Incident Total,NORTHERN,81,FS81,South Morang,totInc,31,23,85.2,7.9,2,54,44
+District Total Incidents Average,NORTHERN,81,FS81,South Morang,totInc,31,23,85.2,7.9,2,54,44
 Non-Emergency Incident,SOUTHERN D1,34,FS34,Highett,nonInc,37,148,85.1,8,2,55,68
 Emergency Incident,SOUTHERN D1,34,FS34,Highett,emInc,174,148,85.1,8,2,55,68
-Incident Total,SOUTHERN D1,34,FS34,Highett,totInc,211,148,85.1,8,2,55,68
+District Total Incidents Average,SOUTHERN D1,34,FS34,Highett,totInc,211,148,85.1,8,2,55,68
 Non-Emergency Incident,NORTHERN,5,FS5,Broadmeadows,nonInc,42,182,85,8.5,2,56,69
 Emergency Incident,NORTHERN,5,FS5,Broadmeadows,emInc,214,182,85,8.5,2,56,69
-Incident Total,NORTHERN,5,FS5,Broadmeadows,totInc,256,182,85,8.5,2,56,69
+District Total Incidents Average,NORTHERN,5,FS5,Broadmeadows,totInc,256,182,85,8.5,2,56,69
 Non-Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,nonInc,11,59,84.3,9.1,2,57,75
 Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,emInc,70,59,84.3,9.1,2,57,75
-Incident Total,SOUTHERN D2,90,FS90,Patterson River,totInc,81,59,84.3,9.1,2,57,75
+District Total Incidents Average,SOUTHERN D2,90,FS90,Patterson River,totInc,81,59,84.3,9.1,2,57,75
 Non-Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,nonInc,1,26,83.9,8.3,2,58,51
 Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,emInc,31,26,83.9,8.3,2,58,51
-Incident Total,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,32,26,83.9,8.3,2,58,51
+District Total Incidents Average,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,32,26,83.9,8.3,2,58,51
 Non-Emergency Incident,SOUTHERN D1,32,FS32,Ormond,nonInc,49,181,83.8,8.5,2,59,62
 Emergency Incident,SOUTHERN D1,32,FS32,Ormond,emInc,216,181,83.8,8.5,2,59,62
-Incident Total,SOUTHERN D1,32,FS32,Ormond,totInc,265,181,83.8,8.5,2,59,62
+District Total Incidents Average,SOUTHERN D1,32,FS32,Ormond,totInc,265,181,83.8,8.5,2,59,62
 Non-Emergency Incident,SOUTHERN D1,89,FS89,Springvale,nonInc,28,107,83.6,8.2,2,60,63
 Emergency Incident,SOUTHERN D1,89,FS89,Springvale,emInc,128,107,83.6,8.2,2,60,63
-Incident Total,SOUTHERN D1,89,FS89,Springvale,totInc,156,107,83.6,8.2,2,60,63
+District Total Incidents Average,SOUTHERN D1,89,FS89,Springvale,totInc,156,107,83.6,8.2,2,60,63
 Non-Emergency Incident,NORTHERN,11,FS11,Epping,nonInc,13,91,83.5,8.5,2,61,23
 Emergency Incident,NORTHERN,11,FS11,Epping,emInc,109,91,83.5,8.5,2,61,23
-Incident Total,NORTHERN,11,FS11,Epping,totInc,122,91,83.5,8.5,2,61,23
+District Total Incidents Average,NORTHERN,11,FS11,Epping,totInc,122,91,83.5,8.5,2,61,23
 Non-Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,nonInc,8,138,83.1,8.6,2,62,65
 Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,emInc,166,138,83.1,8.6,2,62,65
-Incident Total,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,174,138,83.1,8.6,2,62,65
+District Total Incidents Average,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,174,138,83.1,8.6,2,62,65
 Non-Emergency Incident,WESTERN D1,46,FS46,Altona,nonInc,9,34,82.9,8.3,2,63,57
 Emergency Incident,WESTERN D1,46,FS46,Altona,emInc,41,34,82.9,8.3,2,63,57
-Incident Total,WESTERN D1,46,FS46,Altona,totInc,50,34,82.9,8.3,2,63,57
+District Total Incidents Average,WESTERN D1,46,FS46,Altona,totInc,50,34,82.9,8.3,2,63,57
 Non-Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,nonInc,13,38,82.6,8.5,2,64,49
 Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,emInc,46,38,82.6,8.5,2,64,49
-Incident Total,WESTERN D2,48,FS48,Taylors Lakes,totInc,59,38,82.6,8.5,2,64,49
+District Total Incidents Average,WESTERN D2,48,FS48,Taylors Lakes,totInc,59,38,82.6,8.5,2,64,49
 Non-Emergency Incident,SOUTHERN D1,33,FS33,Mentone,nonInc,25,97,82.2,8.2,2,65,37
 Emergency Incident,SOUTHERN D1,33,FS33,Mentone,emInc,118,97,82.2,8.2,2,65,37
-Incident Total,SOUTHERN D1,33,FS33,Mentone,totInc,143,97,82.2,8.2,2,65,37
+District Total Incidents Average,SOUTHERN D1,33,FS33,Mentone,totInc,143,97,82.2,8.2,2,65,37
 Non-Emergency Incident,WESTERN D1,45,FS45,Spotswood,nonInc,9,45,81.8,8.5,2,66,71
 Emergency Incident,WESTERN D1,45,FS45,Spotswood,emInc,55,45,81.8,8.5,2,66,71
-Incident Total,WESTERN D1,45,FS45,Spotswood,totInc,64,45,81.8,8.5,2,66,71
+District Total Incidents Average,WESTERN D1,45,FS45,Spotswood,totInc,64,45,81.8,8.5,2,66,71
 Non-Emergency Incident,EASTERN,82,FS82,Eltham City,nonInc,11,43,81.1,7.9,2,67,39
 Emergency Incident,EASTERN,82,FS82,Eltham City,emInc,53,43,81.1,7.9,2,67,39
-Incident Total,EASTERN,82,FS82,Eltham City,totInc,64,43,81.1,7.9,2,67,39
+District Total Incidents Average,EASTERN,82,FS82,Eltham City,totInc,64,43,81.1,7.9,2,67,39
 Non-Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,nonInc,37,113,80.7,9,2,68,72
 Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,emInc,140,113,80.7,9,2,68,72
-Incident Total,NORTHERN,6,FS6,Pascoe Vale,totInc,177,113,80.7,9,2,68,72
+District Total Incidents Average,NORTHERN,6,FS6,Pascoe Vale,totInc,177,113,80.7,9,2,68,72
 Non-Emergency Incident,EASTERN,84,FS84,South Warrandyte,nonInc,6,16,80,8.7,2,69,70
 Emergency Incident,EASTERN,84,FS84,South Warrandyte,emInc,20,16,80,8.7,2,69,70
-Incident Total,EASTERN,84,FS84,South Warrandyte,totInc,26,16,80,8.7,2,69,70
+District Total Incidents Average,EASTERN,84,FS84,South Warrandyte,totInc,26,16,80,8.7,2,69,70
 Non-Emergency Incident,WESTERN D2,51,FS51,Keilor,nonInc,24,70,79.5,8.6,2,70,36
 Emergency Incident,WESTERN D2,51,FS51,Keilor,emInc,88,70,79.5,8.6,2,70,36
-Incident Total,WESTERN D2,51,FS51,Keilor,totInc,112,70,79.5,8.6,2,70,36
+District Total Incidents Average,WESTERN D2,51,FS51,Keilor,totInc,112,70,79.5,8.6,2,70,36
 Non-Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,nonInc,5,124,79.5,10,2,71,41
 Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,emInc,156,124,79.5,10,2,71,41
-Incident Total,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,161,124,79.5,10,2,71,41
+District Total Incidents Average,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,161,124,79.5,10,2,71,41
 Non-Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,nonInc,39,89,79.5,9.8,2,72,67
 Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,emInc,112,89,79.5,9.8,2,72,67
-Incident Total,SOUTHERN D2,92,FS92,Cranbourne,totInc,151,89,79.5,9.8,2,72,67
+District Total Incidents Average,SOUTHERN D2,92,FS92,Cranbourne,totInc,151,89,79.5,9.8,2,72,67
 Non-Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,nonInc,4,83,79,8.8,2,73,66
 Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,emInc,105,83,79,8.8,2,73,66
-Incident Total,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,109,83,79,8.8,2,73,66
+District Total Incidents Average,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,109,83,79,8.8,2,73,66
 Non-Emergency Incident,NORTHERN,80,FS80,Craigieburn,nonInc,23,91,77.8,9.5,2,74,77
 Emergency Incident,NORTHERN,80,FS80,Craigieburn,emInc,117,91,77.8,9.5,2,74,77
-Incident Total,NORTHERN,80,FS80,Craigieburn,totInc,140,91,77.8,9.5,2,74,77
+District Total Incidents Average,NORTHERN,80,FS80,Craigieburn,totInc,140,91,77.8,9.5,2,74,77
 Non-Emergency Incident,SOUTHERN D2,88,FS88,Hallam,nonInc,53,115,77.7,9.3,2,75,55
 Emergency Incident,SOUTHERN D2,88,FS88,Hallam,emInc,148,115,77.7,9.3,2,75,55
-Incident Total,SOUTHERN D2,88,FS88,Hallam,totInc,201,115,77.7,9.3,2,75,55
+District Total Incidents Average,SOUTHERN D2,88,FS88,Hallam,totInc,201,115,77.7,9.3,2,75,55
 Non-Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,nonInc,12,82,77.4,8.6,2,76,58
 Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,emInc,106,82,77.4,8.6,2,76,58
-Incident Total,SOUTHERN D2,93,FS93,Pakenham,totInc,118,82,77.4,8.6,2,76,58
+District Total Incidents Average,SOUTHERN D2,93,FS93,Pakenham,totInc,118,82,77.4,8.6,2,76,58
 Non-Emergency Incident,WESTERN D1,58,FS58,Point Cook,nonInc,5,58,76.3,9.6,2,77,79
 Emergency Incident,WESTERN D1,58,FS58,Point Cook,emInc,76,58,76.3,9.6,2,77,79
-Incident Total,WESTERN D1,58,FS58,Point Cook,totInc,81,58,76.3,9.6,2,77,79
+District Total Incidents Average,WESTERN D1,58,FS58,Point Cook,totInc,81,58,76.3,9.6,2,77,79
 Non-Emergency Incident,WESTERN D2,53,FS53,Sunbury,nonInc,8,60,75.9,9.9,2,78,76
 Emergency Incident,WESTERN D2,53,FS53,Sunbury,emInc,79,60,75.9,9.9,2,78,76
-Incident Total,WESTERN D2,53,FS53,Sunbury,totInc,87,60,75.9,9.9,2,78,76
+District Total Incidents Average,WESTERN D2,53,FS53,Sunbury,totInc,87,60,75.9,9.9,2,78,76
 Non-Emergency Incident,WESTERN D2,52,FS52,Tullamarine,nonInc,23,74,74.7,9.3,2,79,80
 Emergency Incident,WESTERN D2,52,FS52,Tullamarine,emInc,99,74,74.7,9.3,2,79,80
-Incident Total,WESTERN D2,52,FS52,Tullamarine,totInc,122,74,74.7,9.3,2,79,80
+District Total Incidents Average,WESTERN D2,52,FS52,Tullamarine,totInc,122,74,74.7,9.3,2,79,80
 Non-Emergency Incident,WESTERN D2,56,FS56,Melton,nonInc,30,142,74.7,10,2,80,78
 Emergency Incident,WESTERN D2,56,FS56,Melton,emInc,190,142,74.7,10,2,80,78
-Incident Total,WESTERN D2,56,FS56,Melton,totInc,220,142,74.7,10,2,80,78
+District Total Incidents Average,WESTERN D2,56,FS56,Melton,totInc,220,142,74.7,10,2,80,78
 Non-Emergency Incident,WESTERN D1,59,FS59,Derrimut,nonInc,9,41,74.5,8.6,2,81,85
 Emergency Incident,WESTERN D1,59,FS59,Derrimut,emInc,55,41,74.5,8.6,2,81,85
-Incident Total,WESTERN D1,59,FS59,Derrimut,totInc,64,41,74.5,8.6,2,81,85
+District Total Incidents Average,WESTERN D1,59,FS59,Derrimut,totInc,64,41,74.5,8.6,2,81,85
 Non-Emergency Incident,WESTERN D2,54,FS54,Greenvale,nonInc,12,23,65.7,9.3,2,83,81
 Emergency Incident,WESTERN D2,54,FS54,Greenvale,emInc,35,23,65.7,9.3,2,83,81
-Incident Total,WESTERN D2,54,FS54,Greenvale,totInc,47,23,65.7,9.3,2,83,81
+District Total Incidents Average,WESTERN D2,54,FS54,Greenvale,totInc,47,23,65.7,9.3,2,83,81
 Non-Emergency Incident,WESTERN D1,57,FS57,Tarneit,nonInc,45,127,63.8,10.5,2,84,82
 Emergency Incident,WESTERN D1,57,FS57,Tarneit,emInc,199,127,63.8,10.5,2,84,82
-Incident Total,WESTERN D1,57,FS57,Tarneit,totInc,244,127,63.8,10.5,2,84,82
+District Total Incidents Average,WESTERN D1,57,FS57,Tarneit,totInc,244,127,63.8,10.5,2,84,82
 Non-Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,nonInc,17,94,58,9.6,2,85,84
 Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,emInc,162,94,58,9.6,2,85,84
-Incident Total,WESTERN D2,55,FS55,Caroline Springs,totInc,179,94,58,9.6,2,85,84
+District Total Incidents Average,WESTERN D2,55,FS55,Caroline Springs,totInc,179,94,58,9.6,2,85,84
 Non-Emergency Incident,WESTERN D3,61,FS61,Lara,nonInc,7,25,49,11.3,2,86,83
 Emergency Incident,WESTERN D3,61,FS61,Lara,emInc,51,25,49,11.3,2,86,83
-Incident Total,WESTERN D3,61,FS61,Lara,totInc,58,25,49,11.3,2,86,83
+District Total Incidents Average,WESTERN D3,61,FS61,Lara,totInc,58,25,49,11.3,2,86,83
 Non-Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,nonInc,1,23,100,5.87,3,1,1
 Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,emInc,23,23,100,5.87,3,1,1
-Incident Total,WESTERN D3,66,FS66,Ocean Grove,totInc,24,23,100,5.87,3,1,1
+District Total Incidents Average,WESTERN D3,66,FS66,Ocean Grove,totInc,24,23,100,5.87,3,1,1
 Non-Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,nonInc,8,74,100,5.48,3,2,4
 Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,emInc,74,74,100,5.48,3,2,4
-Incident Total,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,82,74,100,5.48,3,2,4
+District Total Incidents Average,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,82,74,100,5.48,3,2,4
 Non-Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,nonInc,4,44,100,6.83,3,3,50
 Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,emInc,44,44,100,6.83,3,3,50
-Incident Total,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,48,44,100,6.83,3,3,50
+District Total Incidents Average,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,48,44,100,6.83,3,3,50
 Non-Emergency Incident,CENTRAL,1,FS1,Eastern Hill,nonInc,15,350,97.5,5.5,3,4,2
 Emergency Incident,CENTRAL,1,FS1,Eastern Hill,emInc,359,350,97.5,5.5,3,4,2
-Incident Total,CENTRAL,1,FS1,Eastern Hill,totInc,374,350,97.5,5.5,3,4,2
+District Total Incidents Average,CENTRAL,1,FS1,Eastern Hill,totInc,374,350,97.5,5.5,3,4,2
 Non-Emergency Incident,CENTRAL,3,FS3,Carlton,nonInc,19,319,96.7,6.27,3,5,3
 Emergency Incident,CENTRAL,3,FS3,Carlton,emInc,330,319,96.7,6.27,3,5,3
-Incident Total,CENTRAL,3,FS3,Carlton,totInc,349,319,96.7,6.27,3,5,3
+District Total Incidents Average,CENTRAL,3,FS3,Carlton,totInc,349,319,96.7,6.27,3,5,3
 Non-Emergency Incident,WESTERN D3,64,FS64,Belmont,nonInc,24,87,96.7,7.05,3,6,27
 Emergency Incident,WESTERN D3,64,FS64,Belmont,emInc,90,87,96.7,7.05,3,6,27
-Incident Total,WESTERN D3,64,FS64,Belmont,totInc,114,87,96.7,7.05,3,6,27
+District Total Incidents Average,WESTERN D3,64,FS64,Belmont,totInc,114,87,96.7,7.05,3,6,27
 Non-Emergency Incident,CENTRAL,38,FS38,South Melbourne,nonInc,17,337,96.6,6.48,3,7,14
 Emergency Incident,CENTRAL,38,FS38,South Melbourne,emInc,349,337,96.6,6.48,3,7,14
-Incident Total,CENTRAL,38,FS38,South Melbourne,totInc,366,337,96.6,6.48,3,7,14
+District Total Incidents Average,CENTRAL,38,FS38,South Melbourne,totInc,366,337,96.6,6.48,3,7,14
 Non-Emergency Incident,CENTRAL,10,FS10,Richmond,nonInc,14,238,95.6,6.7,3,8,16
 Emergency Incident,CENTRAL,10,FS10,Richmond,emInc,249,238,95.6,6.7,3,8,16
-Incident Total,CENTRAL,10,FS10,Richmond,totInc,263,238,95.6,6.7,3,8,16
+District Total Incidents Average,CENTRAL,10,FS10,Richmond,totInc,263,238,95.6,6.7,3,8,16
 Non-Emergency Incident,NORTHERN,16,FS16,Greensborough,nonInc,15,65,95.6,7.55,3,9,31
 Emergency Incident,NORTHERN,16,FS16,Greensborough,emInc,68,65,95.6,7.55,3,9,31
-Incident Total,NORTHERN,16,FS16,Greensborough,totInc,83,65,95.6,7.55,3,9,31
+District Total Incidents Average,NORTHERN,16,FS16,Greensborough,totInc,83,65,95.6,7.55,3,9,31
 Non-Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,nonInc,5,63,95.5,7.28,3,10,52
 Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,emInc,66,63,95.5,7.28,3,10,52
-Incident Total,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,71,63,95.5,7.28,3,10,52
+District Total Incidents Average,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,71,63,95.5,7.28,3,10,52
 Non-Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,nonInc,4,20,95.2,7.05,3,11,51
 Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,emInc,21,20,95.2,7.05,3,11,51
-Incident Total,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,25,20,95.2,7.05,3,11,51
+District Total Incidents Average,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,25,20,95.2,7.05,3,11,51
 Non-Emergency Incident,WESTERN D1,47,FS47,Footscray,nonInc,30,172,95,7,3,12,35
 Emergency Incident,WESTERN D1,47,FS47,Footscray,emInc,181,172,95,7,3,12,35
-Incident Total,WESTERN D1,47,FS47,Footscray,totInc,211,172,95,7,3,12,35
+District Total Incidents Average,WESTERN D1,47,FS47,Footscray,totInc,211,172,95,7,3,12,35
 Non-Emergency Incident,SOUTHERN D1,86,FS86,Rowville,nonInc,14,37,94.9,6.7,3,13,21
 Emergency Incident,SOUTHERN D1,86,FS86,Rowville,emInc,39,37,94.9,6.7,3,13,21
-Incident Total,SOUTHERN D1,86,FS86,Rowville,totInc,53,37,94.9,6.7,3,13,21
+District Total Incidents Average,SOUTHERN D1,86,FS86,Rowville,totInc,53,37,94.9,6.7,3,13,21
 Non-Emergency Incident,EASTERN,28,FS28,Vermont South,nonInc,20,72,94.7,7.05,3,14,19
 Emergency Incident,EASTERN,28,FS28,Vermont South,emInc,76,72,94.7,7.05,3,14,19
-Incident Total,EASTERN,28,FS28,Vermont South,totInc,96,72,94.7,7.05,3,14,19
+District Total Incidents Average,EASTERN,28,FS28,Vermont South,totInc,96,72,94.7,7.05,3,14,19
 Non-Emergency Incident,CENTRAL,39,FS39,Port Melbourne,nonInc,9,107,94.7,7.13,3,15,32
 Emergency Incident,CENTRAL,39,FS39,Port Melbourne,emInc,113,107,94.7,7.13,3,15,32
-Incident Total,CENTRAL,39,FS39,Port Melbourne,totInc,122,107,94.7,7.13,3,15,32
+District Total Incidents Average,CENTRAL,39,FS39,Port Melbourne,totInc,122,107,94.7,7.13,3,15,32
 Non-Emergency Incident,EASTERN,23,FS23,Burwood,nonInc,20,113,94.2,7.08,3,16,5
 Emergency Incident,EASTERN,23,FS23,Burwood,emInc,120,113,94.2,7.08,3,16,5
-Incident Total,EASTERN,23,FS23,Burwood,totInc,140,113,94.2,7.08,3,16,5
+District Total Incidents Average,EASTERN,23,FS23,Burwood,totInc,140,113,94.2,7.08,3,16,5
 Non-Emergency Incident,NORTHERN,81,FS81,South Morang,nonInc,6,48,94.1,7.67,3,17,44
 Emergency Incident,NORTHERN,81,FS81,South Morang,emInc,51,48,94.1,7.67,3,17,44
-Incident Total,NORTHERN,81,FS81,South Morang,totInc,57,48,94.1,7.67,3,17,44
+District Total Incidents Average,NORTHERN,81,FS81,South Morang,totInc,57,48,94.1,7.67,3,17,44
 Non-Emergency Incident,WESTERN D2,44,FS44,Sunshine,nonInc,35,168,93.9,7.5,3,18,24
 Emergency Incident,WESTERN D2,44,FS44,Sunshine,emInc,179,168,93.9,7.5,3,18,24
-Incident Total,WESTERN D2,44,FS44,Sunshine,totInc,214,168,93.9,7.5,3,18,24
+District Total Incidents Average,WESTERN D2,44,FS44,Sunshine,totInc,214,168,93.9,7.5,3,18,24
 Non-Emergency Incident,CENTRAL,2,FS2,West Melbourne,nonInc,29,262,93.6,6.57,3,19,7
 Emergency Incident,CENTRAL,2,FS2,West Melbourne,emInc,280,262,93.6,6.57,3,19,7
-Incident Total,CENTRAL,2,FS2,West Melbourne,totInc,309,262,93.6,6.57,3,19,7
+District Total Incidents Average,CENTRAL,2,FS2,West Melbourne,totInc,309,262,93.6,6.57,3,19,7
 Non-Emergency Incident,NORTHERN,12,FS12,Preston,nonInc,19,130,93.5,7.23,3,20,12
 Emergency Incident,NORTHERN,12,FS12,Preston,emInc,139,130,93.5,7.23,3,20,12
-Incident Total,NORTHERN,12,FS12,Preston,totInc,158,130,93.5,7.23,3,20,12
+District Total Incidents Average,NORTHERN,12,FS12,Preston,totInc,158,130,93.5,7.23,3,20,12
 Non-Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,nonInc,9,70,93.3,6.77,3,21,15
 Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,emInc,75,70,93.3,6.77,3,21,15
-Incident Total,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,84,70,93.3,6.77,3,21,15
+District Total Incidents Average,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,84,70,93.3,6.77,3,21,15
 Non-Emergency Incident,CENTRAL,4,FS4,Brunswick,nonInc,27,164,93.2,7.32,3,22,17
 Emergency Incident,CENTRAL,4,FS4,Brunswick,emInc,176,164,93.2,7.32,3,22,17
-Incident Total,CENTRAL,4,FS4,Brunswick,totInc,203,164,93.2,7.32,3,22,17
+District Total Incidents Average,CENTRAL,4,FS4,Brunswick,totInc,203,164,93.2,7.32,3,22,17
 Non-Emergency Incident,EASTERN,26,FS26,Croydon,nonInc,24,106,93,7.13,3,23,11
 Emergency Incident,EASTERN,26,FS26,Croydon,emInc,114,106,93,7.13,3,23,11
-Incident Total,EASTERN,26,FS26,Croydon,totInc,138,106,93,7.13,3,23,11
+District Total Incidents Average,EASTERN,26,FS26,Croydon,totInc,138,106,93,7.13,3,23,11
 Non-Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,nonInc,9,64,92.8,7.52,3,24,38
 Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,emInc,69,64,92.8,7.52,3,24,38
-Incident Total,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,78,64,92.8,7.52,3,24,38
+District Total Incidents Average,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,78,64,92.8,7.52,3,24,38
 Non-Emergency Incident,CENTRAL,35,FS35,Windsor,nonInc,52,375,92.1,7.23,3,25,34
 Emergency Incident,CENTRAL,35,FS35,Windsor,emInc,407,375,92.1,7.23,3,25,34
-Incident Total,CENTRAL,35,FS35,Windsor,totInc,459,375,92.1,7.23,3,25,34
+District Total Incidents Average,CENTRAL,35,FS35,Windsor,totInc,459,375,92.1,7.23,3,25,34
 Non-Emergency Incident,WESTERN D3,63,FS63,Geelong City,nonInc,18,135,91.8,7.6,3,26,9
 Emergency Incident,WESTERN D3,63,FS63,Geelong City,emInc,147,135,91.8,7.6,3,26,9
-Incident Total,WESTERN D3,63,FS63,Geelong City,totInc,165,135,91.8,7.6,3,26,9
+District Total Incidents Average,WESTERN D3,63,FS63,Geelong City,totInc,165,135,91.8,7.6,3,26,9
 Non-Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,nonInc,21,187,91.7,7.67,3,27,54
 Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,emInc,204,187,91.7,7.67,3,27,54
-Incident Total,SOUTHERN D1,31,FS31,Glen Waverley,totInc,225,187,91.7,7.67,3,27,54
+District Total Incidents Average,SOUTHERN D1,31,FS31,Glen Waverley,totInc,225,187,91.7,7.67,3,27,54
 Non-Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,nonInc,6,133,91.7,7.7,3,28,65
 Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,emInc,145,133,91.7,7.7,3,28,65
-Incident Total,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,151,133,91.7,7.7,3,28,65
+District Total Incidents Average,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,151,133,91.7,7.7,3,28,65
 Non-Emergency Incident,EASTERN,27,FS27,Nunawading,nonInc,15,96,91.4,7.55,3,29,18
 Emergency Incident,EASTERN,27,FS27,Nunawading,emInc,105,96,91.4,7.55,3,29,18
-Incident Total,EASTERN,27,FS27,Nunawading,totInc,120,96,91.4,7.55,3,29,18
+District Total Incidents Average,EASTERN,27,FS27,Nunawading,totInc,120,96,91.4,7.55,3,29,18
 Non-Emergency Incident,EASTERN,20,FS20,Box Hill,nonInc,21,126,91.3,7.63,3,30,10
 Emergency Incident,EASTERN,20,FS20,Box Hill,emInc,138,126,91.3,7.63,3,30,10
-Incident Total,EASTERN,20,FS20,Box Hill,totInc,159,126,91.3,7.63,3,30,10
+District Total Incidents Average,EASTERN,20,FS20,Box Hill,totInc,159,126,91.3,7.63,3,30,10
 Non-Emergency Incident,NORTHERN,14,FS14,Bundoora,nonInc,20,100,90.9,7.8,3,31,46
 Emergency Incident,NORTHERN,14,FS14,Bundoora,emInc,110,100,90.9,7.8,3,31,46
-Incident Total,NORTHERN,14,FS14,Bundoora,totInc,130,100,90.9,7.8,3,31,46
+District Total Incidents Average,NORTHERN,14,FS14,Bundoora,totInc,130,100,90.9,7.8,3,31,46
 Non-Emergency Incident,EASTERN,22,FS22,Ringwood,nonInc,11,97,90.7,7.97,3,32,22
 Emergency Incident,EASTERN,22,FS22,Ringwood,emInc,107,97,90.7,7.97,3,32,22
-Incident Total,EASTERN,22,FS22,Ringwood,totInc,118,97,90.7,7.97,3,32,22
+District Total Incidents Average,EASTERN,22,FS22,Ringwood,totInc,118,97,90.7,7.97,3,32,22
 Non-Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,nonInc,21,115,90.6,7.62,3,33,29
 Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,emInc,127,115,90.6,7.62,3,33,29
-Incident Total,SOUTHERN D1,25,FS25,Oakleigh,totInc,148,115,90.6,7.62,3,33,29
+District Total Incidents Average,SOUTHERN D1,25,FS25,Oakleigh,totInc,148,115,90.6,7.62,3,33,29
 Non-Emergency Incident,SOUTHERN D1,33,FS33,Mentone,nonInc,30,87,90.6,8.08,3,34,37
 Emergency Incident,SOUTHERN D1,33,FS33,Mentone,emInc,96,87,90.6,8.08,3,34,37
-Incident Total,SOUTHERN D1,33,FS33,Mentone,totInc,126,87,90.6,8.08,3,34,37
+District Total Incidents Average,SOUTHERN D1,33,FS33,Mentone,totInc,126,87,90.6,8.08,3,34,37
 Non-Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,nonInc,27,90,90,8.4,3,35,72
 Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,emInc,100,90,90,8.4,3,35,72
-Incident Total,NORTHERN,6,FS6,Pascoe Vale,totInc,127,90,90,8.4,3,35,72
+District Total Incidents Average,NORTHERN,6,FS6,Pascoe Vale,totInc,127,90,90,8.4,3,35,72
 Non-Emergency Incident,SOUTHERN D2,94,FS94,Mornington,nonInc,11,62,89.9,7.95,3,36,25
 Emergency Incident,SOUTHERN D2,94,FS94,Mornington,emInc,69,62,89.9,7.95,3,36,25
-Incident Total,SOUTHERN D2,94,FS94,Mornington,totInc,80,62,89.9,7.95,3,36,25
+District Total Incidents Average,SOUTHERN D2,94,FS94,Mornington,totInc,80,62,89.9,7.95,3,36,25
 Non-Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,nonInc,10,44,89.8,7.68,3,37,6
 Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,emInc,49,44,89.8,7.68,3,37,6
-Incident Total,SOUTHERN D2,95,FS95,Rosebud,totInc,59,44,89.8,7.68,3,37,6
+District Total Incidents Average,SOUTHERN D2,95,FS95,Rosebud,totInc,59,44,89.8,7.68,3,37,6
 Non-Emergency Incident,SOUTHERN D1,29,FS29,Clayton,nonInc,20,104,89.7,7.88,3,38,8
 Emergency Incident,SOUTHERN D1,29,FS29,Clayton,emInc,116,104,89.7,7.88,3,38,8
-Incident Total,SOUTHERN D1,29,FS29,Clayton,totInc,136,104,89.7,7.88,3,38,8
+District Total Incidents Average,SOUTHERN D1,29,FS29,Clayton,totInc,136,104,89.7,7.88,3,38,8
 Non-Emergency Incident,WESTERN D1,42,FS42,Newport,nonInc,4,68,89.5,7.72,3,39,43
 Emergency Incident,WESTERN D1,42,FS42,Newport,emInc,76,68,89.5,7.72,3,39,43
-Incident Total,WESTERN D1,42,FS42,Newport,totInc,80,68,89.5,7.72,3,39,43
+District Total Incidents Average,WESTERN D1,42,FS42,Newport,totInc,80,68,89.5,7.72,3,39,43
 Non-Emergency Incident,NORTHERN,15,FS15,Heidelberg,nonInc,25,155,89.1,7.98,3,40,42
 Emergency Incident,NORTHERN,15,FS15,Heidelberg,emInc,174,155,89.1,7.98,3,40,42
-Incident Total,NORTHERN,15,FS15,Heidelberg,totInc,199,155,89.1,7.98,3,40,42
+District Total Incidents Average,NORTHERN,15,FS15,Heidelberg,totInc,199,155,89.1,7.98,3,40,42
 Non-Emergency Incident,WESTERN D2,53,FS53,Sunbury,nonInc,12,56,88.9,8.15,3,41,76
 Emergency Incident,WESTERN D2,53,FS53,Sunbury,emInc,63,56,88.9,8.15,3,41,76
-Incident Total,WESTERN D2,53,FS53,Sunbury,totInc,75,56,88.9,8.15,3,41,76
+District Total Incidents Average,WESTERN D2,53,FS53,Sunbury,totInc,75,56,88.9,8.15,3,41,76
 Non-Emergency Incident,WESTERN D2,43,FS43,Deer Park,nonInc,18,85,88.5,8.03,3,42,73
 Emergency Incident,WESTERN D2,43,FS43,Deer Park,emInc,96,85,88.5,8.03,3,42,73
-Incident Total,WESTERN D2,43,FS43,Deer Park,totInc,114,85,88.5,8.03,3,42,73
+District Total Incidents Average,WESTERN D2,43,FS43,Deer Park,totInc,114,85,88.5,8.03,3,42,73
 Non-Emergency Incident,CENTRAL,50,FS50,Ascot Vale,nonInc,25,145,88.4,7.88,3,43,48
 Emergency Incident,CENTRAL,50,FS50,Ascot Vale,emInc,164,145,88.4,7.88,3,43,48
-Incident Total,CENTRAL,50,FS50,Ascot Vale,totInc,189,145,88.4,7.88,3,43,48
+District Total Incidents Average,CENTRAL,50,FS50,Ascot Vale,totInc,189,145,88.4,7.88,3,43,48
 Non-Emergency Incident,SOUTHERN D1,32,FS32,Ormond,nonInc,35,148,88.1,7.83,3,44,62
 Emergency Incident,SOUTHERN D1,32,FS32,Ormond,emInc,168,148,88.1,7.83,3,44,62
-Incident Total,SOUTHERN D1,32,FS32,Ormond,totInc,203,148,88.1,7.83,3,44,62
+District Total Incidents Average,SOUTHERN D1,32,FS32,Ormond,totInc,203,148,88.1,7.83,3,44,62
 Non-Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,nonInc,8,37,88.1,7.43,3,45,49
 Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,emInc,42,37,88.1,7.43,3,45,49
-Incident Total,WESTERN D2,48,FS48,Taylors Lakes,totInc,50,37,88.1,7.43,3,45,49
+District Total Incidents Average,WESTERN D2,48,FS48,Taylors Lakes,totInc,50,37,88.1,7.43,3,45,49
 Non-Emergency Incident,EASTERN,85,FS85,Boronia,nonInc,16,52,88.1,7.92,3,46,28
 Emergency Incident,EASTERN,85,FS85,Boronia,emInc,59,52,88.1,7.92,3,46,28
-Incident Total,EASTERN,85,FS85,Boronia,totInc,75,52,88.1,7.92,3,46,28
+District Total Incidents Average,EASTERN,85,FS85,Boronia,totInc,75,52,88.1,7.92,3,46,28
 Non-Emergency Incident,SOUTHERN D2,91,FS91,Frankston,nonInc,26,162,88,8.18,3,47,26
 Emergency Incident,SOUTHERN D2,91,FS91,Frankston,emInc,184,162,88,8.18,3,47,26
-Incident Total,SOUTHERN D2,91,FS91,Frankston,totInc,210,162,88,8.18,3,47,26
+District Total Incidents Average,SOUTHERN D2,91,FS91,Frankston,totInc,210,162,88,8.18,3,47,26
 Non-Emergency Incident,CENTRAL,18,FS18,Hawthorn,nonInc,24,148,87.6,7.87,3,48,47
 Emergency Incident,CENTRAL,18,FS18,Hawthorn,emInc,169,148,87.6,7.87,3,48,47
-Incident Total,CENTRAL,18,FS18,Hawthorn,totInc,193,148,87.6,7.87,3,48,47
+District Total Incidents Average,CENTRAL,18,FS18,Hawthorn,totInc,193,148,87.6,7.87,3,48,47
 Non-Emergency Incident,EASTERN,19,FS19,North Balwyn,nonInc,20,90,87.4,8.28,3,49,61
 Emergency Incident,EASTERN,19,FS19,North Balwyn,emInc,103,90,87.4,8.28,3,49,61
-Incident Total,EASTERN,19,FS19,North Balwyn,totInc,123,90,87.4,8.28,3,49,61
+District Total Incidents Average,EASTERN,19,FS19,North Balwyn,totInc,123,90,87.4,8.28,3,49,61
 Non-Emergency Incident,WESTERN D2,41,FS41,St Albans,nonInc,27,90,87.4,8.22,3,50,13
 Emergency Incident,WESTERN D2,41,FS41,St Albans,emInc,103,90,87.4,8.22,3,50,13
-Incident Total,WESTERN D2,41,FS41,St Albans,totInc,130,90,87.4,8.22,3,50,13
+District Total Incidents Average,WESTERN D2,41,FS41,St Albans,totInc,130,90,87.4,8.22,3,50,13
 Non-Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,nonInc,10,82,87.2,8.57,3,51,33
 Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,emInc,94,82,87.2,8.57,3,51,33
-Incident Total,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,104,82,87.2,8.57,3,51,33
+District Total Incidents Average,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,104,82,87.2,8.57,3,51,33
 Non-Emergency Incident,NORTHERN,9,FS9,Somerton,nonInc,12,40,87,7.95,3,52,20
 Emergency Incident,NORTHERN,9,FS9,Somerton,emInc,46,40,87,7.95,3,52,20
-Incident Total,NORTHERN,9,FS9,Somerton,totInc,58,40,87,7.95,3,52,20
+District Total Incidents Average,NORTHERN,9,FS9,Somerton,totInc,58,40,87,7.95,3,52,20
 Non-Emergency Incident,CENTRAL,13,FS13,Northcote,nonInc,29,103,86.6,7.95,3,53,59
 Emergency Incident,CENTRAL,13,FS13,Northcote,emInc,119,103,86.6,7.95,3,53,59
-Incident Total,CENTRAL,13,FS13,Northcote,totInc,148,103,86.6,7.95,3,53,59
+District Total Incidents Average,CENTRAL,13,FS13,Northcote,totInc,148,103,86.6,7.95,3,53,59
 Non-Emergency Incident,NORTHERN,7,FS7,Thomastown,nonInc,18,90,86.5,8.02,3,54,45
 Emergency Incident,NORTHERN,7,FS7,Thomastown,emInc,104,90,86.5,8.02,3,54,45
-Incident Total,NORTHERN,7,FS7,Thomastown,totInc,122,90,86.5,8.02,3,54,45
+District Total Incidents Average,NORTHERN,7,FS7,Thomastown,totInc,122,90,86.5,8.02,3,54,45
 Non-Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,nonInc,50,182,86.3,8.48,3,55,56
 Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,emInc,211,182,86.3,8.48,3,55,56
-Incident Total,SOUTHERN D2,87,FS87,Dandenong,totInc,261,182,86.3,8.48,3,55,56
+District Total Incidents Average,SOUTHERN D2,87,FS87,Dandenong,totInc,261,182,86.3,8.48,3,55,56
 Non-Emergency Incident,NORTHERN,80,FS80,Craigieburn,nonInc,37,80,86,8.32,3,56,77
 Emergency Incident,NORTHERN,80,FS80,Craigieburn,emInc,93,80,86,8.32,3,56,77
-Incident Total,NORTHERN,80,FS80,Craigieburn,totInc,130,80,86,8.32,3,56,77
+District Total Incidents Average,NORTHERN,80,FS80,Craigieburn,totInc,130,80,86,8.32,3,56,77
 Non-Emergency Incident,NORTHERN,5,FS5,Broadmeadows,nonInc,42,171,85.9,8.68,3,57,69
 Emergency Incident,NORTHERN,5,FS5,Broadmeadows,emInc,199,171,85.9,8.68,3,57,69
-Incident Total,NORTHERN,5,FS5,Broadmeadows,totInc,241,171,85.9,8.68,3,57,69
+District Total Incidents Average,NORTHERN,5,FS5,Broadmeadows,totInc,241,171,85.9,8.68,3,57,69
 Non-Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,nonInc,10,76,85.4,8.17,3,58,60
 Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,emInc,89,76,85.4,8.17,3,58,60
-Incident Total,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,99,76,85.4,8.17,3,58,60
+District Total Incidents Average,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,99,76,85.4,8.17,3,58,60
 Non-Emergency Incident,WESTERN D1,46,FS46,Altona,nonInc,6,28,84.8,7.85,3,59,57
 Emergency Incident,WESTERN D1,46,FS46,Altona,emInc,33,28,84.8,7.85,3,59,57
-Incident Total,WESTERN D1,46,FS46,Altona,totInc,39,28,84.8,7.85,3,59,57
+District Total Incidents Average,WESTERN D1,46,FS46,Altona,totInc,39,28,84.8,7.85,3,59,57
 Non-Emergency Incident,NORTHERN,11,FS11,Epping,nonInc,10,71,84.5,8.08,3,60,23
 Emergency Incident,NORTHERN,11,FS11,Epping,emInc,84,71,84.5,8.08,3,60,23
-Incident Total,NORTHERN,11,FS11,Epping,totInc,94,71,84.5,8.08,3,60,23
+District Total Incidents Average,NORTHERN,11,FS11,Epping,totInc,94,71,84.5,8.08,3,60,23
 Non-Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,nonInc,2,38,84.4,8.1,3,61,53
 Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,emInc,45,38,84.4,8.1,3,61,53
-Incident Total,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,47,38,84.4,8.1,3,61,53
+District Total Incidents Average,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,47,38,84.4,8.1,3,61,53
 Non-Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,nonInc,46,107,84.3,8.48,3,62,67
 Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,emInc,127,107,84.3,8.48,3,62,67
-Incident Total,SOUTHERN D2,92,FS92,Cranbourne,totInc,173,107,84.3,8.48,3,62,67
+District Total Incidents Average,SOUTHERN D2,92,FS92,Cranbourne,totInc,173,107,84.3,8.48,3,62,67
 Non-Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,nonInc,14,58,84.1,8.32,3,63,75
 Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,emInc,69,58,84.1,8.32,3,63,75
-Incident Total,SOUTHERN D2,90,FS90,Patterson River,totInc,83,58,84.1,8.32,3,63,75
+District Total Incidents Average,SOUTHERN D2,90,FS90,Patterson River,totInc,83,58,84.1,8.32,3,63,75
 Non-Emergency Incident,WESTERN D3,62,FS62,Corio,nonInc,33,118,83.7,8.32,3,64,64
 Emergency Incident,WESTERN D3,62,FS62,Corio,emInc,141,118,83.7,8.32,3,64,64
-Incident Total,WESTERN D3,62,FS62,Corio,totInc,174,118,83.7,8.32,3,64,64
+District Total Incidents Average,WESTERN D3,62,FS62,Corio,totInc,174,118,83.7,8.32,3,64,64
 Non-Emergency Incident,SOUTHERN D1,24,FS24,Malvern,nonInc,30,121,83.4,8.92,3,65,30
 Emergency Incident,SOUTHERN D1,24,FS24,Malvern,emInc,145,121,83.4,8.92,3,65,30
-Incident Total,SOUTHERN D1,24,FS24,Malvern,totInc,175,121,83.4,8.92,3,65,30
+District Total Incidents Average,SOUTHERN D1,24,FS24,Malvern,totInc,175,121,83.4,8.92,3,65,30
 Non-Emergency Incident,SOUTHERN D1,34,FS34,Highett,nonInc,30,130,83.3,8.57,3,66,68
 Emergency Incident,SOUTHERN D1,34,FS34,Highett,emInc,156,130,83.3,8.57,3,66,68
-Incident Total,SOUTHERN D1,34,FS34,Highett,totInc,186,130,83.3,8.57,3,66,68
+District Total Incidents Average,SOUTHERN D1,34,FS34,Highett,totInc,186,130,83.3,8.57,3,66,68
 Non-Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,nonInc,10,109,83.2,8.47,3,67,41
 Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,emInc,131,109,83.2,8.47,3,67,41
-Incident Total,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,141,109,83.2,8.47,3,67,41
+District Total Incidents Average,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,141,109,83.2,8.47,3,67,41
 Non-Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,nonInc,22,64,83.1,8.65,3,68,58
 Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,emInc,77,64,83.1,8.65,3,68,58
-Incident Total,SOUTHERN D2,93,FS93,Pakenham,totInc,99,64,83.1,8.65,3,68,58
+District Total Incidents Average,SOUTHERN D2,93,FS93,Pakenham,totInc,99,64,83.1,8.65,3,68,58
 Non-Emergency Incident,WESTERN D1,40,FS40,Laverton,nonInc,10,53,82.8,8.98,3,69,74
 Emergency Incident,WESTERN D1,40,FS40,Laverton,emInc,64,53,82.8,8.98,3,69,74
-Incident Total,WESTERN D1,40,FS40,Laverton,totInc,74,53,82.8,8.98,3,69,74
+District Total Incidents Average,WESTERN D1,40,FS40,Laverton,totInc,74,53,82.8,8.98,3,69,74
 Non-Emergency Incident,SOUTHERN D2,88,FS88,Hallam,nonInc,35,95,82.6,8.5,3,70,55
 Emergency Incident,SOUTHERN D2,88,FS88,Hallam,emInc,115,95,82.6,8.5,3,70,55
-Incident Total,SOUTHERN D2,88,FS88,Hallam,totInc,150,95,82.6,8.5,3,70,55
+District Total Incidents Average,SOUTHERN D2,88,FS88,Hallam,totInc,150,95,82.6,8.5,3,70,55
 Non-Emergency Incident,EASTERN,30,FS30,Templestowe,nonInc,9,56,82.4,9.12,3,71,40
 Emergency Incident,EASTERN,30,FS30,Templestowe,emInc,68,56,82.4,9.12,3,71,40
-Incident Total,EASTERN,30,FS30,Templestowe,totInc,77,56,82.4,9.12,3,71,40
+District Total Incidents Average,EASTERN,30,FS30,Templestowe,totInc,77,56,82.4,9.12,3,71,40
 Non-Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,nonInc,10,55,82.1,8.47,3,72,66
 Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,emInc,67,55,82.1,8.47,3,72,66
-Incident Total,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,77,55,82.1,8.47,3,72,66
+District Total Incidents Average,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,77,55,82.1,8.47,3,72,66
 Non-Emergency Incident,EASTERN,82,FS82,Eltham City,nonInc,10,49,81.7,8.83,3,73,39
 Emergency Incident,EASTERN,82,FS82,Eltham City,emInc,60,49,81.7,8.83,3,73,39
-Incident Total,EASTERN,82,FS82,Eltham City,totInc,70,49,81.7,8.83,3,73,39
+District Total Incidents Average,EASTERN,82,FS82,Eltham City,totInc,70,49,81.7,8.83,3,73,39
 Non-Emergency Incident,WESTERN D2,52,FS52,Tullamarine,nonInc,18,69,81.2,8.48,3,74,80
 Emergency Incident,WESTERN D2,52,FS52,Tullamarine,emInc,85,69,81.2,8.48,3,74,80
-Incident Total,WESTERN D2,52,FS52,Tullamarine,totInc,103,69,81.2,8.48,3,74,80
+District Total Incidents Average,WESTERN D2,52,FS52,Tullamarine,totInc,103,69,81.2,8.48,3,74,80
 Non-Emergency Incident,WESTERN D2,51,FS51,Keilor,nonInc,25,63,80.8,8.6,3,75,36
 Emergency Incident,WESTERN D2,51,FS51,Keilor,emInc,78,63,80.8,8.6,3,75,36
-Incident Total,WESTERN D2,51,FS51,Keilor,totInc,103,63,80.8,8.6,3,75,36
+District Total Incidents Average,WESTERN D2,51,FS51,Keilor,totInc,103,63,80.8,8.6,3,75,36
 Non-Emergency Incident,SOUTHERN D1,89,FS89,Springvale,nonInc,27,77,80.2,8.4,3,76,63
 Emergency Incident,SOUTHERN D1,89,FS89,Springvale,emInc,96,77,80.2,8.4,3,76,63
-Incident Total,SOUTHERN D1,89,FS89,Springvale,totInc,123,77,80.2,8.4,3,76,63
+District Total Incidents Average,SOUTHERN D1,89,FS89,Springvale,totInc,123,77,80.2,8.4,3,76,63
 Non-Emergency Incident,WESTERN D1,58,FS58,Point Cook,nonInc,20,76,79.2,9.37,3,77,79
 Emergency Incident,WESTERN D1,58,FS58,Point Cook,emInc,96,76,79.2,9.37,3,77,79
-Incident Total,WESTERN D1,58,FS58,Point Cook,totInc,116,76,79.2,9.37,3,77,79
+District Total Incidents Average,WESTERN D1,58,FS58,Point Cook,totInc,116,76,79.2,9.37,3,77,79
 Non-Emergency Incident,WESTERN D1,57,FS57,Tarneit,nonInc,42,120,77.9,9.05,3,78,82
 Emergency Incident,WESTERN D1,57,FS57,Tarneit,emInc,154,120,77.9,9.05,3,78,82
-Incident Total,WESTERN D1,57,FS57,Tarneit,totInc,196,120,77.9,9.05,3,78,82
+District Total Incidents Average,WESTERN D1,57,FS57,Tarneit,totInc,196,120,77.9,9.05,3,78,82
 Non-Emergency Incident,WESTERN D1,45,FS45,Spotswood,nonInc,27,74,76.3,8.9,3,79,71
 Emergency Incident,WESTERN D1,45,FS45,Spotswood,emInc,97,74,76.3,8.9,3,79,71
-Incident Total,WESTERN D1,45,FS45,Spotswood,totInc,124,74,76.3,8.9,3,79,71
+District Total Incidents Average,WESTERN D1,45,FS45,Spotswood,totInc,124,74,76.3,8.9,3,79,71
 Non-Emergency Incident,WESTERN D1,59,FS59,Derrimut,nonInc,10,56,75.7,8.73,3,80,85
 Emergency Incident,WESTERN D1,59,FS59,Derrimut,emInc,74,56,75.7,8.73,3,80,85
-Incident Total,WESTERN D1,59,FS59,Derrimut,totInc,84,56,75.7,8.73,3,80,85
+District Total Incidents Average,WESTERN D1,59,FS59,Derrimut,totInc,84,56,75.7,8.73,3,80,85
 Non-Emergency Incident,WESTERN D2,56,FS56,Melton,nonInc,32,117,71.3,10.13,3,81,78
 Emergency Incident,WESTERN D2,56,FS56,Melton,emInc,164,117,71.3,10.13,3,81,78
-Incident Total,WESTERN D2,56,FS56,Melton,totInc,196,117,71.3,10.13,3,81,78
+District Total Incidents Average,WESTERN D2,56,FS56,Melton,totInc,196,117,71.3,10.13,3,81,78
 Non-Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,nonInc,21,99,67.8,9.57,3,82,84
 Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,emInc,146,99,67.8,9.57,3,82,84
-Incident Total,WESTERN D2,55,FS55,Caroline Springs,totInc,167,99,67.8,9.57,3,82,84
+District Total Incidents Average,WESTERN D2,55,FS55,Caroline Springs,totInc,167,99,67.8,9.57,3,82,84
 Non-Emergency Incident,EASTERN,84,FS84,South Warrandyte,nonInc,1,12,60,9.57,3,83,70
 Emergency Incident,EASTERN,84,FS84,South Warrandyte,emInc,20,12,60,9.57,3,83,70
-Incident Total,EASTERN,84,FS84,South Warrandyte,totInc,21,12,60,9.57,3,83,70
+District Total Incidents Average,EASTERN,84,FS84,South Warrandyte,totInc,21,12,60,9.57,3,83,70
 Non-Emergency Incident,WESTERN D2,54,FS54,Greenvale,nonInc,9,23,59,12.83,3,84,81
 Emergency Incident,WESTERN D2,54,FS54,Greenvale,emInc,39,23,59,12.83,3,84,81
-Incident Total,WESTERN D2,54,FS54,Greenvale,totInc,48,23,59,12.83,3,84,81
+District Total Incidents Average,WESTERN D2,54,FS54,Greenvale,totInc,48,23,59,12.83,3,84,81
 Non-Emergency Incident,WESTERN D3,61,FS61,Lara,nonInc,0,18,39.1,10.73,3,85,83
 Emergency Incident,WESTERN D3,61,FS61,Lara,emInc,46,18,39.1,10.73,3,85,83
-Incident Total,WESTERN D3,61,FS61,Lara,totInc,46,18,39.1,10.73,3,85,83
+District Total Incidents Average,WESTERN D3,61,FS61,Lara,totInc,46,18,39.1,10.73,3,85,83
 Non-Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,nonInc,6,26,100,5.85,4,1,1
 Emergency Incident,WESTERN D3,66,FS66,Ocean Grove,emInc,26,26,100,5.85,4,1,1
-Incident Total,WESTERN D3,66,FS66,Ocean Grove,totInc,32,26,100,5.85,4,1,1
+District Total Incidents Average,WESTERN D3,66,FS66,Ocean Grove,totInc,32,26,100,5.85,4,1,1
 Non-Emergency Incident,CENTRAL,1,FS1,Eastern Hill,nonInc,24,356,97.5,5.62,4,2,2
 Emergency Incident,CENTRAL,1,FS1,Eastern Hill,emInc,365,356,97.5,5.62,4,2,2
-Incident Total,CENTRAL,1,FS1,Eastern Hill,totInc,389,356,97.5,5.62,4,2,2
+District Total Incidents Average,CENTRAL,1,FS1,Eastern Hill,totInc,389,356,97.5,5.62,4,2,2
 Non-Emergency Incident,CENTRAL,3,FS3,Carlton,nonInc,28,338,97.1,6.52,4,3,3
 Emergency Incident,CENTRAL,3,FS3,Carlton,emInc,348,338,97.1,6.52,4,3,3
-Incident Total,CENTRAL,3,FS3,Carlton,totInc,376,338,97.1,6.52,4,3,3
+District Total Incidents Average,CENTRAL,3,FS3,Carlton,totInc,376,338,97.1,6.52,4,3,3
 Non-Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,nonInc,12,85,96.6,6.52,4,4,4
 Emergency Incident,NORTH & WEST REGIONAL,67,FS67,Ballarat City,emInc,88,85,96.6,6.52,4,4,4
-Incident Total,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,100,85,96.6,6.52,4,4,4
+District Total Incidents Average,NORTH & WEST REGIONAL,67,FS67,Ballarat City,totInc,100,85,96.6,6.52,4,4,4
 Non-Emergency Incident,EASTERN,23,FS23,Burwood,nonInc,39,121,95.3,7.3,4,5,5
 Emergency Incident,EASTERN,23,FS23,Burwood,emInc,127,121,95.3,7.3,4,5,5
-Incident Total,EASTERN,23,FS23,Burwood,totInc,166,121,95.3,7.3,4,5,5
+District Total Incidents Average,EASTERN,23,FS23,Burwood,totInc,166,121,95.3,7.3,4,5,5
 Non-Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,nonInc,13,59,95.2,7.08,4,6,6
 Emergency Incident,SOUTHERN D2,95,FS95,Rosebud,emInc,62,59,95.2,7.08,4,6,6
-Incident Total,SOUTHERN D2,95,FS95,Rosebud,totInc,75,59,95.2,7.08,4,6,6
+District Total Incidents Average,SOUTHERN D2,95,FS95,Rosebud,totInc,75,59,95.2,7.08,4,6,6
 Non-Emergency Incident,CENTRAL,2,FS2,West Melbourne,nonInc,30,310,95.1,6.65,4,7,7
 Emergency Incident,CENTRAL,2,FS2,West Melbourne,emInc,326,310,95.1,6.65,4,7,7
-Incident Total,CENTRAL,2,FS2,West Melbourne,totInc,356,310,95.1,6.65,4,7,7
+District Total Incidents Average,CENTRAL,2,FS2,West Melbourne,totInc,356,310,95.1,6.65,4,7,7
 Non-Emergency Incident,SOUTHERN D1,29,FS29,Clayton,nonInc,25,102,94.4,7.43,4,8,8
 Emergency Incident,SOUTHERN D1,29,FS29,Clayton,emInc,108,102,94.4,7.43,4,8,8
-Incident Total,SOUTHERN D1,29,FS29,Clayton,totInc,133,102,94.4,7.43,4,8,8
+District Total Incidents Average,SOUTHERN D1,29,FS29,Clayton,totInc,133,102,94.4,7.43,4,8,8
 Non-Emergency Incident,WESTERN D3,63,FS63,Geelong City,nonInc,29,148,93.7,7.15,4,9,9
 Emergency Incident,WESTERN D3,63,FS63,Geelong City,emInc,158,148,93.7,7.15,4,9,9
-Incident Total,WESTERN D3,63,FS63,Geelong City,totInc,187,148,93.7,7.15,4,9,9
+District Total Incidents Average,WESTERN D3,63,FS63,Geelong City,totInc,187,148,93.7,7.15,4,9,9
 Non-Emergency Incident,EASTERN,20,FS20,Box Hill,nonInc,32,134,93.1,7.43,4,10,10
 Emergency Incident,EASTERN,20,FS20,Box Hill,emInc,144,134,93.1,7.43,4,10,10
-Incident Total,EASTERN,20,FS20,Box Hill,totInc,176,134,93.1,7.43,4,10,10
+District Total Incidents Average,EASTERN,20,FS20,Box Hill,totInc,176,134,93.1,7.43,4,10,10
 Non-Emergency Incident,EASTERN,26,FS26,Croydon,nonInc,32,95,93.1,6.9,4,11,11
 Emergency Incident,EASTERN,26,FS26,Croydon,emInc,102,95,93.1,6.9,4,11,11
-Incident Total,EASTERN,26,FS26,Croydon,totInc,134,95,93.1,6.9,4,11,11
+District Total Incidents Average,EASTERN,26,FS26,Croydon,totInc,134,95,93.1,6.9,4,11,11
 Non-Emergency Incident,NORTHERN,12,FS12,Preston,nonInc,38,170,92.9,7.67,4,12,12
 Emergency Incident,NORTHERN,12,FS12,Preston,emInc,183,170,92.9,7.67,4,12,12
-Incident Total,NORTHERN,12,FS12,Preston,totInc,221,170,92.9,7.67,4,12,12
+District Total Incidents Average,NORTHERN,12,FS12,Preston,totInc,221,170,92.9,7.67,4,12,12
 Non-Emergency Incident,WESTERN D2,41,FS41,St Albans,nonInc,42,105,92.9,7.85,4,13,13
 Emergency Incident,WESTERN D2,41,FS41,St Albans,emInc,113,105,92.9,7.85,4,13,13
-Incident Total,WESTERN D2,41,FS41,St Albans,totInc,155,105,92.9,7.85,4,13,13
+District Total Incidents Average,WESTERN D2,41,FS41,St Albans,totInc,155,105,92.9,7.85,4,13,13
 Non-Emergency Incident,CENTRAL,38,FS38,South Melbourne,nonInc,35,363,92.8,6.87,4,14,14
 Emergency Incident,CENTRAL,38,FS38,South Melbourne,emInc,391,363,92.8,6.87,4,14,14
-Incident Total,CENTRAL,38,FS38,South Melbourne,totInc,426,363,92.8,6.87,4,14,14
+District Total Incidents Average,CENTRAL,38,FS38,South Melbourne,totInc,426,363,92.8,6.87,4,14,14
 Non-Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,nonInc,5,59,92.2,7.32,4,15,15
 Emergency Incident,SOUTH & EAST REGIONAL,78,FS78,Morwell,emInc,64,59,92.2,7.32,4,15,15
-Incident Total,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,69,59,92.2,7.32,4,15,15
+District Total Incidents Average,SOUTH & EAST REGIONAL,78,FS78,Morwell,totInc,69,59,92.2,7.32,4,15,15
 Non-Emergency Incident,CENTRAL,10,FS10,Richmond,nonInc,31,258,92.1,7.27,4,16,16
 Emergency Incident,CENTRAL,10,FS10,Richmond,emInc,280,258,92.1,7.27,4,16,16
-Incident Total,CENTRAL,10,FS10,Richmond,totInc,311,258,92.1,7.27,4,16,16
+District Total Incidents Average,CENTRAL,10,FS10,Richmond,totInc,311,258,92.1,7.27,4,16,16
 Non-Emergency Incident,CENTRAL,4,FS4,Brunswick,nonInc,26,213,91.8,7.57,4,17,17
 Emergency Incident,CENTRAL,4,FS4,Brunswick,emInc,232,213,91.8,7.57,4,17,17
-Incident Total,CENTRAL,4,FS4,Brunswick,totInc,258,213,91.8,7.57,4,17,17
+District Total Incidents Average,CENTRAL,4,FS4,Brunswick,totInc,258,213,91.8,7.57,4,17,17
 Non-Emergency Incident,EASTERN,27,FS27,Nunawading,nonInc,36,110,91.7,7.3,4,18,18
 Emergency Incident,EASTERN,27,FS27,Nunawading,emInc,120,110,91.7,7.3,4,18,18
-Incident Total,EASTERN,27,FS27,Nunawading,totInc,156,110,91.7,7.3,4,18,18
+District Total Incidents Average,EASTERN,27,FS27,Nunawading,totInc,156,110,91.7,7.3,4,18,18
 Non-Emergency Incident,EASTERN,28,FS28,Vermont South,nonInc,43,133,91.7,7.5,4,19,19
 Emergency Incident,EASTERN,28,FS28,Vermont South,emInc,145,133,91.7,7.5,4,19,19
-Incident Total,EASTERN,28,FS28,Vermont South,totInc,188,133,91.7,7.5,4,19,19
+District Total Incidents Average,EASTERN,28,FS28,Vermont South,totInc,188,133,91.7,7.5,4,19,19
 Non-Emergency Incident,NORTHERN,9,FS9,Somerton,nonInc,14,65,91.5,7.65,4,20,20
 Emergency Incident,NORTHERN,9,FS9,Somerton,emInc,71,65,91.5,7.65,4,20,20
-Incident Total,NORTHERN,9,FS9,Somerton,totInc,85,65,91.5,7.65,4,20,20
+District Total Incidents Average,NORTHERN,9,FS9,Somerton,totInc,85,65,91.5,7.65,4,20,20
 Non-Emergency Incident,SOUTHERN D1,86,FS86,Rowville,nonInc,15,53,91.4,7.02,4,21,21
 Emergency Incident,SOUTHERN D1,86,FS86,Rowville,emInc,58,53,91.4,7.02,4,21,21
-Incident Total,SOUTHERN D1,86,FS86,Rowville,totInc,73,53,91.4,7.02,4,21,21
+District Total Incidents Average,SOUTHERN D1,86,FS86,Rowville,totInc,73,53,91.4,7.02,4,21,21
 Non-Emergency Incident,EASTERN,22,FS22,Ringwood,nonInc,48,124,91.2,7.57,4,22,22
 Emergency Incident,EASTERN,22,FS22,Ringwood,emInc,136,124,91.2,7.57,4,22,22
-Incident Total,EASTERN,22,FS22,Ringwood,totInc,184,124,91.2,7.57,4,22,22
+District Total Incidents Average,EASTERN,22,FS22,Ringwood,totInc,184,124,91.2,7.57,4,22,22
 Non-Emergency Incident,NORTHERN,11,FS11,Epping,nonInc,23,101,91,8,4,23,23
 Emergency Incident,NORTHERN,11,FS11,Epping,emInc,111,101,91,8,4,23,23
-Incident Total,NORTHERN,11,FS11,Epping,totInc,134,101,91,8,4,23,23
+District Total Incidents Average,NORTHERN,11,FS11,Epping,totInc,134,101,91,8,4,23,23
 Non-Emergency Incident,WESTERN D2,44,FS44,Sunshine,nonInc,40,153,90.5,7.75,4,24,24
 Emergency Incident,WESTERN D2,44,FS44,Sunshine,emInc,169,153,90.5,7.75,4,24,24
-Incident Total,WESTERN D2,44,FS44,Sunshine,totInc,209,153,90.5,7.75,4,24,24
+District Total Incidents Average,WESTERN D2,44,FS44,Sunshine,totInc,209,153,90.5,7.75,4,24,24
 Non-Emergency Incident,SOUTHERN D2,94,FS94,Mornington,nonInc,16,67,90.5,7.53,4,25,25
 Emergency Incident,SOUTHERN D2,94,FS94,Mornington,emInc,74,67,90.5,7.53,4,25,25
-Incident Total,SOUTHERN D2,94,FS94,Mornington,totInc,90,67,90.5,7.53,4,25,25
+District Total Incidents Average,SOUTHERN D2,94,FS94,Mornington,totInc,90,67,90.5,7.53,4,25,25
 Non-Emergency Incident,SOUTHERN D2,91,FS91,Frankston,nonInc,45,217,90.4,8.22,4,26,26
 Emergency Incident,SOUTHERN D2,91,FS91,Frankston,emInc,240,217,90.4,8.22,4,26,26
-Incident Total,SOUTHERN D2,91,FS91,Frankston,totInc,285,217,90.4,8.22,4,26,26
+District Total Incidents Average,SOUTHERN D2,91,FS91,Frankston,totInc,285,217,90.4,8.22,4,26,26
 Non-Emergency Incident,WESTERN D3,64,FS64,Belmont,nonInc,21,84,90.3,7.6,4,27,27
 Emergency Incident,WESTERN D3,64,FS64,Belmont,emInc,93,84,90.3,7.6,4,27,27
-Incident Total,WESTERN D3,64,FS64,Belmont,totInc,114,84,90.3,7.6,4,27,27
+District Total Incidents Average,WESTERN D3,64,FS64,Belmont,totInc,114,84,90.3,7.6,4,27,27
 Non-Emergency Incident,EASTERN,85,FS85,Boronia,nonInc,15,74,90.2,7.18,4,28,28
 Emergency Incident,EASTERN,85,FS85,Boronia,emInc,82,74,90.2,7.18,4,28,28
-Incident Total,EASTERN,85,FS85,Boronia,totInc,97,74,90.2,7.18,4,28,28
+District Total Incidents Average,EASTERN,85,FS85,Boronia,totInc,97,74,90.2,7.18,4,28,28
 Non-Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,nonInc,32,145,90.1,7.75,4,29,29
 Emergency Incident,SOUTHERN D1,25,FS25,Oakleigh,emInc,161,145,90.1,7.75,4,29,29
-Incident Total,SOUTHERN D1,25,FS25,Oakleigh,totInc,193,145,90.1,7.75,4,29,29
+District Total Incidents Average,SOUTHERN D1,25,FS25,Oakleigh,totInc,193,145,90.1,7.75,4,29,29
 Non-Emergency Incident,SOUTHERN D1,24,FS24,Malvern,nonInc,31,141,89.2,8.13,4,30,30
 Emergency Incident,SOUTHERN D1,24,FS24,Malvern,emInc,158,141,89.2,8.13,4,30,30
-Incident Total,SOUTHERN D1,24,FS24,Malvern,totInc,189,141,89.2,8.13,4,30,30
+District Total Incidents Average,SOUTHERN D1,24,FS24,Malvern,totInc,189,141,89.2,8.13,4,30,30
 Non-Emergency Incident,NORTHERN,16,FS16,Greensborough,nonInc,29,73,89,7.62,4,31,31
 Emergency Incident,NORTHERN,16,FS16,Greensborough,emInc,82,73,89,7.62,4,31,31
-Incident Total,NORTHERN,16,FS16,Greensborough,totInc,111,73,89,7.62,4,31,31
+District Total Incidents Average,NORTHERN,16,FS16,Greensborough,totInc,111,73,89,7.62,4,31,31
 Non-Emergency Incident,CENTRAL,39,FS39,Port Melbourne,nonInc,18,125,88.7,7.78,4,32,32
 Emergency Incident,CENTRAL,39,FS39,Port Melbourne,emInc,141,125,88.7,7.78,4,32,32
-Incident Total,CENTRAL,39,FS39,Port Melbourne,totInc,159,125,88.7,7.78,4,32,32
+District Total Incidents Average,CENTRAL,39,FS39,Port Melbourne,totInc,159,125,88.7,7.78,4,32,32
 Non-Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,nonInc,20,94,88.7,7.9,4,33,33
 Emergency Incident,NORTH & WEST REGIONAL,72,FS72,Mildura,emInc,106,94,88.7,7.9,4,33,33
-Incident Total,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,126,94,88.7,7.9,4,33,33
+District Total Incidents Average,NORTH & WEST REGIONAL,72,FS72,Mildura,totInc,126,94,88.7,7.9,4,33,33
 Non-Emergency Incident,CENTRAL,35,FS35,Windsor,nonInc,54,417,88.3,7.95,4,34,34
 Emergency Incident,CENTRAL,35,FS35,Windsor,emInc,472,417,88.3,7.95,4,34,34
-Incident Total,CENTRAL,35,FS35,Windsor,totInc,526,417,88.3,7.95,4,34,34
+District Total Incidents Average,CENTRAL,35,FS35,Windsor,totInc,526,417,88.3,7.95,4,34,34
 Non-Emergency Incident,WESTERN D1,47,FS47,Footscray,nonInc,38,196,88.3,8.2,4,35,35
 Emergency Incident,WESTERN D1,47,FS47,Footscray,emInc,222,196,88.3,8.2,4,35,35
-Incident Total,WESTERN D1,47,FS47,Footscray,totInc,260,196,88.3,8.2,4,35,35
+District Total Incidents Average,WESTERN D1,47,FS47,Footscray,totInc,260,196,88.3,8.2,4,35,35
 Non-Emergency Incident,WESTERN D2,51,FS51,Keilor,nonInc,40,90,88.2,7.95,4,36,36
 Emergency Incident,WESTERN D2,51,FS51,Keilor,emInc,102,90,88.2,7.95,4,36,36
-Incident Total,WESTERN D2,51,FS51,Keilor,totInc,142,90,88.2,7.95,4,36,36
+District Total Incidents Average,WESTERN D2,51,FS51,Keilor,totInc,142,90,88.2,7.95,4,36,36
 Non-Emergency Incident,SOUTHERN D1,33,FS33,Mentone,nonInc,40,111,88.1,7.9,4,37,37
 Emergency Incident,SOUTHERN D1,33,FS33,Mentone,emInc,126,111,88.1,7.9,4,37,37
-Incident Total,SOUTHERN D1,33,FS33,Mentone,totInc,166,111,88.1,7.9,4,37,37
+District Total Incidents Average,SOUTHERN D1,33,FS33,Mentone,totInc,166,111,88.1,7.9,4,37,37
 Non-Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,nonInc,6,52,88.1,7.97,4,38,38
 Emergency Incident,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,emInc,59,52,88.1,7.97,4,38,38
-Incident Total,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,65,52,88.1,7.97,4,38,38
+District Total Incidents Average,SOUTH & EAST REGIONAL,74,FS74,Wangaratta,totInc,65,52,88.1,7.97,4,38,38
 Non-Emergency Incident,EASTERN,82,FS82,Eltham City,nonInc,28,59,88.1,8.2,4,39,39
 Emergency Incident,EASTERN,82,FS82,Eltham City,emInc,67,59,88.1,8.2,4,39,39
-Incident Total,EASTERN,82,FS82,Eltham City,totInc,95,59,88.1,8.2,4,39,39
+District Total Incidents Average,EASTERN,82,FS82,Eltham City,totInc,95,59,88.1,8.2,4,39,39
 Non-Emergency Incident,EASTERN,30,FS30,Templestowe,nonInc,19,64,87.7,7.73,4,40,40
 Emergency Incident,EASTERN,30,FS30,Templestowe,emInc,73,64,87.7,7.73,4,40,40
-Incident Total,EASTERN,30,FS30,Templestowe,totInc,92,64,87.7,7.73,4,40,40
+District Total Incidents Average,EASTERN,30,FS30,Templestowe,totInc,92,64,87.7,7.73,4,40,40
 Non-Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,nonInc,8,135,87.7,8.22,4,41,41
 Emergency Incident,SOUTH & EAST REGIONAL,75,FS75,Shepparton,emInc,154,135,87.7,8.22,4,41,41
-Incident Total,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,162,135,87.7,8.22,4,41,41
+District Total Incidents Average,SOUTH & EAST REGIONAL,75,FS75,Shepparton,totInc,162,135,87.7,8.22,4,41,41
 Non-Emergency Incident,NORTHERN,15,FS15,Heidelberg,nonInc,46,196,87.5,8.25,4,42,42
 Emergency Incident,NORTHERN,15,FS15,Heidelberg,emInc,224,196,87.5,8.25,4,42,42
-Incident Total,NORTHERN,15,FS15,Heidelberg,totInc,270,196,87.5,8.25,4,42,42
+District Total Incidents Average,NORTHERN,15,FS15,Heidelberg,totInc,270,196,87.5,8.25,4,42,42
 Non-Emergency Incident,WESTERN D1,42,FS42,Newport,nonInc,16,97,87.4,7.97,4,43,43
 Emergency Incident,WESTERN D1,42,FS42,Newport,emInc,111,97,87.4,7.97,4,43,43
-Incident Total,WESTERN D1,42,FS42,Newport,totInc,127,97,87.4,7.97,4,43,43
+District Total Incidents Average,WESTERN D1,42,FS42,Newport,totInc,127,97,87.4,7.97,4,43,43
 Non-Emergency Incident,NORTHERN,81,FS81,South Morang,nonInc,5,55,87.3,7.82,4,44,44
 Emergency Incident,NORTHERN,81,FS81,South Morang,emInc,63,55,87.3,7.82,4,44,44
-Incident Total,NORTHERN,81,FS81,South Morang,totInc,68,55,87.3,7.82,4,44,44
+District Total Incidents Average,NORTHERN,81,FS81,South Morang,totInc,68,55,87.3,7.82,4,44,44
 Non-Emergency Incident,NORTHERN,7,FS7,Thomastown,nonInc,45,100,87,8.07,4,45,45
 Emergency Incident,NORTHERN,7,FS7,Thomastown,emInc,115,100,87,8.07,4,45,45
-Incident Total,NORTHERN,7,FS7,Thomastown,totInc,160,100,87,8.07,4,45,45
+District Total Incidents Average,NORTHERN,7,FS7,Thomastown,totInc,160,100,87,8.07,4,45,45
 Non-Emergency Incident,NORTHERN,14,FS14,Bundoora,nonInc,30,125,86.8,7.82,4,46,46
 Emergency Incident,NORTHERN,14,FS14,Bundoora,emInc,144,125,86.8,7.82,4,46,46
-Incident Total,NORTHERN,14,FS14,Bundoora,totInc,174,125,86.8,7.82,4,46,46
+District Total Incidents Average,NORTHERN,14,FS14,Bundoora,totInc,174,125,86.8,7.82,4,46,46
 Non-Emergency Incident,CENTRAL,18,FS18,Hawthorn,nonInc,45,165,86.4,8.13,4,47,47
 Emergency Incident,CENTRAL,18,FS18,Hawthorn,emInc,191,165,86.4,8.13,4,47,47
-Incident Total,CENTRAL,18,FS18,Hawthorn,totInc,236,165,86.4,8.13,4,47,47
+District Total Incidents Average,CENTRAL,18,FS18,Hawthorn,totInc,236,165,86.4,8.13,4,47,47
 Non-Emergency Incident,CENTRAL,50,FS50,Ascot Vale,nonInc,26,196,85.6,8.4,4,48,48
 Emergency Incident,CENTRAL,50,FS50,Ascot Vale,emInc,229,196,85.6,8.4,4,48,48
-Incident Total,CENTRAL,50,FS50,Ascot Vale,totInc,255,196,85.6,8.4,4,48,48
+District Total Incidents Average,CENTRAL,50,FS50,Ascot Vale,totInc,255,196,85.6,8.4,4,48,48
 Non-Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,nonInc,13,52,85.2,8.47,4,49,49
 Emergency Incident,WESTERN D2,48,FS48,Taylors Lakes,emInc,61,52,85.2,8.47,4,49,49
-Incident Total,WESTERN D2,48,FS48,Taylors Lakes,totInc,74,52,85.2,8.47,4,49,49
+District Total Incidents Average,WESTERN D2,48,FS48,Taylors Lakes,totInc,74,52,85.2,8.47,4,49,49
 Non-Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,nonInc,7,46,85.2,8.15,4,50,50
 Emergency Incident,NORTH & WEST REGIONAL,68,FS68,Lucas,emInc,54,46,85.2,8.15,4,50,50
-Incident Total,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,61,46,85.2,8.15,4,50,50
+District Total Incidents Average,NORTH & WEST REGIONAL,68,FS68,Lucas,totInc,61,46,85.2,8.15,4,50,50
 Non-Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,nonInc,4,23,85.2,8.05,4,51,51
 Emergency Incident,NORTH & WEST REGIONAL,71,FS71,Portland,emInc,27,23,85.2,8.05,4,51,51
-Incident Total,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,31,23,85.2,8.05,4,51,51
+District Total Incidents Average,NORTH & WEST REGIONAL,71,FS71,Portland,totInc,31,23,85.2,8.05,4,51,51
 Non-Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,nonInc,11,62,84.9,8.4,4,52,52
 Emergency Incident,SOUTH & EAST REGIONAL,77,FS77,Traralgon,emInc,73,62,84.9,8.4,4,52,52
-Incident Total,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,84,62,84.9,8.4,4,52,52
+District Total Incidents Average,SOUTH & EAST REGIONAL,77,FS77,Traralgon,totInc,84,62,84.9,8.4,4,52,52
 Non-Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,nonInc,9,45,84.9,8.17,4,53,53
 Emergency Incident,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,emInc,53,45,84.9,8.17,4,53,53
-Incident Total,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,62,45,84.9,8.17,4,53,53
+District Total Incidents Average,SOUTH & EAST REGIONAL,79,FS79,Latrobe West,totInc,62,45,84.9,8.17,4,53,53
 Non-Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,nonInc,37,207,84.8,8.38,4,54,54
 Emergency Incident,SOUTHERN D1,31,FS31,Glen Waverley,emInc,244,207,84.8,8.38,4,54,54
-Incident Total,SOUTHERN D1,31,FS31,Glen Waverley,totInc,281,207,84.8,8.38,4,54,54
+District Total Incidents Average,SOUTHERN D1,31,FS31,Glen Waverley,totInc,281,207,84.8,8.38,4,54,54
 Non-Emergency Incident,SOUTHERN D2,88,FS88,Hallam,nonInc,45,120,82.8,8.87,4,55,55
 Emergency Incident,SOUTHERN D2,88,FS88,Hallam,emInc,145,120,82.8,8.87,4,55,55
-Incident Total,SOUTHERN D2,88,FS88,Hallam,totInc,190,120,82.8,8.87,4,55,55
+District Total Incidents Average,SOUTHERN D2,88,FS88,Hallam,totInc,190,120,82.8,8.87,4,55,55
 Non-Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,nonInc,55,200,82.6,8.83,4,56,56
 Emergency Incident,SOUTHERN D2,87,FS87,Dandenong,emInc,242,200,82.6,8.83,4,56,56
-Incident Total,SOUTHERN D2,87,FS87,Dandenong,totInc,297,200,82.6,8.83,4,56,56
+District Total Incidents Average,SOUTHERN D2,87,FS87,Dandenong,totInc,297,200,82.6,8.83,4,56,56
 Non-Emergency Incident,WESTERN D1,46,FS46,Altona,nonInc,12,28,82.4,7.83,4,57,57
 Emergency Incident,WESTERN D1,46,FS46,Altona,emInc,34,28,82.4,7.83,4,57,57
-Incident Total,WESTERN D1,46,FS46,Altona,totInc,46,28,82.4,7.83,4,57,57
+District Total Incidents Average,WESTERN D1,46,FS46,Altona,totInc,46,28,82.4,7.83,4,57,57
 Non-Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,nonInc,17,70,82.4,9.75,4,58,58
 Emergency Incident,SOUTHERN D2,93,FS93,Pakenham,emInc,85,70,82.4,9.75,4,58,58
-Incident Total,SOUTHERN D2,93,FS93,Pakenham,totInc,102,70,82.4,9.75,4,58,58
+District Total Incidents Average,SOUTHERN D2,93,FS93,Pakenham,totInc,102,70,82.4,9.75,4,58,58
 Non-Emergency Incident,CENTRAL,13,FS13,Northcote,nonInc,41,116,82.3,8.58,4,59,59
 Emergency Incident,CENTRAL,13,FS13,Northcote,emInc,141,116,82.3,8.58,4,59,59
-Incident Total,CENTRAL,13,FS13,Northcote,totInc,182,116,82.3,8.58,4,59,59
+District Total Incidents Average,CENTRAL,13,FS13,Northcote,totInc,182,116,82.3,8.58,4,59,59
 Non-Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,nonInc,14,74,82.2,8.7,4,60,60
 Emergency Incident,NORTH & WEST REGIONAL,70,FS70,Warrnambool,emInc,90,74,82.2,8.7,4,60,60
-Incident Total,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,104,74,82.2,8.7,4,60,60
+District Total Incidents Average,NORTH & WEST REGIONAL,70,FS70,Warrnambool,totInc,104,74,82.2,8.7,4,60,60
 Non-Emergency Incident,EASTERN,19,FS19,North Balwyn,nonInc,25,100,82,9.2,4,61,61
 Emergency Incident,EASTERN,19,FS19,North Balwyn,emInc,122,100,82,9.2,4,61,61
-Incident Total,EASTERN,19,FS19,North Balwyn,totInc,147,100,82,9.2,4,61,61
+District Total Incidents Average,EASTERN,19,FS19,North Balwyn,totInc,147,100,82,9.2,4,61,61
 Non-Emergency Incident,SOUTHERN D1,32,FS32,Ormond,nonInc,44,169,82,8.6,4,62,62
 Emergency Incident,SOUTHERN D1,32,FS32,Ormond,emInc,206,169,82,8.6,4,62,62
-Incident Total,SOUTHERN D1,32,FS32,Ormond,totInc,250,169,82,8.6,4,62,62
+District Total Incidents Average,SOUTHERN D1,32,FS32,Ormond,totInc,250,169,82,8.6,4,62,62
 Non-Emergency Incident,SOUTHERN D1,89,FS89,Springvale,nonInc,45,128,81.5,8.62,4,63,63
 Emergency Incident,SOUTHERN D1,89,FS89,Springvale,emInc,157,128,81.5,8.62,4,63,63
-Incident Total,SOUTHERN D1,89,FS89,Springvale,totInc,202,128,81.5,8.62,4,63,63
+District Total Incidents Average,SOUTHERN D1,89,FS89,Springvale,totInc,202,128,81.5,8.62,4,63,63
 Non-Emergency Incident,WESTERN D3,62,FS62,Corio,nonInc,42,134,81.2,8.13,4,64,64
 Emergency Incident,WESTERN D3,62,FS62,Corio,emInc,165,134,81.2,8.13,4,64,64
-Incident Total,WESTERN D3,62,FS62,Corio,totInc,207,134,81.2,8.13,4,64,64
+District Total Incidents Average,WESTERN D3,62,FS62,Corio,totInc,207,134,81.2,8.13,4,64,64
 Non-Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,nonInc,26,152,80.9,8.57,4,65,65
 Emergency Incident,NORTH & WEST REGIONAL,73,FS73,Bendigo,emInc,188,152,80.9,8.57,4,65,65
-Incident Total,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,214,152,80.9,8.57,4,65,65
+District Total Incidents Average,NORTH & WEST REGIONAL,73,FS73,Bendigo,totInc,214,152,80.9,8.57,4,65,65
 Non-Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,nonInc,16,80,80.8,8.45,4,66,66
 Emergency Incident,SOUTH & EAST REGIONAL,76,FS76,Wodonga,emInc,99,80,80.8,8.45,4,66,66
-Incident Total,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,115,80,80.8,8.45,4,66,66
+District Total Incidents Average,SOUTH & EAST REGIONAL,76,FS76,Wodonga,totInc,115,80,80.8,8.45,4,66,66
 Non-Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,nonInc,53,143,80.8,9.08,4,67,67
 Emergency Incident,SOUTHERN D2,92,FS92,Cranbourne,emInc,177,143,80.8,9.08,4,67,67
-Incident Total,SOUTHERN D2,92,FS92,Cranbourne,totInc,230,143,80.8,9.08,4,67,67
+District Total Incidents Average,SOUTHERN D2,92,FS92,Cranbourne,totInc,230,143,80.8,9.08,4,67,67
 Non-Emergency Incident,SOUTHERN D1,34,FS34,Highett,nonInc,50,149,80.5,8.37,4,68,68
 Emergency Incident,SOUTHERN D1,34,FS34,Highett,emInc,185,149,80.5,8.37,4,68,68
-Incident Total,SOUTHERN D1,34,FS34,Highett,totInc,235,149,80.5,8.37,4,68,68
+District Total Incidents Average,SOUTHERN D1,34,FS34,Highett,totInc,235,149,80.5,8.37,4,68,68
 Non-Emergency Incident,NORTHERN,5,FS5,Broadmeadows,nonInc,54,165,80.1,8.57,4,69,69
 Emergency Incident,NORTHERN,5,FS5,Broadmeadows,emInc,206,165,80.1,8.57,4,69,69
-Incident Total,NORTHERN,5,FS5,Broadmeadows,totInc,260,165,80.1,8.57,4,69,69
+District Total Incidents Average,NORTHERN,5,FS5,Broadmeadows,totInc,260,165,80.1,8.57,4,69,69
 Non-Emergency Incident,EASTERN,84,FS84,South Warrandyte,nonInc,11,20,80,8.42,4,70,70
 Emergency Incident,EASTERN,84,FS84,South Warrandyte,emInc,25,20,80,8.42,4,70,70
-Incident Total,EASTERN,84,FS84,South Warrandyte,totInc,36,20,80,8.42,4,70,70
+District Total Incidents Average,EASTERN,84,FS84,South Warrandyte,totInc,36,20,80,8.42,4,70,70
 Non-Emergency Incident,WESTERN D1,45,FS45,Spotswood,nonInc,43,92,79.3,8.8,4,71,71
 Emergency Incident,WESTERN D1,45,FS45,Spotswood,emInc,116,92,79.3,8.8,4,71,71
-Incident Total,WESTERN D1,45,FS45,Spotswood,totInc,159,92,79.3,8.8,4,71,71
+District Total Incidents Average,WESTERN D1,45,FS45,Spotswood,totInc,159,92,79.3,8.8,4,71,71
 Non-Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,nonInc,35,102,79.1,9.2,4,72,72
 Emergency Incident,NORTHERN,6,FS6,Pascoe Vale,emInc,129,102,79.1,9.2,4,72,72
-Incident Total,NORTHERN,6,FS6,Pascoe Vale,totInc,164,102,79.1,9.2,4,72,72
+District Total Incidents Average,NORTHERN,6,FS6,Pascoe Vale,totInc,164,102,79.1,9.2,4,72,72
 Non-Emergency Incident,WESTERN D2,43,FS43,Deer Park,nonInc,26,91,79.1,8.82,4,73,73
 Emergency Incident,WESTERN D2,43,FS43,Deer Park,emInc,115,91,79.1,8.82,4,73,73
-Incident Total,WESTERN D2,43,FS43,Deer Park,totInc,141,91,79.1,8.82,4,73,73
+District Total Incidents Average,WESTERN D2,43,FS43,Deer Park,totInc,141,91,79.1,8.82,4,73,73
 Non-Emergency Incident,WESTERN D1,40,FS40,Laverton,nonInc,21,56,78.9,8.87,4,74,74
 Emergency Incident,WESTERN D1,40,FS40,Laverton,emInc,71,56,78.9,8.87,4,74,74
-Incident Total,WESTERN D1,40,FS40,Laverton,totInc,92,56,78.9,8.87,4,74,74
+District Total Incidents Average,WESTERN D1,40,FS40,Laverton,totInc,92,56,78.9,8.87,4,74,74
 Non-Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,nonInc,20,57,77,9.68,4,75,75
 Emergency Incident,SOUTHERN D2,90,FS90,Patterson River,emInc,74,57,77,9.68,4,75,75
-Incident Total,SOUTHERN D2,90,FS90,Patterson River,totInc,94,57,77,9.68,4,75,75
+District Total Incidents Average,SOUTHERN D2,90,FS90,Patterson River,totInc,94,57,77,9.68,4,75,75
 Non-Emergency Incident,WESTERN D2,53,FS53,Sunbury,nonInc,15,59,76.6,9.18,4,76,76
 Emergency Incident,WESTERN D2,53,FS53,Sunbury,emInc,77,59,76.6,9.18,4,76,76
-Incident Total,WESTERN D2,53,FS53,Sunbury,totInc,92,59,76.6,9.18,4,76,76
+District Total Incidents Average,WESTERN D2,53,FS53,Sunbury,totInc,92,59,76.6,9.18,4,76,76
 Non-Emergency Incident,NORTHERN,80,FS80,Craigieburn,nonInc,38,91,75.8,9.4,4,77,77
 Emergency Incident,NORTHERN,80,FS80,Craigieburn,emInc,120,91,75.8,9.4,4,77,77
-Incident Total,NORTHERN,80,FS80,Craigieburn,totInc,158,91,75.8,9.4,4,77,77
+District Total Incidents Average,NORTHERN,80,FS80,Craigieburn,totInc,158,91,75.8,9.4,4,77,77
 Non-Emergency Incident,WESTERN D2,56,FS56,Melton,nonInc,37,158,75.6,9.5,4,78,78
 Emergency Incident,WESTERN D2,56,FS56,Melton,emInc,209,158,75.6,9.5,4,78,78
-Incident Total,WESTERN D2,56,FS56,Melton,totInc,246,158,75.6,9.5,4,78,78
+District Total Incidents Average,WESTERN D2,56,FS56,Melton,totInc,246,158,75.6,9.5,4,78,78
 Non-Emergency Incident,WESTERN D1,58,FS58,Point Cook,nonInc,20,96,75.6,10.47,4,79,79
 Emergency Incident,WESTERN D1,58,FS58,Point Cook,emInc,127,96,75.6,10.47,4,79,79
-Incident Total,WESTERN D1,58,FS58,Point Cook,totInc,147,96,75.6,10.47,4,79,79
+District Total Incidents Average,WESTERN D1,58,FS58,Point Cook,totInc,147,96,75.6,10.47,4,79,79
 Non-Emergency Incident,WESTERN D2,52,FS52,Tullamarine,nonInc,20,75,72.8,9.48,4,80,80
 Emergency Incident,WESTERN D2,52,FS52,Tullamarine,emInc,103,75,72.8,9.48,4,80,80
-Incident Total,WESTERN D2,52,FS52,Tullamarine,totInc,123,75,72.8,9.48,4,80,80
+District Total Incidents Average,WESTERN D2,52,FS52,Tullamarine,totInc,123,75,72.8,9.48,4,80,80
 Non-Emergency Incident,WESTERN D2,54,FS54,Greenvale,nonInc,11,37,68.5,10.97,4,81,81
 Emergency Incident,WESTERN D2,54,FS54,Greenvale,emInc,54,37,68.5,10.97,4,81,81
-Incident Total,WESTERN D2,54,FS54,Greenvale,totInc,65,37,68.5,10.97,4,81,81
+District Total Incidents Average,WESTERN D2,54,FS54,Greenvale,totInc,65,37,68.5,10.97,4,81,81
 Non-Emergency Incident,WESTERN D1,57,FS57,Tarneit,nonInc,50,140,67,10.97,4,82,82
 Emergency Incident,WESTERN D1,57,FS57,Tarneit,emInc,209,140,67,10.97,4,82,82
-Incident Total,WESTERN D1,57,FS57,Tarneit,totInc,259,140,67,10.97,4,82,82
+District Total Incidents Average,WESTERN D1,57,FS57,Tarneit,totInc,259,140,67,10.97,4,82,82
 Non-Emergency Incident,WESTERN D3,61,FS61,Lara,nonInc,7,38,66.7,10.42,4,83,83
 Emergency Incident,WESTERN D3,61,FS61,Lara,emInc,57,38,66.7,10.42,4,83,83
-Incident Total,WESTERN D3,61,FS61,Lara,totInc,64,38,66.7,10.42,4,83,83
+District Total Incidents Average,WESTERN D3,61,FS61,Lara,totInc,64,38,66.7,10.42,4,83,83
 Non-Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,nonInc,37,103,65.2,9.98,4,84,84
 Emergency Incident,WESTERN D2,55,FS55,Caroline Springs,emInc,158,103,65.2,9.98,4,84,84
-Incident Total,WESTERN D2,55,FS55,Caroline Springs,totInc,195,103,65.2,9.98,4,84,84
+District Total Incidents Average,WESTERN D2,55,FS55,Caroline Springs,totInc,195,103,65.2,9.98,4,84,84
 Non-Emergency Incident,WESTERN D1,59,FS59,Derrimut,nonInc,17,70,64.8,9.33,4,85,85
 Emergency Incident,WESTERN D1,59,FS59,Derrimut,emInc,108,70,64.8,9.33,4,85,85
-Incident Total,WESTERN D1,59,FS59,Derrimut,totInc,125,70,64.8,9.33,4,85,85
+District Total Incidents Average,WESTERN D1,59,FS59,Derrimut,totInc,125,70,64.8,9.33,4,85,85

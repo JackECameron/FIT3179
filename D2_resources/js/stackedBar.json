@@ -1,73 +1,288 @@
 {
-   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-   "title": {"text": "Number of Incidents per Quarter", "color": "white"},
-   "width": 300,
-   "height": 327,
-   "padding":0,
+   "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+   "title":{
+      "text":"Number of Incidents per Quarter",
+      "color":"white"
+   },
+   "width":355,
+   "height":327,
    "background":"#161a1d",
-   "config": {"legend": {"disable": true}},   
-   "params": [{"name": "var1", "value": 1},{"name": "var2", "value": "CENTRAL"}
+   "config":{
+      "padding":0,
+      "legend":{
+         "disable":true
+      },"view": {"stroke": null}
+   },
+   "params":[
+      {
+         "name":"var1",
+         "value":1
+      },
+      {
+         "name":"var2",
+         "value":"CENTRAL"
+      }
    ],
    "data":{
-       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/combinedLong_barchart.csv"
-    },
-    "layer": [
-      { "mark": {"type": "bar", "cornerRadiusTopLeft": 10, "cornerRadiusTopRight": 10, "fillOpacity":0.75, "strokeOpacity": 0.5, "stroke": "white", "strokeWidth":2},
-      "transform": [{"filter": "datum.sTag != 'agr'"}, {"filter": "datum.sNumber == var1"},
-      {
-        "calculate": "if(datum.incType === 'nonInc', 0, if(datum.incType === 'emInc', 1, 2))",
-        "as": "sortBy"
-      }],
-      "encoding": {
-        "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white"}},
-        "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white"}},
-        "color": {"field": "incType", "scale": {"range": ["#ffc300", "#e63946"]}},
-        "order": {"field": "sortBy"},
-        "tooltip":[
-         {
-            "field":"incType",
-            "type":"nominal",
-            "title":"Incident Type"
-         },
-         {
-            "field":"numInc",
-            "type":"quantitative",
-            "title":"Number of Incidents"
-         }
-      ]
-      }
+      "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/combinedLong_barchart_2.csv"
    },
-   { "mark": {"type": "line", "interpolate": "linear", "strokeOpacity":0.75, "strokeCap": "round", "strokeWidth": 7.5},
-   "transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == var2"}],
-   "encoding": {
-     "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
-     "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white", "title": "Number of Incidents"}},
-     "color":{"field": "incType", "scale":{"range": ["yellow", "red"]}},
-     "tooltip":[
+   "layer":[
       {
-         "field":"incType",
-         "type":"nominal",
-         "title":"Incident Type"
+         "mark":{
+            "type":"bar",
+            "cornerRadiusTopLeft":10,
+            "cornerRadiusTopRight":10,
+            "fillOpacity":0.75,
+            "strokeOpacity":0.5,
+            "stroke":"white",
+            "strokeWidth":2
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.sNumber == var1"
+            },
+            {
+               "filter":"datum.incType != 'totInc'"
+            },
+            {
+               "calculate":"if(datum.incType === 'nonInc', 0, if(datum.incType === 'emInc', 1, 2))",
+               "as":"sortBy"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{"domain": false, "grid": false,
+                  "labelColor":"white",
+                  "titleColor":"white", "labelAngle": 0
+               }
+            },
+            "y":{
+               "field":"numInc",
+               "aggregate":"sum",
+              "axis": null
+            },
+            "color":{
+               "field":"incType",
+               "scale":{
+                  "range":[
+                     "#ffc300",
+                     "#e63946"
+                  ]
+               }
+            },
+            "order":{
+               "field":"sortBy"
+            },
+            "tooltip":[
+               {
+                  "field":"description",
+                  "type":"nominal",
+                  "title":"Incident Type"
+               },
+               {
+                  "field":"numInc",
+                  "type":"quantitative",
+                  "title":"Number of Incidents"
+               }
+            ]
+         }
+      },
+      {
+         "mark":{
+            "type":"line",
+            "interpolate":"linear",
+            "strokeOpacity":0.75,
+            "strokeCap":"round",
+            "strokeWidth":7.5
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag == 'agr'"
+            },
+            {
+               "filter":"datum.servArea == var2"
+            },
+            {
+               "filter":"datum.incType == 'totInc'"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":"Number of Incidents per Quarter"
+               }
+            },
+            "y":{
+               "field":"numInc",
+               "aggregate":"sum",
+              "axis": null
+            },
+            "color":{
+               "field":"incType",
+               "scale":{
+                  "range":[
+                     "yellow",
+                     "red"
+                  ]
+               }
+            },
+            "tooltip":[
+               {
+                  "field":"description",
+                  "type":"nominal",
+                  "title":"Incident Type"
+               },
+               {
+                  "field":"numInc",
+                  "type":"quantitative",
+                  "title":"Number of Incidents"
+               }
+            ]
+         }
+      }, {
+         "mark":{
+            "type":"point",
+            "interpolate":"linear",
+            "strokeOpacity":0.75,
+            "strokeCap":"round",
+            "strokeWidth":7.5
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag == 'agr'"
+            },
+            {
+               "filter":"datum.servArea == var2"
+            },
+            {
+               "filter":"datum.incType == 'totInc'"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white",
+                  "title":"Number of Incidents per Quarter"
+               }
+            },
+            "y":{
+               "field":"numInc",
+               "aggregate":"sum",
+              "axis": null
+            },
+            "color":{
+               "field":"incType",
+               "scale":{
+                  "range":[
+                     "yellow",
+                     "red"
+                  ]
+               }
+            },
+            "tooltip":[
+               {
+                  "field":"incType",
+                  "type":"nominal",
+                  "title":"Incident Type"
+               }
+            ]
+         }
+      },
+      {
+         "mark":{
+            "type":"text",
+            "color":"white",
+            "dy": -10
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.sNumber == var1"
+            },
+            {
+               "filter":"datum.incType == 'totInc'"
+            },
+            {
+               "calculate":"if(datum.incType === 'nonInc', 0, if(datum.incType === 'emInc', 1, 2))",
+               "as":"sortBy"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"numInc",
+               "aggregate":"sum",
+               "axis": null
+            },
+            "text":{
+               "field":"numInc"}
+         }
+      },
+      {
+         "mark":{
+            "type":"text",
+            "color":"white",
+            "dy": -10
+         },
+         "transform":[
+            {
+               "filter":"datum.sTag != 'agr'"
+            },
+            {
+               "filter":"datum.sNumber == var1"
+            },
+            {
+               "filter":"datum.incType == 'nonInc'"
+            },
+            {
+               "calculate":"if(datum.incType === 'nonInc', 0, if(datum.incType === 'emInc', 1, 2))",
+               "as":"sortBy"
+            }
+         ],
+         "encoding":{
+            "x":{
+               "field":"q",
+               "type":"ordinal",
+               "axis":{
+                  "labelColor":"white",
+                  "titleColor":"white"
+               }
+            },
+            "y":{
+               "field":"numInc",
+               "type": "quantitative"
+            },
+            "text":{
+               "field":"numInc"}
+         }
       }
-   ]
-   }
-},
-{ "mark": {"type": "circle", "strokeOpacity":0.75, "strokeCap": "round", "size": 100},
-"transform": [{"filter": "datum.sTag == 'agr'"}, {"filter": "datum.servArea == var2"}],
-"encoding": {
-  "x": {"field": "q", "type": "ordinal", "axis": {"labelColor":"white", "titleColor": "white", "title": "Financial Quarter"}},
-  "y": {"field": "numInc", "aggregate": "sum", "axis": {"labelColor":"white", "titleColor": "white", "title": "Number of Incidents"}},
-  "color":{"field": "incType", "scale":{"range": ["yellow", "red"]}},
-  "tooltip":[
-   {
-      "field":"incType",
-      "type":"nominal",
-      "title":"Incident Type"
-   }
-]
-}
-}
-    ],
-    "resolve": {"scale": {"color": "independent"}}
+
   
- }
+   ],
+   "resolve":{
+      "scale":{
+         "color":"independent"
+      }
+   }
+}

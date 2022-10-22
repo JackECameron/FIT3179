@@ -29,7 +29,7 @@ with open("combinedLong_barchart.csv", "r") as data:
             cop[4] = "totInc"
             cop[5] = str(tot)
             
-            newFile.write("Incident Total" + "," + ",".join(cop) + "\n")
+            newFile.write("District Total Incidents Average" + "," + ",".join(cop) + "\n")
 
 
         except:
