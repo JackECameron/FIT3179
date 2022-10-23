@@ -5,6 +5,7 @@ body {
 	margin: auto;
 	max-width: 1200px;
 	background: #161a1d;
+	font-family: 'Hind', sans-serif;
 }
 
 .vega-bindings{
@@ -14,7 +15,14 @@ body {
 	width: 30%;
 	top:89%;
 	left:35%;
+	font-family: 'Hind', sans-serif;
+	font-size: 12;
 	
+}
+
+#vg-tooltip-element{
+	font-family: 'Hind', sans-serif;
+	font-size: 18;
 }
 
 .vega-bind {
@@ -36,11 +44,12 @@ body {
 	justify-content: center;
 	color: #ffffff;
 	padding: 0;
+	font-family: 'Libre Baskerville', serif;
 }
 
 
 #mainTitle {
-	font-size: 120px;
+	font-size: 98.2px;
 	margin-bottom: 0;
 	letter-spacing: 7.65px;
 }
@@ -49,6 +58,7 @@ body {
 	font-size: 40px;
 	margin-top: 0;
 	letter-spacing: 3px;
+	line-height: 100px;
 }
 
 .introduction {
@@ -64,6 +74,7 @@ body {
 	color: #ffffff;
 	text-align: justify;
 	font-size: 18px;
+	line-height: 25px;
 }
 
 .stationChartContainer {
@@ -94,10 +105,39 @@ body {
 
 .chartTitles {
 	width: 100%;
-	font-size: 19.1px;
+	font-size: 20px;
 	color: white;
 	text-align: justify;
+	font-weight: 1;
+	line-height: 20px;
+	opacity: 0.8;
 	
+}
+
+.chartSubTitles {
+	width: 100%;
+	font-size: 14px;
+	color: white;
+	text-align: justify;
+	font-weight: 2;
+	line-height: 20px;
+	
+}
+#cSTitle1 {
+	width: 26.5%;
+	float: left;
+	padding-right: 5%;
+}
+
+#cSTitle2 {
+	width: 27%;
+	float: left;
+}
+
+#cSTitle3 {
+	width: 36%;
+	padding-left: 5%;
+	float: left;
 }
 
 #cTitle2 {
@@ -112,13 +152,14 @@ body {
 }
 
 #cTitle01 {
-	width: 63%;
+	width: 63.1%;
 	float: left;
 }
 
 #cTitle02 {
-	width: 37%;
+	width: 36.8%;
 	float: left;
+
 }
 
 #chloro {
@@ -184,12 +225,22 @@ body {
 }
 
 #bigStat{
-	font-weight: bolder;
-	font-size: 50px;
+	font-size: 80px;
 	color: #9AD0EC;
 	text-align: center;
 	align-content: center;
 	display: block;
+	line-height: normal;
+	font-style: italic;
+}
+
+#bigStatS{
+	font-size: 24px;
+	color: #70d6ff;
+	text-align: center;
+	align-content: center;
+	display: block;
+	font-style: italic;
 }
 
 #customDropdowns {
@@ -209,9 +260,72 @@ body {
 
 #stationSelector {
 	padding-left: 20.75%;
+	color: #ffb700;
+
+}
+
+#districtSelector {
+	color: #e5383b;
+
 }
 
 #fixedSelect{
 	position: relative;
 	width: 100%;
+}
+
+
+#emergency {
+	color:#546a7b;
+
+	font-weight: bold;
+}
+
+#nonEmergency {
+	color:#98c1d9;
+
+	font-weight: bold;
+}
+
+#disAVG {
+	color:#e5383b;
+	font-weight: bold;
+}
+#stationAVG {
+	color:#ffb700;
+	font-weight: bold;
+}
+#otherStations {
+	color:grey;
+	font-weight: bold;
+}
+
+#standardTime {
+	color: #70d6ff;
+	font-weight: bold;
+}
+#pod {
+	color: #a78a7f;
+	font-weight: bold;
+	opacity: 0.6;
+}
+#appliance {
+	color: #735751;
+	font-weight: bold;
+	opacity: 0.6;
+}
+#specialistEquipment {
+	color: #ecc8af;
+	font-weight: bold;
+	opacity: 0.6;
+}
+#aerial {
+	color: #e7ad99;
+	font-weight: bold;
+	opacity: 0.6;
+}
+#pumper {
+	color: #ce796b;
+	font-weight: bold;
+	opacity: 0.6;
 }

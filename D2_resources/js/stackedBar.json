@@ -31,8 +31,8 @@
             "cornerRadiusTopRight":10,
             "cornerRadiusBottomLeft":10,
             "cornerRadiusBottomRight":10,
-            "fillOpacity":0.1,
-            "strokeOpacity":0.75,
+            "fillOpacity":0.6,
+            "strokeOpacity":0,
             "stroke":"white",
             "strokeWidth":2,
             "width": 50,
@@ -59,7 +59,11 @@
                "type":"ordinal",
                "axis":{"domain": false, "grid": false,
                   "labelColor":"white",
-                  "titleColor":"white", "labelAngle": 0, "tickOpacity":0, "title": null
+                  "titleColor":"white", "labelAngle": 0, "tickOpacity":0, "title": null,
+                   "labelFont": "hind",
+                  "labelFontSize": 16,
+                  "offset": 6, 
+                  "labelOpacity":0.4
                }
             },
             "y":{
@@ -71,8 +75,8 @@
                "field":"incType",
                "scale":{
                   "range":[
-                     "#B7C4CF",
-                     "#e63946"
+                     "#546a7b",
+                     "#98c1d9"
                   ]
                }
             },
@@ -133,7 +137,7 @@
                "field":"incType",
                "scale":{
                   "range":[
-                     "#850E35"
+                     "#e5383b"
                   ]
                }
             },
@@ -141,7 +145,7 @@
                {
                   "field":"description",
                   "type":"nominal",
-                  "title":"Incident Type"
+                  "title":"Incident Type", "format":{}
                },
                {
                   "field":"numInc",
@@ -155,7 +159,9 @@
          "mark":{
             "type":"text",
             "color":"white",
-            "dy": -10
+            "dy": -10,
+            "font": "hind",
+            "fontSize": 16
          },
          "transform":[
             {
@@ -194,7 +200,9 @@
          "mark":{
             "type":"text",
             "color":"white",
-            "dy": -10
+            "dy": -10,
+            "font": "hind",
+            "fontSize": 16
          },
          "transform":[
             {

@@ -30,12 +30,12 @@
       {
          "mark":{
             "type":"arc",
-            "radius2":100,
-            "radius":150,
+            "radius2":80,
+            "radius":140,
             "stroke": "#161a1d",
             "strokeWidth": 10,
             "cornerRadius": 10,
-            "fillOpacity":0.8
+            "fillOpacity":0.3
          },
          "transform":[
             {
@@ -51,7 +51,7 @@
             "color":{
                "field":"type",
                "type":"nominal",
-               "scale":{"scheme":"oranges", "type": "ordinal"}
+               "scale":{"range":["#735751", "#a78a7f"]}
             },
             "tooltip":[
               {
@@ -75,9 +75,11 @@
       {
          "mark":{
             "type":"text",
-            "radius":125,
-            "color":"#161a1d",
-            "opacity":1
+            "radius":110,
+            "color":"white",
+            "opacity":1,
+            "font": "hind",
+            "fontSize": 16
          },
          "transform":[
             {
@@ -100,12 +102,12 @@
       {
          "mark":{
             "type":"arc",
-            "radius2":150,
+            "radius2":140,
             "radius":200,
             "stroke": "#161a1d",
             "strokeWidth": 10,
             "cornerRadius": 10,
-            "fillOpacity":0.8
+            "fillOpacity":0.7
          },
          "transform":[
             {
@@ -121,7 +123,7 @@
              "color":{
                "field":"type",
                "type":"nominal",
-               "scale":{"scheme":"reds", "type": "ordinal"}
+               "scale":{"range":["#ce796b", "#e7ad99","#ecc8af" ]}
             },
             "tooltip":[
               {
@@ -145,9 +147,10 @@
       {
          "mark":{
             "type":"text",
-            "radius":175,
+            "radius":170,
             "color":"white",
-            "opacity": 1
+            "opacity": 1, "font": "hind",
+            "fontSize": 16
          },
          "transform":[
             {

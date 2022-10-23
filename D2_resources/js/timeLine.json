@@ -30,7 +30,7 @@
             "fillOpacity":0.8,
             "strokeWidth":5,
             "strokeCap":"round",
-            "color":"#9AD0EC"
+            "color":"#70d6ff"
          },
          "encoding":{
            
@@ -40,7 +40,8 @@
                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "title":null
+                  "title":null,
+                  "labelOpacity":0.4
                }
             },
             "y":{
@@ -61,7 +62,7 @@
             "fillOpacity":0.8,
             "strokeWidth":5,
             "strokeCap":"round",
-            "color":"#9AD0EC"
+            "color":"#70d6ff"
          },
          "encoding":{
            
@@ -70,7 +71,11 @@
                "type":"ordinal",
                "axis":{
                   "labelColor":"white",
-                  "titleColor":"white"
+                  "titleColor":"white",
+                  "labelFont": "hind",
+                  "labelFontSize": 16,
+                  "offset": 12,
+                  "domain": false
                }
             },
             "y":{
@@ -78,7 +83,9 @@
                "type":"quantitative",
                "axis":{
                   "labelColor":"white",
-                  "titleColor":"white"
+                  "titleColor":"white",
+                  "labelFont": "hind",
+                  "labelFontSize": 16
                }
             },
             "tooltip":[
@@ -93,7 +100,7 @@
       {
          "mark":{
             "type":"line",
-            "strokeOpacity":0.25,
+            "strokeOpacity":0.3,
             "strokeWidth":5,
             "strokeCap":"round"
          },
@@ -115,7 +122,7 @@
                   "title":"Financial Quarter",
                   "tickOpacity":0,
                   "labelAngle":0,
-                  "domainOpacity":0.25
+                  "domainOpacity":0.2
                }
             },
             "y":{
@@ -128,7 +135,8 @@
                   "tickOpacity":0,
                   "labelAngle":0,
                   "domain": false,
-                  "gridOpacity":0.25
+                  "gridOpacity":0.2,
+                  "labelOpacity":0.4
                }
             },
             "color":{
@@ -239,17 +247,10 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "#E3BEC6"
+                     "#ffb700"
                   ]
                },
-               "legend":{
-                  "title":null,
-                  "titleColor":"white",
-                  "labelColor":"white",
-                  "orient":"none",
-                  "legendY":0,
-                  "legendX":125
-               }
+               "legend":null
             }
          }
       },
@@ -288,7 +289,7 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "#E3BEC6"
+                     "#ffb700"
                   ]
                },
                "legend":null
@@ -347,17 +348,10 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "#850E35"
+                     "#e5383b"
                   ]
                },
-               "legend":{
-                  "titleColor":"white",
-                  "title":null,
-                  "labelColor":"white",
-                  "orient":"none",
-                  "legendY":0,
-                  "legendX":10
-               }
+               "legend":null
             }
          }
       },
@@ -396,7 +390,7 @@
                "field":"servArea",
                "scale":{
                   "range":[
-                     "#850E35"
+                     "#e5383b"
                   ]
                },
                 "legend":null
@@ -423,7 +417,9 @@
          "mark":{
             "type":"text",
             "color":"white",
-            "dy": -15
+            "dy": -15,
+            "font": "hind",
+            "fontSize": 16
          },
          "transform":[
             {

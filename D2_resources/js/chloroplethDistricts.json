@@ -55,7 +55,7 @@
          "stroke":"transparent"
       },
       "background": "#161a1d",
-      "axis": {"gridColor": "#ffffff", "gridOpacity":0.4, "gridWidth": 3}
+      "axis": {"gridColor": "#ffffff", "gridOpacity":0.2, "gridWidth": 3}
    },
    "padding":0,
   
@@ -138,14 +138,24 @@
                      "legend":{
                         "title":"% Above Standard",
                         "titleColor":"#ffffff",
+                        "titleFont": "hind",
+                        "titleFontSize": 11.5,
+                        "titleOpacity":0.6,
                         "orient":"none",
                         "legendX":0,
                         "legendY":600,
                         "direction":"horizontal",
-                        "labelColor":"#ffffff"
+                        "labelColor":"#ffffff",
+                        "labelFont": "hind",
+                        "labelFontSize": 12,
+                        "labelOpacity":0.6
                      }
                   },
-                  "tooltip":[
+                  "tooltip":[ {
+                     "field":"q",
+                     "type":"nominal",
+                     "title":"Quarter"
+                  },
                      {
                         "field":"dis",
                         "type":"nominal",
@@ -164,7 +174,7 @@
                      {
                         "field":"totInc",
                         "type":"quantitative",
-                        "title":"Number of Incidences"
+                        "title":"Number of Incidents"
                      }
                   ]
                }
@@ -202,11 +212,17 @@
          "legend":{
             "title":"Number of Resources:",
             "titleColor":"#ffffff",
+            "titleFont": "hind",
+            "titleFontSize": 11.5,
+            "titleOpacity":0.6,
             "orient":"none",
             "legendX":125,
             "legendY":600,
             "direction":"horizontal",
-            "labelColor":"#ffffff"
+            "labelColor":"#ffffff",
+            "labelFont": "hind",
+            "labelFontSize": 12,
+            "labelOpacity":0.6
          },
           "field": "grandTotal",
           "type": "quantitative",
@@ -262,15 +278,21 @@
                      "type":"ordinal",
                      "axis":{
                         "title":"Financial Quarter",
-                        "titleFontSize":20,
+                        "titleFontStyle":"normal",
+                        "titleFontWeight":"normal",
+                        "titleFontSize":16,
                         "titleColor":"#ffffff",
-                        "titleFont":"Calibri Light",
+                        "titleOpacity":0.4,
+                        "titleFont":"hind",
                         "domain":false,
                         "labelAngle":0,
-                        "labelFontSize":18,
-                        "labelFont":"Calibri Light",
+                        "labelFontSize":16,
+                        "labelFont":"hind",
                         "labelColor":"#ffffff",
-                        "grid": true
+                        "grid": true,
+                        "labelOpacity":0.4,
+                        "offset": 5,
+                        "tickOpacity":0
                      }
                   },
                   "y":{
@@ -294,6 +316,82 @@
                    {
                      "filter":"datum.filter == disSelect.loc"
                   },
+                  {"filter": "datum.q == 2 || datum.q==3"},
+                  {
+                     "sort":[
+                        {
+                           "field":"perMet",
+                           "order":"descending"
+                        }
+                     ],
+                     "window":[
+                        {
+                           "op":"rank",
+                           "as":"rank1"
+                        }
+                     ],
+                     "groupby":[
+                        "q"
+                     ]
+                  }
+               ],
+               "mark":{
+                  "type":"circle",
+                  "opacity":0.9,
+                  "strokeWidth":3.5,
+                  "stroke": "#ffffff",
+                  "strokeOpacity": 0.6,
+                  "filled":true,
+                  "size":400
+               },
+               "encoding":{
+                  "x":{
+                     "field":"q",
+                     "type":"ordinal",
+                     "axis":{
+                       
+                     }
+                  },
+                  "y":{
+                     "field":"rank1",
+                     "type":"ordinal",
+                     "axis":{
+                        
+                     }
+                  },
+                  "color":{"legend":null,
+                     "field":"servArea", "scale":{"range": ["#ffffff"]}
+                  },
+                  "tooltip":[
+                     {
+                        "field":"q",
+                        "type":"nominal",
+                        "title":"Quarter"
+                     },
+                     {
+                        "field":"rank1",
+                        "type":"quantitative",
+                        "title":"Quarter Ranking"
+                     },
+                     {
+                        "field":"90Avg",
+                        "type":"quantitative",
+                        "title":"90% Response Time (m)"
+                     },
+                     {
+                        "field":"perMet",
+                        "type":"quantitative",
+                        "title":"% Above Standard"
+                     }
+                  ]
+               }
+            }, {
+               "transform":[
+                 
+                   {
+                     "filter":"datum.filter == disSelect.loc"
+                  },
+                  {"filter": "datum.q == 1 || datum.q==4"},
                   {
                      "sort":[
                         {
@@ -315,11 +413,11 @@
                "mark":{
                   "type":"circle",
                   "opacity":1,
-                  "strokeWidth":5,
+                  "strokeWidth":8,
                   "stroke": "#ffffff",
                   "strokeOpacity": 0.6,
                   "filled":true,
-                  "size":500
+                  "size":750
                },
                "encoding":{
                   "x":{
@@ -391,13 +489,13 @@
                ],
                "mark":{
                   "type":"text",
-                  "opacity":0.75,
+                  "opacity":0.8,
                   "strokeWidth":5,
                   "filled":true,
-                  "size":16,
-                  "dx":50,
+                  "dx":35,
                   "align":"left",
-                  "fontStyle":"italic"
+                  "font": "hind",
+                  "fontSize":16
                },
                "encoding":{
                   "x":{
@@ -428,14 +526,17 @@
                   "align":"left",
                   "baseline":"bottom",
                   "x":"width",
-                  "y":0,
-                  "font":"Calibri Light",
+                  "y":0,      
+                  "opacity": 0.4,
                   "color":"#ffffff",
-                  "fontSize":20
+                  "fontSize":16,
+                  "font": "hind",
+                  "dx":-9
                },
                "encoding":{
                   "text":{
                      "value":"Service Area"
+                    
                   }
                }
             },
@@ -445,9 +546,10 @@
                   "align":"center",
                   "baseline":"bottom",
                   "y":0,
-                  "font":"Calibri Light",
+                  "font":"hind",
                   "color":"#ffffff",
-                  "fontSize":14
+                  "fontSize":16,
+                  "opacity":0.4
                },
                "encoding":{
                   "text":{
@@ -485,14 +587,14 @@
                ],
                "mark":{
                   "type":"text",
-                  "opacity":0.75,
+                  "opacity":0.7,
                   "strokeWidth":5,
                   "filled":true,
-                  "size":16,
+                  "size":22,
                   "dx":0,
                   "align":"center",
-                  "fontStyle":"bold",
-                  "font":"Calibri Light"
+                  "font":"hind",
+                   "fontStyle":"bold"
                },
                "encoding":{
                   "x":{
@@ -510,7 +612,7 @@
                      }
                   },
                   "color":{
-                     "value":"black"
+                     "value":"#202c39"
                   },
                   "text":{
                      "field":"rank1"
@@ -545,14 +647,14 @@
                ],
                "mark":{
                   "type":"text",
-                  "opacity":0.75,
+                  "opacity":0.7,
                   "strokeWidth":5,
                   "filled":true,
-                  "size":16,
+                  "size":22,
                   "dx":0,
                   "align":"center",
                   "fontStyle":"bold",
-                  "font":"Calibri Light"
+                  "font":"hind"
                },
                "encoding":{
                   "x":{
@@ -570,7 +672,7 @@
                      }
                   },
                   "color":{
-                     "value":"black"
+                     "value":"#202c39"
                   },
                   "text":{
                      "field":"rank1"
