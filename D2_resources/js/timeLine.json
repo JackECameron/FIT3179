@@ -3,12 +3,14 @@
    "width":290,
    "height":400,
    "padding":0,
-   
    "background":"#161a1d",
    "config":{
-      "legend": {"disable": true},
-      "view": {"stroke": null}
-      
+      "legend":{
+         "disable":true
+      },
+      "view":{
+         "stroke":null
+      }
    },
    "params":[
       {
@@ -23,8 +25,17 @@
    "data":{
       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_dif.csv"
    },
-   "layer":[ {
-         "transform":[{"calculate": "7.7", "as": "stand"}, {"filter": "datum.dis == 'datumLine'"}],
+   "layer":[
+      {
+         "transform":[
+            {
+               "calculate":"7.7",
+               "as":"stand"
+            },
+            {
+               "filter":"datum.dis == 'datumLine'"
+            }
+         ],
          "mark":{
             "type":"line",
             "fillOpacity":0.8,
@@ -33,14 +44,16 @@
             "color":"#70d6ff"
          },
          "encoding":{
-           
-           "x":{
+            "x":{
                "field":"q",
                "type":"ordinal",
                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "title": "Financial Quarter", "titleFontSize":16, "titleOpacity":0.4,"titleFontWeight":"normal",
+                  "title":"Financial Quarter",
+                  "titleFontSize":16,
+                  "titleOpacity":0.4,
+                  "titleFontWeight":"normal",
                   "labelOpacity":0.4
                }
             },
@@ -56,7 +69,15 @@
          }
       },
       {
-         "transform":[{"calculate": "7.7", "as": "stand"}, {"filter": "datum.dis == 'datumLine'"}],
+         "transform":[
+            {
+               "calculate":"7.7",
+               "as":"stand"
+            },
+            {
+               "filter":"datum.dis == 'datumLine'"
+            }
+         ],
          "mark":{
             "type":"point",
             "fillOpacity":0.8,
@@ -65,17 +86,16 @@
             "color":"#70d6ff"
          },
          "encoding":{
-           
-           "x":{
+            "x":{
                "field":"q",
                "type":"ordinal",
                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "labelFont": "hind",
-                  "labelFontSize": 16,
-                  "offset": 12,
-                  "domain": false
+                  "labelFont":"hind",
+                  "labelFontSize":16,
+                  "offset":12,
+                  "domain":false
                }
             },
             "y":{
@@ -84,8 +104,8 @@
                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "labelFont": "hind",
-                  "labelFontSize": 16
+                  "labelFont":"hind",
+                  "labelFontSize":16
                }
             },
             "tooltip":[
@@ -127,13 +147,13 @@
             "y":{
                "field":"dif",
                "type":"quantitative",
-                "axis":{
+               "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
                   "title":null,
                   "tickOpacity":0,
                   "labelAngle":0,
-                  "domain": false,
+                  "domain":false,
                   "gridOpacity":0.2,
                   "labelOpacity":0.4
                }
@@ -191,11 +211,13 @@
                },
                "legend":null
             },
-            "tooltip":[ {
-               "field":"q",
-               "type":"nominal",
-               "title":"Quarter"
-            },{
+            "tooltip":[
+               {
+                  "field":"q",
+                  "type":"nominal",
+                  "title":"Quarter"
+               },
+               {
                   "field":"servArea",
                   "type":"nominal",
                   "title":"Station"
@@ -296,11 +318,13 @@
                },
                "legend":null
             },
-            "tooltip":[ {
-               "field":"q",
-               "type":"nominal",
-               "title":"Quarter"
-            },{
+            "tooltip":[
+               {
+                  "field":"q",
+                  "type":"nominal",
+                  "title":"Quarter"
+               },
+               {
                   "field":"servArea",
                   "type":"nominal",
                   "title":"Station"
@@ -399,13 +423,15 @@
                      "#e5383b"
                   ]
                },
-                "legend":null
+               "legend":null
             },
-            "tooltip":[{
-               "field":"q",
-               "type":"nominal",
-               "title":"Quarter"
-            }, {
+            "tooltip":[
+               {
+                  "field":"q",
+                  "type":"nominal",
+                  "title":"Quarter"
+               },
+               {
                   "field":"servArea",
                   "type":"nominal",
                   "title":"District"
@@ -423,13 +449,13 @@
             ]
          }
       },
-        {
+      {
          "mark":{
             "type":"text",
             "color":"white",
-            "dy": -15,
-            "font": "hind",
-            "fontSize": 16
+            "dy":-15,
+            "font":"hind",
+            "fontSize":16
          },
          "transform":[
             {
@@ -455,10 +481,14 @@
                   "labelColor":"white",
                   "titleColor":"white"
                }
-            },"text":{"field": "dif", "formatType": "number", "format": ".2"}
+            },
+            "text":{
+               "field":"dif",
+               "formatType":"number",
+               "format":".2"
+            }
          }
       }
-        
    ],
    "resolve":{
       "scale":{

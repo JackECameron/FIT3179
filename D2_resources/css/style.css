@@ -168,7 +168,7 @@ body {
 	justify-content: center;
 	float: left;
 	padding-top:25px;
-	padding-bottom:50px;
+	padding-bottom:30px;
 
 }
 
@@ -304,27 +304,48 @@ body {
 	font-weight: bold;
 }
 #pod {
-	color: #a78a7f;
+	color: #9b9ece;
 	font-weight: bold;
 	opacity: 0.6;
 }
 #appliance {
-	color: #735751;
+	color: #788bff;
 	font-weight: bold;
 	opacity: 0.6;
 }
 #specialistEquipment {
-	color: #ecc8af;
+	color: #e56b6f;
 	font-weight: bold;
 	opacity: 0.6;
 }
 #aerial {
-	color: #e7ad99;
+	color: #f4acb7;
 	font-weight: bold;
 	opacity: 0.6;
 }
 #pumper {
-	color: #ce796b;
+	color: #b56576;
 	font-weight: bold;
 	opacity: 0.6;
+}
+footer{
+	color: white;
+	font-size: 16;
+	font-family: 'Hind', sans-serif;
+	opacity: 0.3;
+
+}
+
+
+#f1 {
+	float:left;
+	text-align: left;
+	width:50%
+	
+}
+
+#f2 {
+	float:left;
+	text-align: right;
+	width:50%
 }

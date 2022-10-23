@@ -6,7 +6,8 @@
    },
    "data":{
       "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/data/responseTimes/FRV_total_combined_filter.csv"
-   }, "params":[
+   },
+   "params":[
       {
          "name":"qSelect",
          "value":1,
@@ -26,53 +27,149 @@
             ],
             "name":"Quarter: "
          }
-      }, 
+      },
       {
-        "name": "disSelect",
-        "value": {"centerTo": [144.8912, -38.0024], "zoomLevel": 31000, "loc": "All Districts", "agrType": "agr"},
-        "bind": {
-            "input": "select",
-            "options": [
-                {"centerTo": [144.8912, -38.0024], "zoomLevel": 35000, "loc": "All Districts", "agrType": "null"},
-                {"centerTo": [144.9702, -37.8015], "zoomLevel": 110000, "loc": "Central", "agrType": "null"},
-                {"centerTo": [145.1557, -37.8109], "zoomLevel": 110000, "loc": "Eastern", "agrType": "null"},
-                {"centerTo": [145.0017, -37.6829], "zoomLevel": 100000, "loc": "Northern", "agrType": "null"},
-                {"centerTo": [145.1024, -37.9262], "zoomLevel": 100000, "loc": "Southern D1", "agrType": "null"},
-                {"centerTo": [145.1781, -38.1757], "zoomLevel": 58000, "loc": "Southern D2", "agrType": "null"},
-                {"centerTo": [144.7627, -37.8421], "zoomLevel": 100000, "loc": "Western D1", "agrType": "null"},
-                {"centerTo": [144.7195, -37.6516], "zoomLevel": 100000, "loc": "Western D2", "agrType": "null"},
-                {"centerTo": [144.4648, -38.1237], "zoomLevel": 90000, "loc": "Western D3", "agrType": "null"}
+         "name":"disSelect",
+         "value":{
+            "centerTo":[
+               144.8912,
+               -38.0024
             ],
-            "labels": ["All Districts", "Central","Eastern", "Northern",  "Southern D1", "Southern D2", "Western D1", "Western D2", "Western D3"],
-            "name": "District: "
-        }
-    }
-      
+            "zoomLevel":31000,
+            "loc":"All Districts",
+            "agrType":"agr"
+         },
+         "bind":{
+            "input":"select",
+            "options":[
+               {
+                  "centerTo":[
+                     144.8912,
+                     -38.0024
+                  ],
+                  "zoomLevel":35000,
+                  "loc":"All Districts",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     144.9702,
+                     -37.8015
+                  ],
+                  "zoomLevel":110000,
+                  "loc":"Central",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     145.1557,
+                     -37.8109
+                  ],
+                  "zoomLevel":110000,
+                  "loc":"Eastern",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     145.0017,
+                     -37.6829
+                  ],
+                  "zoomLevel":100000,
+                  "loc":"Northern",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     145.1024,
+                     -37.9262
+                  ],
+                  "zoomLevel":100000,
+                  "loc":"Southern D1",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     145.1781,
+                     -38.1757
+                  ],
+                  "zoomLevel":58000,
+                  "loc":"Southern D2",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     144.7627,
+                     -37.8421
+                  ],
+                  "zoomLevel":100000,
+                  "loc":"Western D1",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     144.7195,
+                     -37.6516
+                  ],
+                  "zoomLevel":100000,
+                  "loc":"Western D2",
+                  "agrType":"null"
+               },
+               {
+                  "centerTo":[
+                     144.4648,
+                     -38.1237
+                  ],
+                  "zoomLevel":90000,
+                  "loc":"Western D3",
+                  "agrType":"null"
+               }
+            ],
+            "labels":[
+               "All Districts",
+               "Central",
+               "Eastern",
+               "Northern",
+               "Southern D1",
+               "Southern D2",
+               "Western D1",
+               "Western D2",
+               "Western D3"
+            ],
+            "name":"District: "
+         }
+      }
    ],
    "config":{
-     
       "view":{
          "stroke":"transparent"
       },
-      "background": "#161a1d",
-      "axis": {"gridColor": "#ffffff", "gridOpacity":0.2, "gridWidth": 3}
+      "background":"#161a1d",
+      "axis":{
+         "gridColor":"#ffffff",
+         "gridOpacity":0.2,
+         "gridWidth":3
+      }
    },
    "padding":0,
-  
    "hconcat":[
       {
          "width":700,
          "height":595,
          "projection":{
             "type":"equirectangular",
-            "center": {"expr":"disSelect.centerTo"},
-            "scale": {"expr":"disSelect.zoomLevel"},
-            "translate":[355, 293]
+            "center":{
+               "expr":"disSelect.centerTo"
+            },
+            "scale":{
+               "expr":"disSelect.zoomLevel"
+            },
+            "translate":[
+               355,
+               293
+            ]
          },
          "layer":[
             {
-
-            
                "data":{
                   "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/Week10Homework/js/LOCALITY_POLYGON.json",
                   "format":{
@@ -138,24 +235,25 @@
                      "legend":{
                         "title":"% Above Standard",
                         "titleColor":"#ffffff",
-                        "titleFont": "hind",
-                        "titleFontSize": 11.5,
+                        "titleFont":"hind",
+                        "titleFontSize":11.5,
                         "titleOpacity":0.6,
                         "orient":"none",
                         "legendX":0,
                         "legendY":600,
                         "direction":"horizontal",
                         "labelColor":"#ffffff",
-                        "labelFont": "hind",
-                        "labelFontSize": 12,
+                        "labelFont":"hind",
+                        "labelFontSize":12,
                         "labelOpacity":0.6
                      }
                   },
-                  "tooltip":[ {
-                     "field":"q",
-                     "type":"nominal",
-                     "title":"Quarter"
-                  },
+                  "tooltip":[
+                     {
+                        "field":"q",
+                        "type":"nominal",
+                        "title":"Quarter"
+                     },
                      {
                         "field":"dis",
                         "type":"nominal",
@@ -179,7 +277,7 @@
                   ]
                }
             },
-             {
+            {
                "data":{
                   "url":"https://raw.githubusercontent.com/JackECameron/FIT3179/main/D2_resources/js/stations.json",
                   "format":{
@@ -187,10 +285,16 @@
                      "feature":"FOI_POINT"
                   }
                },
-                  "transform":[
-                     {"calculate": "datum.geometry.coordinates[0]", "as": "longitude"},
-                     {"calculate": "datum.geometry.coordinates[1]", "as": "latitude"},
-                      {
+               "transform":[
+                  {
+                     "calculate":"datum.geometry.coordinates[0]",
+                     "as":"longitude"
+                  },
+                  {
+                     "calculate":"datum.geometry.coordinates[1]",
+                     "as":"latitude"
+                  },
+                  {
                      "lookup":"properties.AUTHORGID",
                      "from":{
                         "data":{
@@ -200,48 +304,81 @@
                            }
                         },
                         "key":"sTag",
-                     "fields":["grandTotal"]
+                        "fields":[
+                           "grandTotal"
+                        ]
                      }
                   }
-                  ],
-      "mark": {"type": "circle", "color": "lightgrey", "opacity": 0.70},
-      "encoding": {
-        "longitude": {"field": "longitude", "type": "quantitative"},
-        "latitude": {"field": "latitude", "type": "quantitative"},
-        "size": {
-         "legend":{
-            "title":"Number of Resources:",
-            "titleColor":"#ffffff",
-            "titleFont": "hind",
-            "titleFontSize": 11.5,
-            "titleOpacity":0.6,
-            "orient":"none",
-            "legendX":125,
-            "legendY":600,
-            "direction":"horizontal",
-            "labelColor":"#ffffff",
-            "labelFont": "hind",
-            "labelFontSize": 12,
-            "labelOpacity":0.6
-         },
-          "field": "grandTotal",
-          "type": "quantitative",
-          "scale": {
-            "type": "sqrt",
-            "domain": [0, 10],
-            "range": [0, 300]
-          }
-        },"description": {"field": "properties.AUTHORGID"},
-        "tooltip": [{"field": "properties.AUTHORGID", "title": "Station Number"},{"field": "properties.NAME", "title": "Name"},
-        {"field": "grandTotal", "type": "quantitative", "title": "Number of Resources"}]
-      }
+               ],
+               "mark":{
+                  "type":"circle",
+                  "color":"lightgrey",
+                  "opacity":0.70
+               },
+               "encoding":{
+                  "longitude":{
+                     "field":"longitude",
+                     "type":"quantitative"
+                  },
+                  "latitude":{
+                     "field":"latitude",
+                     "type":"quantitative"
+                  },
+                  "size":{
+                     "legend":{
+                        "title":"Number of Resources:",
+                        "titleColor":"#ffffff",
+                        "titleFont":"hind",
+                        "titleFontSize":11.5,
+                        "titleOpacity":0.6,
+                        "orient":"none",
+                        "legendX":125,
+                        "legendY":600,
+                        "direction":"horizontal",
+                        "labelColor":"#ffffff",
+                        "labelFont":"hind",
+                        "labelFontSize":12,
+                        "labelOpacity":0.6
+                     },
+                     "field":"grandTotal",
+                     "type":"quantitative",
+                     "scale":{
+                        "type":"sqrt",
+                        "domain":[
+                           0,
+                           10
+                        ],
+                        "range":[
+                           0,
+                           300
+                        ]
+                     }
+                  },
+                  "description":{
+                     "field":"properties.AUTHORGID"
+                  },
+                  "tooltip":[
+                     {
+                        "field":"properties.AUTHORGID",
+                        "title":"Station Number"
+                     },
+                     {
+                        "field":"properties.NAME",
+                        "title":"Name"
+                     },
+                     {
+                        "field":"grandTotal",
+                        "type":"quantitative",
+                        "title":"Number of Resources"
+                     }
+                  ]
+               }
             }
          ]
       },
       {
          "width":350,
          "height":595,
-        
          "layer":[
             {
                "transform":[
@@ -289,9 +426,9 @@
                         "labelFontSize":16,
                         "labelFont":"hind",
                         "labelColor":"#ffffff",
-                        "grid": true,
+                        "grid":true,
                         "labelOpacity":0.4,
-                        "offset": 5,
+                        "offset":5,
                         "tickOpacity":0
                      }
                   },
@@ -306,17 +443,23 @@
                      }
                   },
                   "color":{
-                     "field":"servArea", "scale":{"range": ["#ffffff"]}
+                     "field":"servArea",
+                     "scale":{
+                        "range":[
+                           "#ffffff"
+                        ]
+                     }
                   }
                }
             },
             {
                "transform":[
-                 
-                   {
+                  {
                      "filter":"datum.filter == disSelect.loc"
                   },
-                  {"filter": "datum.q == 2 || datum.q==3"},
+                  {
+                     "filter":"datum.q == 2 || datum.q==3"
+                  },
                   {
                      "sort":[
                         {
@@ -339,8 +482,8 @@
                   "type":"circle",
                   "opacity":0.9,
                   "strokeWidth":3.5,
-                  "stroke": "#ffffff",
-                  "strokeOpacity": 0.6,
+                  "stroke":"#ffffff",
+                  "strokeOpacity":0.6,
                   "filled":true,
                   "size":400
                },
@@ -349,7 +492,7 @@
                      "field":"q",
                      "type":"ordinal",
                      "axis":{
-                       
+                        
                      }
                   },
                   "y":{
@@ -359,83 +502,14 @@
                         
                      }
                   },
-                  "color":{"legend":null,
-                     "field":"servArea", "scale":{"range": ["#ffffff"]}
-                  },
-                  "tooltip":[
-                     {
-                        "field":"q",
-                        "type":"nominal",
-                        "title":"Quarter"
-                     },
-                     {
-                        "field":"rank1",
-                        "type":"quantitative",
-                        "title":"Quarter Ranking"
-                     },
-                     {
-                        "field":"90Avg",
-                        "type":"quantitative",
-                        "title":"90% Response Time (m)"
-                     },
-                     {
-                        "field":"perMet",
-                        "type":"quantitative",
-                        "title":"% Above Standard"
+                  "color":{
+                     "legend":null,
+                     "field":"servArea",
+                     "scale":{
+                        "range":[
+                           "#ffffff"
+                        ]
                      }
-                  ]
-               }
-            }, {
-               "transform":[
-                 
-                   {
-                     "filter":"datum.filter == disSelect.loc"
-                  },
-                  {"filter": "datum.q == 1 || datum.q==4"},
-                  {
-                     "sort":[
-                        {
-                           "field":"perMet",
-                           "order":"descending"
-                        }
-                     ],
-                     "window":[
-                        {
-                           "op":"rank",
-                           "as":"rank1"
-                        }
-                     ],
-                     "groupby":[
-                        "q"
-                     ]
-                  }
-               ],
-               "mark":{
-                  "type":"circle",
-                  "opacity":1,
-                  "strokeWidth":8,
-                  "stroke": "#ffffff",
-                  "strokeOpacity": 0.6,
-                  "filled":true,
-                  "size":750
-               },
-               "encoding":{
-                  "x":{
-                     "field":"q",
-                     "type":"ordinal",
-                     "axis":{
-                       
-                     }
-                  },
-                  "y":{
-                     "field":"rank1",
-                     "type":"ordinal",
-                     "axis":{
-                        
-                     }
-                  },
-                  "color":{"legend":null,
-                     "field":"servArea", "scale":{"range": ["#ffffff"]}
                   },
                   "tooltip":[
                      {
@@ -463,7 +537,90 @@
             },
             {
                "transform":[
-                   {
+                  {
+                     "filter":"datum.filter == disSelect.loc"
+                  },
+                  {
+                     "filter":"datum.q == 1 || datum.q==4"
+                  },
+                  {
+                     "sort":[
+                        {
+                           "field":"perMet",
+                           "order":"descending"
+                        }
+                     ],
+                     "window":[
+                        {
+                           "op":"rank",
+                           "as":"rank1"
+                        }
+                     ],
+                     "groupby":[
+                        "q"
+                     ]
+                  }
+               ],
+               "mark":{
+                  "type":"circle",
+                  "opacity":1,
+                  "strokeWidth":8,
+                  "stroke":"#ffffff",
+                  "strokeOpacity":0.6,
+                  "filled":true,
+                  "size":750
+               },
+               "encoding":{
+                  "x":{
+                     "field":"q",
+                     "type":"ordinal",
+                     "axis":{
+                        
+                     }
+                  },
+                  "y":{
+                     "field":"rank1",
+                     "type":"ordinal",
+                     "axis":{
+                        
+                     }
+                  },
+                  "color":{
+                     "legend":null,
+                     "field":"servArea",
+                     "scale":{
+                        "range":[
+                           "#ffffff"
+                        ]
+                     }
+                  },
+                  "tooltip":[
+                     {
+                        "field":"q",
+                        "type":"nominal",
+                        "title":"Quarter"
+                     },
+                     {
+                        "field":"rank1",
+                        "type":"quantitative",
+                        "title":"Quarter Ranking"
+                     },
+                     {
+                        "field":"90Avg",
+                        "type":"quantitative",
+                        "title":"90% Response Time (m)"
+                     },
+                     {
+                        "field":"perMet",
+                        "type":"quantitative",
+                        "title":"% Above Standard"
+                     }
+                  ]
+               }
+            },
+            {
+               "transform":[
+                  {
                      "filter":"datum.filter == disSelect.loc"
                   },
                   {
@@ -494,7 +651,7 @@
                   "filled":true,
                   "dx":35,
                   "align":"left",
-                  "font": "hind",
+                  "font":"hind",
                   "fontSize":16
                },
                "encoding":{
@@ -526,17 +683,16 @@
                   "align":"left",
                   "baseline":"bottom",
                   "x":"width",
-                  "y":0,      
-                  "opacity": 0.4,
+                  "y":0,
+                  "opacity":0.4,
                   "color":"#ffffff",
                   "fontSize":16,
-                  "font": "hind",
+                  "font":"hind",
                   "dx":-9
                },
                "encoding":{
                   "text":{
                      "value":"Service Area"
-                    
                   }
                }
             },
@@ -594,7 +750,7 @@
                   "dx":0,
                   "align":"center",
                   "font":"hind",
-                   "fontStyle":"bold"
+                  "fontStyle":"bold"
                },
                "encoding":{
                   "x":{
@@ -621,7 +777,7 @@
             },
             {
                "transform":[
-                   {
+                  {
                      "filter":"datum.filter == disSelect.loc"
                   },
                   {

@@ -1,6 +1,5 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-
    "width":315,
    "height":400,
    "background":"#161a1d",
@@ -8,7 +7,10 @@
       "padding":0,
       "legend":{
          "disable":true
-      },"view": {"stroke": null}
+      },
+      "view":{
+         "stroke":null
+      }
    },
    "params":[
       {
@@ -35,8 +37,8 @@
             "strokeOpacity":0,
             "stroke":"white",
             "strokeWidth":2,
-            "width": 50,
-            "binSpacing": 0.1
+            "width":50,
+            "binSpacing":0.1
          },
          "transform":[
             {
@@ -57,19 +59,27 @@
             "x":{
                "field":"q",
                "type":"ordinal",
-               "axis":{"domain": false, "grid": false,
+               "axis":{
+                  "domain":false,
+                  "grid":false,
                   "labelColor":"white",
-                  "titleColor":"white", "labelAngle": 0, "tickOpacity":0, "title": "Financial Quarter", "titleFontSize":16, "titleOpacity":0.4,"titleFontWeight":"normal",
-                   "labelFont": "hind",
-                  "labelFontSize": 16,
-                  "offset": 6, 
+                  "titleColor":"white",
+                  "labelAngle":0,
+                  "tickOpacity":0,
+                  "title":"Financial Quarter",
+                  "titleFontSize":16,
+                  "titleOpacity":0.4,
+                  "titleFontWeight":"normal",
+                  "labelFont":"hind",
+                  "labelFontSize":16,
+                  "offset":6,
                   "labelOpacity":0.4
                }
             },
             "y":{
                "field":"numInc",
                "aggregate":"sum",
-              "axis": null
+               "axis":null
             },
             "color":{
                "field":"incType",
@@ -109,8 +119,8 @@
             "strokeOpacity":1,
             "strokeCap":"round",
             "width":60,
-            "thickness": 5,
-            "cornerRadius": 10
+            "thickness":5,
+            "cornerRadius":10
          },
          "transform":[
             {
@@ -135,7 +145,7 @@
             "y":{
                "field":"numInc",
                "aggregate":"sum",
-              "axis": null
+               "axis":null
             },
             "color":{
                "field":"incType",
@@ -145,11 +155,12 @@
                   ]
                }
             },
-            "tooltip":[{
-               "field":"q",
-               "type":"nominal",
-               "title":"Quarter"
-            },
+            "tooltip":[
+               {
+                  "field":"q",
+                  "type":"nominal",
+                  "title":"Quarter"
+               },
                {
                   "field":"description",
                   "type":"nominal",
@@ -167,9 +178,9 @@
          "mark":{
             "type":"text",
             "color":"white",
-            "dy": -10,
-            "font": "hind",
-            "fontSize": 16
+            "dy":-10,
+            "font":"hind",
+            "fontSize":16
          },
          "transform":[
             {
@@ -198,19 +209,20 @@
             "y":{
                "field":"numInc",
                "aggregate":"sum",
-               "axis": null
+               "axis":null
             },
             "text":{
-               "field":"numInc"}
+               "field":"numInc"
+            }
          }
       },
       {
          "mark":{
             "type":"text",
             "color":"white",
-            "dy": -10,
-            "font": "hind",
-            "fontSize": 16
+            "dy":-10,
+            "font":"hind",
+            "fontSize":16
          },
          "transform":[
             {
@@ -238,14 +250,13 @@
             },
             "y":{
                "field":"numInc",
-               "type": "quantitative"
+               "type":"quantitative"
             },
             "text":{
-               "field":"numInc"}
+               "field":"numInc"
+            }
          }
       }
-
-  
    ],
    "resolve":{
       "scale":{

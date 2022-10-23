@@ -1,260 +1,219 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-  
-  
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-
-  <script type="text/javascript">
-  //https://jackecameron.github.io/FIT3179/Week9Homework
-
-  var stationValues = {'CENTRAL': [1, 3, 4, 10, 38, 2, 35, 18, 50, 39, 13], 'SOUTH & EAST REGIONAL': [78, 77, 74, 79, 75, 76], 'EASTERN': [85, 28, 20, 22, 26, 23, 19, 84, 27, 82, 30], 'NORTHERN': [12, 14, 7, 15, 16, 5, 11, 9, 81, 80, 6], 'NORTH & WEST REGIONAL': [67, 73, 68, 71, 72, 70], 'SOUTHERN D1': [86, 25, 33, 32, 29, 31, 24, 34, 89], 'WESTERN D3': [66, 64, 63, 62, 61], 'SOUTHERN D2': [94, 91, 95, 87, 92, 90, 88, 93], 'WESTERN D2': [44, 43, 41, 51, 53, 48, 56, 52, 54, 55], 'WESTERN D1': [42, 47, 45, 40, 46, 59, 57, 58]};
-  var stationNames = {'CENTRAL': ['Eastern Hill', 'Carlton', 'Brunswick', 'Richmond', 'South Melbourne', 'West Melbourne', 'Windsor', 'Hawthorn', 'Ascot Vale', 'Port Melbourne', 'Northcote'], 'SOUTH & EAST REGIONAL': ['Morwell', 'Traralgon', 'Wangaratta', 'Latrobe West', 'Shepparton', 'Wodonga'], 'EASTERN': ['Boronia', 'Vermont South', 'Box Hill', 'Ringwood', 'Croydon', 'Burwood', 'North Balwyn', 'South Warrandyte', 'Nunawading', 'Eltham City', 'Templestowe'], 'NORTHERN': ['Preston', 'Bundoora', 'Thomastown', 'Heidelberg', 'Greensborough', 'Broadmeadows', 'Epping', 'Somerton', 'South Morang', 'Craigieburn', 'Pascoe Vale'], 'NORTH & WEST REGIONAL': ['Ballarat City', 'Bendigo', 'Lucas', 'Portland', 'Mildura', 'Warrnambool'], 'SOUTHERN D1': ['Rowville', 'Oakleigh', 'Mentone', 'Ormond', 'Clayton', 'Glen Waverley', 'Malvern', 'Highett', 'Springvale'], 'WESTERN D3': ['Ocean Grove', 'Belmont', 'Geelong City', 'Corio', 'Lara'], 'SOUTHERN D2': ['Mornington', 'Frankston', 'Rosebud', 'Dandenong', 'Cranbourne', 'Patterson River', 'Hallam', 'Pakenham'], 'WESTERN D2': ['Sunshine', 'Deer Park', 'St Albans', 'Keilor', 'Sunbury', 'Taylors Lakes', 'Melton', 'Tullamarine', 'Greenvale', 'Caroline Springs'], 'WESTERN D1': ['Newport', 'Footscray', 'Spotswood', 'Laverton', 'Altona', 'Derrimut', 'Tarneit', 'Point Cook']};
-  var refs = ["js/chloroplethDistricts.json", "js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
-  var eIDs = ["#chloro", "#barPlot", "#linePlot", "#donutChart"];
-
-  // Update Station Selector
-  function updateStationList(dis) {
-    var sSelect = document.getElementById("station");
-    sSelect.innerHTML = "";
-
-    for (let x=0; x < stationValues[dis].length; x++){
-      var newElement  = document.createElement("option");
-      if (x==0){
-        updateCharts(stationValues[dis][x]);
-      }
-      newElement.textContent = stationNames[dis][x];
-      newElement.value = stationValues[dis][x];
-      sSelect.appendChild(newElement);
-   }
-  }
-
-  function updateCharts(stationNum){
-    
-    var chartRefs = ["js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
-    var cIDs = ["#barPlot", "#linePlot", "#donutChart"]
-
-    for (let i=0; i < chartRefs.length; i++){
-
-      vegaEmbed("#hiddenUpdate", chartRefs[i], {"actions": false}).then(function(result) {
-
-      // Edit result
-      result.spec.params[0].value = stationNum;
-
-      
-      if (result.spec.params[1] != null) {
-        result.spec.params[1].value = document.getElementById("district").value;
-      }
-
-
-      var newSpec = result.spec
-
-      vegaEmbed(cIDs[i], newSpec, {"actions": false}).then(function(result) {
-
-
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-      }).catch(console.error);
-
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-      }).catch(console.error);
-
-        }
-    
-}
-
-
-
-    function embedInVega(eID, ref,){
-      vegaEmbed(eID, ref,  {"actions": false}).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-      }).catch(console.error);
-    }
-
-   for (let i=0; i < refs.length; i++){
-    embedInVega(eIDs[i], refs[i])
-   }
-
-  
-  </script>
-
-</head>
-
-
-
-
-
-<body>
-  <div class="wholeBody">
-    <div id="hiddenUpdate"></div>
-    <div class="title">
-      <h1 id="mainTitle">Fire Rescue Victoria</h1>
-   
-      <h2 id="subMainTitle">Overview and Performance</h2>
-    </div>
-
-    <div class="introduction">
-        <p class="paragraph" id="introC1">
-          Fire Rescue Victoria (FRV) is a body of the Victorian government that offers an array of fire and rescue services in <span id="pBold">metropolitan</span> <span id="pBold">Melbourne</span> and larger regional towns. 
-          This includes firefighting, medical emergency assistance, HAZMAT responses and search and rescue operations. 
-          
-          <br><br>The FRV was formed in July 2020 as an amalgamation of several CFA regions and the 
-          now defunct Metropolitan Fire Brigade (established 1891). Currently, the FRV is split into <span id="pBold">10 different <span id="disAVG">districts</span></span> (8 of which can be found on the map below). These districts are further 
-          sub-divided into <span id="pBold">service areas</span> assigned to each of the <span id="pBold">85 <span id="stationAVG">fire stations</span></span>; however any fire station can respond to <span id="emergency">emergencies </span> all across Victoria.
-        </p>
-
-        <p class="paragraph" id="introC2">
-          As with most governmental departments, there is always discussion regarding funding and <span id="pBold">performance</span> - this is especially true for FRV, where performance is a direct measure of public <span id="pBold">health</span> and <span id="pBold">safety</span>.
-           FRV releases annual assessments and quarterly <span id="pBold">response time</span> reviews, in reply to these concerns.
-           <br>
-          <span id="bigStat">7.7</span>
-          <span id="bigStatS">MINUTES</span>
-          <br>is the standard response time for all <span id="emergency">emergency incidents</span>. This gives <span id="stationAVG">stations</span> a clear operational target and is an effective measure of overall FRV performance.
-        </p>
-
-        <p class="paragraph" id="introC3">
-          Whilst the FRV sets this expected response time, not all <span id="stationAVG">stations</span> are able to achieve it. The provided map of <span id="pBold">metropolitan Melbourne</span> can be used to see the percentage of incident responses that satisfied the proposed <span id="standardTime">standard</span> in each of the <span id="disAVG">districts</span>.
-          The location of each FRV station is also depicted, with the size of the marker representing the amount of <span id="pBold">major resources</span> allocated to the given station.
-          <br><br>Use the drop-down menus to select which financial quarter of 2021 you would like to explore and zoom in on the <span id="disAVG">district</span> of interest. 
-          <br><br>The rank plot will also update to reveal the relative performance of each service area within the selected region.
-          The <span id="pBold">Central</span> and <span id="pBold">Eastern</span> districts are consistent top performers and this could be attributed to the density of their stations and how well equipped they are. The rankings of the sparser <span id="pBold">Western</span> districts agree with this observation.
-
-        </p>
-    </div>
-
-    <div id="spacer2"><p></p></div>
-
-    <div class="chartTitles">
-      <p id="cTitle01">Percentage of Response Times at the FRV Standard in Metropolitan Melbourne 2021</p>
-      <p id="cTitle02">FRV Area Rankings by Percent Standards Met in 2021</p>
-    </div>
-
-
-    <div id="chloro"></div>
-
-
-    <div class="stationInfo">
-      <p class="paragraph" id="info1">
-        One important aspect when considering the <span id="pBold">performance</span> of a <span id="stationAVG">station</span> is the number of incidents they respond to. These incidents can be divided into two categories: <span id="emergency">emergency</span> and <span id="nonEmergency">non-emergency</span>. 
-        The FRV does not require non-emergency incidents to be responded to in the <span id="standardTime">standard 7.7 minutes</span> , so they are not included in the response time calculations.
-        </p>
-      <p class="paragraph" id="info2">
-        It is also important to consider how far above or below the <span id="standardTime">standard</span> the average response time is for each <span id="stationAVG">station</span>. A <span id="pBold">negative</span> difference implies that the station response is <span id="pBold">faster</span>, whilst a
-        <span id="pBold">positive</span> difference implies it is <span id="pBold">slower</span>. When it comes to life-or-death situations, there are slim margins for success and some station performances are greatly lacking.
-      </p>
-      <p class="paragraph" id="info3">
-        The final consideration for <span id="stationAVG">fire station</span> performance analysis is the <span id="pBold">availability of resources</span>. This consists of two classes: appliances and pods. Appliances can be vehicles and 
-        heavy equipment, whilst pods are portable units that attach to vehicles and contain special tools and apparatus. Each class can be further deconstructed into the categories of aerial support, pumper trucks and specialist equipment.
-        All FRV stations must have at least one pumper and all pods classify as specialist equipment.
-      </p>
-    </div>
-
-  
-    <div id="spacer2"><p></p></div>
-
-    <div class="chartTitles">
-      <p id="cTitle1" >The Total Number of Incidents and Type in FRV Stations Quarterly in 2021</p>
-      <p id="cTitle2" >Difference in Standard and FRV Station Response Times (mins.) in 2021</p>
-      <p id="cTitle3" >Resource Availability of Individual FRV Stations Divided into Class and Associated Equipment Type</p>
-    </div>
-
-    <div class="chartSubTitles">
-      <p id="cSTitle1" ><span id="emergency">Emergency</span>&nbsp&nbsp<span id="nonEmergency">Non-Emergency</span>&nbsp&nbsp<span id="disAVG">District's Station Avg</span></p>
-      <p id="cSTitle2" ><span id="stationAVG">Current Station</span>&nbsp&nbsp<span id="standardTime">Standard Response</span>&nbsp&nbsp<span id="otherStations">Other Stations</span></p>
-      <p id="cSTitle3" ><span id="pod">Pod</span>&nbsp&nbsp<span id="appliance">Appliance</span>&nbsp&nbsp<span id="specialistEquipment">Specialist Equipment</span>&nbsp&nbsp<span id="aerial">Aerial Support</span>&nbsp&nbsp<span id="pumper">Pumper Truck</span></p>
-    </div>
-
-    <div class="stationChartContainer">
-      <div id="barPlot"></div>
-      <div id="linePlot"></div>
-      <div id="donutChart"></div>
-      
-
-    <div id="spacer2"><p></p></div>
-
-    <div class="stationInfo">
-      <p class="paragraph" id="info1">
-        The very low number of <span id="nonEmergency">non-emergency incidents</span> is the result of a conservative classification system. Public health and safety are ensured by assuming most incidents to be <span id="emergency">emergencies</span>; however, this comes with a cost of resources and time.
-        <br><br>The average number of total incidents seen by a station in any <span id="disAVG">district</span> saw <span id="pBold">decreases</span> in <span id="pBold">Q2</span> and <span id="pBold">Q3</span> of 2021. This is likely a direct result of the lockdowns that occurred due to <span id="pBold">COVID-19</span>.
-        <br><br>On average, in each quarter of 2021, the stations of <span id="pBold">Central</span> have over <span id="pBold">100 more incidents</span> than the stations of any other <span id="disAVG">district</span>. There is a proposed correlation between this increased rate and the <span id="pBold">population density</span> of this district.
-        
-        </p>
-      <p class="paragraph" id="info2">
-        Only the <span id="pBold">Central</span> and <span id="pBold">Eastern</span> districts were able to consistently achieve <span id="pBold">average response times</span> faster than the <span id="standardTime">7.7 minute standard</span>, with the fastest response time achieved by the <span id="pBold">Eastern Hill Fire Station</span>, of Central district, at <span id="pBold">5.5 minutes</span> in Q3 of 2021. 
-        <br><br>It is noted that <span id="pBold">Central</span> has a smaller area and a <span id="pBold">higher density</span> of fire stations, which could account for its exceptional response times; however,  it also has the largest number of <span id="emergency">emergency incidents</span> . 
-        <br><br>The <span id="pBold">Western districts</span> are identified as much <span id="pBold">sparser areas</span>, which is specualted to contribute to their much <span id="pBold">poorer response times</span> - with <span id="pBold">Greenvale</span>, of Western D2, having an average response time of <span id="pBold">12.13 minutes</span> in Q3 of 2021.
-        
-      </p>
-      <p class="paragraph" id="info3">
-        Richmond, from Central, is the most well-equipped service area in metropolitan Melbourne, possessing nine different pods. These pods contain things such as breathing apparatus, HAZMAT suits and search and rescue tools.
-        Following closely behind are Eastern Hill and Port Melbourne, which are also both from Central, 
-        giving this district the resources to utilise its locality to respond to emergencies all across metropolitan Melbourne.
-        <br><br>Port Melbourne  also possess the FRV's only four fire boats, and so it responds to all emergency incidences 
-        that are classified as onshore or coastal.
-        <br><br>All districts, except for Northern and Southern D1 have at least one major fire station that has a resource count of five or more, but with possible cuts to funding, the other stations within these districts may not be able to
-         expand with increasing population, greatly hindering their ability to reach FRV response standards.
-        
-      </p>
-    </div>
-    <div id="spacer"><p></p></div>
-
-    <div id="fixedSelect">
-      <div id="customDropdowns">
-        <label id="districtSelector">District</label>
-  
-      <select id="district" onchange="updateStationList(this.options[this.selectedIndex].value)">
-        <option value="CENTRAL">Central</option>
-        <option value="EASTERN">Eastern</option>
-        <option value="NORTHERN">Nothern</option>
-        <option value="SOUTHERN D1">Southern D1</option>
-        <option value="SOUTHERN D2">Southern D2</option>
-        <option value="WESTERN D1">Western D1</option>
-        <option value="WESTERN D2">Western D2</option>
-        <option value="WESTERN D3">Western D3</option>
-  
-      </select> 
-  
-  
-  
-  
-        <label id="stationSelector">Station</label>
-  
-        <select id="station" onchange="updateCharts(this.options[this.selectedIndex].value)">
-          <option value=1 >Eastern Hill</option>
-          <option value=3>Carlton</option>
-          <option value=4>Brunswick</option>
-          <option value=10>Richmond</option>
-          <option value=38>South Melbourne</option>
-          <option value=2>West Melbourne</option>
-          <option value=35>Windsor</option>
-          <option value=18>Hawthorn</option>
-          <option value=50>Ascot Vale</option>
-          <option value=39>Port Melbourne</option>
-          <option value=13>Northcote</option>
-        </select> 
-      </div>
-
-    </div>
-    
-    
-
-
-   
-
-  </div>
-
-
-  </div>
-  
-</body>
-
-
+	<head>
+		<!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+		<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+		<!-- CSS file -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+		<script type="text/javascript">
+			//https://jackecameron.github.io/FIT3179/Week9Homework
+			
+			var stationValues = {'CENTRAL': [1, 3, 4, 10, 38, 2, 35, 18, 50, 39, 13], 'SOUTH & EAST REGIONAL': [78, 77, 74, 79, 75, 76], 'EASTERN': [85, 28, 20, 22, 26, 23, 19, 84, 27, 82, 30], 'NORTHERN': [12, 14, 7, 15, 16, 5, 11, 9, 81, 80, 6], 'NORTH & WEST REGIONAL': [67, 73, 68, 71, 72, 70], 'SOUTHERN D1': [86, 25, 33, 32, 29, 31, 24, 34, 89], 'WESTERN D3': [66, 64, 63, 62, 61], 'SOUTHERN D2': [94, 91, 95, 87, 92, 90, 88, 93], 'WESTERN D2': [44, 43, 41, 51, 53, 48, 56, 52, 54, 55], 'WESTERN D1': [42, 47, 45, 40, 46, 59, 57, 58]};
+			var stationNames = {'CENTRAL': ['Eastern Hill', 'Carlton', 'Brunswick', 'Richmond', 'South Melbourne', 'West Melbourne', 'Windsor', 'Hawthorn', 'Ascot Vale', 'Port Melbourne', 'Northcote'], 'SOUTH & EAST REGIONAL': ['Morwell', 'Traralgon', 'Wangaratta', 'Latrobe West', 'Shepparton', 'Wodonga'], 'EASTERN': ['Boronia', 'Vermont South', 'Box Hill', 'Ringwood', 'Croydon', 'Burwood', 'North Balwyn', 'South Warrandyte', 'Nunawading', 'Eltham City', 'Templestowe'], 'NORTHERN': ['Preston', 'Bundoora', 'Thomastown', 'Heidelberg', 'Greensborough', 'Broadmeadows', 'Epping', 'Somerton', 'South Morang', 'Craigieburn', 'Pascoe Vale'], 'NORTH & WEST REGIONAL': ['Ballarat City', 'Bendigo', 'Lucas', 'Portland', 'Mildura', 'Warrnambool'], 'SOUTHERN D1': ['Rowville', 'Oakleigh', 'Mentone', 'Ormond', 'Clayton', 'Glen Waverley', 'Malvern', 'Highett', 'Springvale'], 'WESTERN D3': ['Ocean Grove', 'Belmont', 'Geelong City', 'Corio', 'Lara'], 'SOUTHERN D2': ['Mornington', 'Frankston', 'Rosebud', 'Dandenong', 'Cranbourne', 'Patterson River', 'Hallam', 'Pakenham'], 'WESTERN D2': ['Sunshine', 'Deer Park', 'St Albans', 'Keilor', 'Sunbury', 'Taylors Lakes', 'Melton', 'Tullamarine', 'Greenvale', 'Caroline Springs'], 'WESTERN D1': ['Newport', 'Footscray', 'Spotswood', 'Laverton', 'Altona', 'Derrimut', 'Tarneit', 'Point Cook']};
+			var refs = ["js/chloroplethDistricts.json", "js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
+			var eIDs = ["#chloro", "#barPlot", "#linePlot", "#donutChart"];
+			
+			// Update Station Selector
+			function updateStationList(dis) {
+			  var sSelect = document.getElementById("station");
+			  sSelect.innerHTML = "";
+			
+			  for (let x=0; x < stationValues[dis].length; x++){
+			    var newElement  = document.createElement("option");
+			    if (x==0){
+			      updateCharts(stationValues[dis][x]);
+			    }
+			    newElement.textContent = stationNames[dis][x];
+			    newElement.value = stationValues[dis][x];
+			    sSelect.appendChild(newElement);
+			 }
+			}
+			
+			function updateCharts(stationNum){
+			  
+			  var chartRefs = ["js/stackedBar.json", "js/timeLine.json", "js/radialChart.json"];
+			  var cIDs = ["#barPlot", "#linePlot", "#donutChart"]
+			
+			  for (let i=0; i < chartRefs.length; i++){
+			
+			    vegaEmbed("#hiddenUpdate", chartRefs[i], {"actions": false}).then(function(result) {
+			
+			    // Edit result
+			    result.spec.params[0].value = stationNum;
+			
+			    
+			    if (result.spec.params[1] != null) {
+			      result.spec.params[1].value = document.getElementById("district").value;
+			    }
+			
+			
+			    var newSpec = result.spec
+			
+			    vegaEmbed(cIDs[i], newSpec, {"actions": false}).then(function(result) {
+			
+			
+			    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			    }).catch(console.error);
+			
+			    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			    }).catch(console.error);
+			
+			      }
+			  
+			}
+			
+			
+			
+			  function embedInVega(eID, ref,){
+			    vegaEmbed(eID, ref,  {"actions": false}).then(function(result) {
+			    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+			    }).catch(console.error);
+			  }
+			
+			 for (let i=0; i < refs.length; i++){
+			  embedInVega(eIDs[i], refs[i])
+			 }
+			
+			
+		</script>
+	</head>
+	<body>
+		<div class="wholeBody">
+			<div id="hiddenUpdate"></div>
+			<div class="title">
+				<h1 id="mainTitle">Fire Rescue Victoria</h1>
+				<h2 id="subMainTitle">Overview and Performance</h2>
+			</div>
+			<div class="introduction">
+				<p class="paragraph" id="introC1">
+					Fire Rescue Victoria (FRV) is a body of the Victorian government that offers an array of fire and rescue services in <span id="pBold">metropolitan</span> <span id="pBold">Melbourne</span> and larger regional towns. 
+					This includes firefighting, medical emergency assistance, HAZMAT responses and search and rescue operations. 
+					<br><br>The FRV was formed in July 2020 as an amalgamation of several CFA regions and the 
+					now defunct Metropolitan Fire Brigade (established 1891). Currently, the FRV is split into <span id="pBold">10 different <span id="disAVG">districts</span></span> (8 of which can be found on the map below). These districts are further 
+					sub-divided into <span id="pBold">service areas</span> assigned to each of the <span id="pBold">85 <span id="stationAVG">fire stations</span></span>; however any fire station can respond to <span id="emergency">emergencies </span> all across Victoria.
+				</p>
+				<p class="paragraph" id="introC2">
+					As with most governmental departments, there is always discussion regarding funding and <span id="pBold">performance</span> - this is especially true for FRV, where performance is a direct measure of public <span id="pBold">health</span> and <span id="pBold">safety</span>.
+					FRV releases annual assessments and quarterly <span id="pBold">response time</span> reviews, in reply to these concerns.
+					<br>
+					<span id="bigStat">7.7</span>
+					<span id="bigStatS">MINUTES</span>
+					<br>is the standard response time for all <span id="emergency">emergency incidents</span>. This gives <span id="stationAVG">stations</span> a clear operational target and is an effective measure of overall FRV performance.
+				</p>
+				<p class="paragraph" id="introC3">
+					Whilst the FRV sets this expected response time, not all <span id="stationAVG">stations</span> are able to achieve it. The provided map of <span id="pBold">metropolitan Melbourne</span> can be used to see the percentage of incident responses that satisfied the proposed <span id="standardTime">standard</span> in each of the <span id="disAVG">districts</span>.
+					The location of each FRV station is also depicted, with the size of the marker representing the amount of <span id="pBold">major resources</span> allocated to the given station.
+					<br><br>Use the drop-down menus to select which financial quarter of 2021 you would like to explore and zoom in on the <span id="disAVG">district</span> of interest. 
+					<br><br>The rank plot will also update to reveal the relative performance of each service area within the selected region.
+					The <span id="pBold">Central</span> and <span id="pBold">Eastern</span> districts are consistent top performers and this could be attributed to the density of their stations and how well equipped they are. The rankings of the sparser <span id="pBold">Western</span> districts agree with this observation.
+				</p>
+			</div>
+			<div id="spacer2">
+				<p></p>
+			</div>
+			<div class="chartTitles">
+				<p id="cTitle01">Percentage of Response Times at the FRV Standard in Metropolitan Melbourne 2021</p>
+				<p id="cTitle02">FRV Area Rankings by Percent Standards Met in 2021</p>
+			</div>
+			<div id="chloro"></div>
+			<div class="stationInfo">
+				<p class="paragraph" id="info1">
+					One important aspect when considering the <span id="pBold">performance</span> of a <span id="stationAVG">station</span> is the number of incidents they respond to. These incidents can be divided into two categories: <span id="emergency">emergency</span> and <span id="nonEmergency">non-emergency</span>. 
+					The FRV does not require non-emergency incidents to be responded to in the <span id="standardTime">standard 7.7 minutes</span> , so they are not included in the response time calculations.
+				</p>
+				<p class="paragraph" id="info2">
+					It is also important to consider how far above or below the <span id="standardTime">standard</span> the average response time is for each <span id="stationAVG">station</span>. A <span id="pBold">negative</span> difference implies that the station response is <span id="pBold">faster</span>, whilst a
+					<span id="pBold">positive</span> difference implies it is <span id="pBold">slower</span>. When it comes to life-or-death situations, there are slim margins for success and some station performances are greatly lacking.
+				</p>
+				<p class="paragraph" id="info3">
+					The final consideration for <span id="stationAVG">fire station</span> performance analysis is the <span id="pBold">availability of resources</span>. This consists of two classes: <span id="appliance">appliances</span> and <span id="pod">pods</span>. Appliances can be vehicles and 
+					heavy equipment, whilst pods are portable units that attach to vehicles and contain special tools and apparatus. Each class can be further deconstructed into the categories of <span id="aerial">aerial support</span>, <span id="pumper">pumper trucks</span> and <span id="specialistEquipment">specialist equipment</span>.
+					All FRV stations must have at least one pumper and all pods classify as specialist equipment.
+				</p>
+			</div>
+			<div id="spacer2">
+				<p></p>
+			</div>
+			<div class="chartTitles">
+				<p id="cTitle1" >The Total Number of Incidents and Type in FRV Stations Quarterly in 2021</p>
+				<p id="cTitle2" >Difference in Standard and FRV Station Response Times (mins.) in 2021</p>
+				<p id="cTitle3" >Resource Availability of Individual FRV Stations Divided into Class and Associated Equipment Type</p>
+			</div>
+			<div class="chartSubTitles">
+				<p id="cSTitle1" ><span id="emergency">Emergency</span>&nbsp&nbsp<span id="nonEmergency">Non-Emergency</span>&nbsp&nbsp<span id="disAVG">District's Station Avg</span></p>
+				<p id="cSTitle2" ><span id="stationAVG">Current Station</span>&nbsp&nbsp<span id="standardTime">Standard Response</span>&nbsp&nbsp<span id="otherStations">Other Stations</span></p>
+				<p id="cSTitle3" ><span id="appliance">Appliance</span>&nbsp&nbsp<span id="pod">Pod</span>&nbsp&nbsp<span id="pumper">Pumper Truck</span>&nbsp&nbsp<span id="specialistEquipment">Specialist Equipment</span>&nbsp&nbsp<span id="aerial">Aerial Support</span></p>
+			</div>
+			<div class="stationChartContainer">
+				<div id="barPlot"></div>
+				<div id="linePlot"></div>
+				<div id="donutChart"></div>
+				<div id="spacer2">
+					<p></p>
+				</div>
+				<div class="stationInfo">
+					<p class="paragraph" id="info1">
+						The very low number of <span id="nonEmergency">non-emergency incidents</span> is the result of a conservative classification system. Public health and safety are ensured by assuming most incidents to be <span id="emergency">emergencies</span>; however, this comes with a cost of resources and time.
+						<br><br>The average number of total incidents seen by a station in any <span id="disAVG">district</span> saw <span id="pBold">decreases</span> in <span id="pBold">Q2</span> and <span id="pBold">Q3</span> of 2021. This is likely a direct result of the lockdowns that occurred due to <span id="pBold">COVID-19</span>.
+						<br><br>On average, in each quarter of 2021, the stations of <span id="pBold">Central</span> have over <span id="pBold">100 more incidents</span> than the stations of any other <span id="disAVG">district</span>. There is a proposed correlation between this increased rate and the <span id="pBold">population density</span> of this district.
+					</p>
+					<p class="paragraph" id="info2">
+						Only the <span id="pBold">Central</span> and <span id="pBold">Eastern</span> districts were able to consistently achieve average response times faster than the <span id="standardTime">7.7 minute standard</span>, with the fastest response time achieved by the <span id="pBold">Eastern Hill Fire Station</span>, of Central district, at <span id="pBold">5.5 minutes</span> in Q3 of 2021. 
+						<br><br>It is noted that <span id="pBold">Central</span> has a smaller area and a <span id="pBold">higher density</span> of fire stations, which could account for its exceptional response times; however,  it also has the largest number of <span id="emergency">emergency incidents</span> . 
+						<br><br>The <span id="pBold">Western districts</span> are identified as much <span id="pBold">sparser areas</span>, which is specualted to contribute to their much <span id="pBold">poorer response times</span> - with <span id="pBold">Greenvale</span>, of Western D2, having an average response time of <span id="pBold">12.13 minutes</span> in Q3 of 2021.
+					</p>
+					<p class="paragraph" id="info3">
+						<span id="pBold">Richmond</span>, from Central, is the <span id="pBold">most well-equipped</span> service area in metropolitan Melbourne, possessing nine different <span id="pod">pods</span>. These pods contain things such as breathing apparatus, HAZMAT suits and search and rescue tools.
+						Following closely behind are <span id="pBold">Eastern Hill</span> and <span id="pBold">Port Melbourne</span>, which are also both from Central, 
+						giving this district the resources to utilise its locality to respond to <span id="emergency">emergencies</span> all across metropolitan Melbourne.
+						<br><br><span id="pBold">Port Melbourne</span> also possess the FRV's only <span id="pBold">four fire boats</span> (<span id="appliance">appliances</span>), and so it responds to all emergency incidences 
+						that are classified as <span id="pBold">onshore or coastal</span>.
+						<br><br><span id="pBold">All districts</span>, except for Northern and Southern D1 have at least one major fire station that has a <span id="pBold">resource count of five or more</span>, but with possible cuts to funding, the other stations within these districts may not be able to
+						expand with increasing population, greatly hindering their ability to reach FRV response <span id="standardTime">standards</span>.
+					</p>
+				</div>
+				<div id="spacer">
+					<p></p>
+				</div>
+				<div id="fixedSelect">
+					<div id="customDropdowns">
+						<label id="districtSelector">District</label>
+						<select id="district" onchange="updateStationList(this.options[this.selectedIndex].value)">
+							<option value="CENTRAL">Central</option>
+							<option value="EASTERN">Eastern</option>
+							<option value="NORTHERN">Nothern</option>
+							<option value="SOUTHERN D1">Southern D1</option>
+							<option value="SOUTHERN D2">Southern D2</option>
+							<option value="WESTERN D1">Western D1</option>
+							<option value="WESTERN D2">Western D2</option>
+							<option value="WESTERN D3">Western D3</option>
+						</select>
+						<label id="stationSelector">Station</label>
+						<select id="station" onchange="updateCharts(this.options[this.selectedIndex].value)">
+							<option value=1 >Eastern Hill</option>
+							<option value=3>Carlton</option>
+							<option value=4>Brunswick</option>
+							<option value=10>Richmond</option>
+							<option value=38>South Melbourne</option>
+							<option value=2>West Melbourne</option>
+							<option value=35>Windsor</option>
+							<option value=18>Hawthorn</option>
+							<option value=50>Ascot Vale</option>
+							<option value=39>Port Melbourne</option>
+							<option value=13>Northcote</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+    <footer>
+      <p id= "f1" >Jack Cameron - Create Commons Copyright</p>
+      <p id= "f2" ><a style= "color:white;" href="https://github.com/JackECameron">Github</a></p>
+    </footer> 
+	</body>
 </html>
