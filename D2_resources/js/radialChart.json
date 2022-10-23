@@ -35,7 +35,7 @@
             "stroke": "#161a1d",
             "strokeWidth": 10,
             "cornerRadius": 10,
-            "fillOpacity":0.3
+            "fillOpacity":0.7
          },
          "transform":[
             {
@@ -51,7 +51,7 @@
             "color":{
                "field":"type",
                "type":"nominal",
-               "scale":{"range":["#735751", "#a78a7f"]}
+               "scale":{"domain": ["pod", "appl"], "range":["#ce796b", "#e7ad99"]}
             },
             "tooltip":[
               {
@@ -123,7 +123,7 @@
              "color":{
                "field":"type",
                "type":"nominal",
-               "scale":{"range":["#ce796b", "#e7ad99","#ecc8af" ]}
+               "scale":{"domain": ["pumper", "spec", "aerial"], "range":["#e7ad99", "#e7ad99","#ecc8af" ]}
             },
             "tooltip":[
               {

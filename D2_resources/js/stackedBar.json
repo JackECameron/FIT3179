@@ -31,7 +31,7 @@
             "cornerRadiusTopRight":10,
             "cornerRadiusBottomLeft":10,
             "cornerRadiusBottomRight":10,
-            "fillOpacity":0.6,
+            "fillOpacity":0.4,
             "strokeOpacity":0,
             "stroke":"white",
             "strokeWidth":2,
@@ -59,7 +59,7 @@
                "type":"ordinal",
                "axis":{"domain": false, "grid": false,
                   "labelColor":"white",
-                  "titleColor":"white", "labelAngle": 0, "tickOpacity":0, "title": null,
+                  "titleColor":"white", "labelAngle": 0, "tickOpacity":0, "title": "Financial Quarter", "titleFontSize":16, "titleOpacity":0.4,"titleFontWeight":"normal",
                    "labelFont": "hind",
                   "labelFontSize": 16,
                   "offset": 6, 
@@ -84,6 +84,11 @@
                "field":"sortBy"
             },
             "tooltip":[
+               {
+                  "field":"q",
+                  "type":"nominal",
+                  "title":"Quarter"
+               },
                {
                   "field":"description",
                   "type":"nominal",
@@ -124,8 +129,7 @@
                "type":"ordinal",
                "axis":{
                   "labelColor":"white",
-                  "titleColor":"white",
-                  "title":"Number of Incidents per Quarter"
+                  "titleColor":"white"
                }
             },
             "y":{
@@ -141,11 +145,15 @@
                   ]
                }
             },
-            "tooltip":[
+            "tooltip":[{
+               "field":"q",
+               "type":"nominal",
+               "title":"Quarter"
+            },
                {
                   "field":"description",
                   "type":"nominal",
-                  "title":"Incident Type", "format":{}
+                  "title":"Incident Type"
                },
                {
                   "field":"numInc",

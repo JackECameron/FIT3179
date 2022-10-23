@@ -1,6 +1,6 @@
 {
    "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
-   "width":300,
+   "width":290,
    "height":400,
    "padding":0,
    
@@ -40,7 +40,7 @@
                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "title":null,
+                  "title": "Financial Quarter", "titleFontSize":16, "titleOpacity":0.4,"titleFontWeight":"normal",
                   "labelOpacity":0.4
                }
             },
@@ -119,7 +119,6 @@
                "axis":{
                   "labelColor":"white",
                   "titleColor":"white",
-                  "title":"Financial Quarter",
                   "tickOpacity":0,
                   "labelAngle":0,
                   "domainOpacity":0.2
@@ -171,8 +170,7 @@
                "type":"ordinal",
                "axis":{
                   "labelColor":"white",
-                  "titleColor":"white",
-                  "title":"Financial Quarter"
+                  "titleColor":"white"
                }
             },
             "y":{
@@ -194,6 +192,10 @@
                "legend":null
             },
             "tooltip":[ {
+               "field":"q",
+               "type":"nominal",
+               "title":"Quarter"
+            },{
                   "field":"servArea",
                   "type":"nominal",
                   "title":"Station"
@@ -295,6 +297,10 @@
                "legend":null
             },
             "tooltip":[ {
+               "field":"q",
+               "type":"nominal",
+               "title":"Quarter"
+            },{
                   "field":"servArea",
                   "type":"nominal",
                   "title":"Station"
@@ -395,7 +401,11 @@
                },
                 "legend":null
             },
-            "tooltip":[ {
+            "tooltip":[{
+               "field":"q",
+               "type":"nominal",
+               "title":"Quarter"
+            }, {
                   "field":"servArea",
                   "type":"nominal",
                   "title":"District"
